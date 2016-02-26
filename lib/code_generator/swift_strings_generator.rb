@@ -1,10 +1,9 @@
+require './lib/code_generator/strings_generator'
 
-class SwiftStringsGenerator
+class SwiftStringsGenerator < StringsGenerator
 
 	def generate(keys, values)
-		raise "Expects keys and values of equal sizes" if keys.size != values.size
-		@output = ""
-		@tab_level = 0
+		super(keys, values)
 		import_header("Foundation")
 		start_struct("Strings")
 			.start_enum("Singular", "String")
@@ -16,6 +15,8 @@ class SwiftStringsGenerator
 		.close_brackets
 		@output
 	end
+
+protected
 
 	def newline
 		@output += "\n"
@@ -29,7 +30,7 @@ class SwiftStringsGenerator
 	end
 
 	def start_struct(name)
-		@output += "struct #{name} "
+		@output += "struct #{name}"
 		open_brackets
 		newline
 		self
@@ -37,7 +38,7 @@ class SwiftStringsGenerator
 
 	def start_enum(name, type)
 		indent
-		@output += "enum #{name}: #{type} "
+		@output += "enum #{name}: #{type}"
 		open_brackets
 		self
 	end
@@ -55,7 +56,7 @@ class SwiftStringsGenerator
 
 	def start_computed_property(name, type)
 		indent
-		@output += "var #{name}: #{type} "
+		@output += "var #{name}: #{type}"
 		open_brackets
 		self
 	end
@@ -65,39 +66,5 @@ class SwiftStringsGenerator
 		@output += "return NSLocalizedString(rawValue, comment: \"\")"
 		newline
 		self
-	end
-
-	def open_brackets
-		@output += "{"
-		newline
-		increment_indent_level
-		self
-	end
-
-	def close_brackets
-		decrement_indent_level
-		indent
-		@output += "}"
-		newline
-		self
-	end
-
-	def increment_indent_level
-		@tab_level += 1
-		self
-	end
-
-	def decrement_indent_level
-		@tab_level -= 1
-		self
-	end
-
-	def indent
-		@output += (1..@tab_level).reduce("") { |a, b| a + tab }
-		self
-	end
-
-	def tab
-		"    "
 	end
 end

@@ -1,0 +1,6 @@
+/* This is a description for the test plural string */
+"Test_PluralString.one" = "There is 1 plural";
+
+/* A description of the test singular key */
+"Test_SingularKey" = "A test key";
+

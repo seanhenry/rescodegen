@@ -1,0 +1,2587 @@
+/* Alert message shown to the user when trying to upload a photo that is too small. This is used in both post-studio and creation studio */
+"%d alert-message.crop-too-small (plural rule: few)" = "%d photos are too small. Please adjust their crops or replace the highlighted photos";
+
+/* Alert message shown to the user when trying to upload a photo that is too small. This is used in both post-studio and creation studio */
+"%d alert-message.crop-too-small (plural rule: many)" = "%d photos are too small. Please adjust their crops or replace the highlighted photos";
+
+/* Alert message shown to the user when trying to upload a photo that is too small. This is used in both post-studio and creation studio */
+"%d alert-message.crop-too-small (plural rule: one)" = "%d photo is too small. Please adjust the crop or replace the highlighted photo";
+
+/* Alert message shown to the user when trying to upload a photo that is too small. This is used in both post-studio and creation studio */
+"%d alert-message.crop-too-small (plural rule: other)" = "%d photos are too small. Please adjust their crops or replace the highlighted photos";
+
+/* Alert message shown to the user when trying to upload a photo that is too small. This is used in both post-studio and creation studio */
+"%d alert-message.crop-too-small (plural rule: two)" = "%d photos are too small. Please adjust their crops or replace the highlighted photos";
+
+/* Alert message shown to the user when trying to upload a photo that is too small. This is used in both post-studio and creation studio */
+"%d alert-message.crop-too-small (plural rule: zero)" = "%d photos are too small. Please adjust their crops or replace the highlighted photos";
+
+/* Alert message which informs the user that there were failed uploads for a particular month and asks if they would like to retry */
+"%d alert-message.failed-upload (plural rule: few)" = "There was a problem uploading %d photos in %@. Would you like to retry the upload?";
+
+/* Alert message which informs the user that there were failed uploads for a particular month and asks if they would like to retry */
+"%d alert-message.failed-upload (plural rule: many)" = "There was a problem uploading %d photos in %@. Would you like to retry the upload?";
+
+/* Alert message which informs the user that there were failed uploads for a particular month and asks if they would like to retry */
+"%d alert-message.failed-upload (plural rule: one)" = "There was a problem uploading %d photo in %@. Would you like to retry the upload?";
+
+/* Alert message which informs the user that there were failed uploads for a particular month and asks if they would like to retry */
+"%d alert-message.failed-upload (plural rule: other)" = "There was a problem uploading %d photos in %@. Would you like to retry the upload?";
+
+/* Alert message which informs the user that there were failed uploads for a particular month and asks if they would like to retry */
+"%d alert-message.failed-upload (plural rule: two)" = "There was a problem uploading %d photos in %@. Would you like to retry the upload?";
+
+/* Alert message which informs the user that there were failed uploads for a particular month and asks if they would like to retry */
+"%d alert-message.failed-upload (plural rule: zero)" = "There was a problem uploading %d photos in %@. Would you like to retry the upload?";
+
+/* Message on the alert shown to the user when they try to select a photo that would put them over the maximum photo count of their selected product */
+"%d alert-message.maximum-photos (plural rule: few)" = "You can only use %d photos for this product";
+
+/* Message on the alert shown to the user when they try to select a photo that would put them over the maximum photo count of their selected product */
+"%d alert-message.maximum-photos (plural rule: many)" = "You can only use %d photos for this product";
+
+/* Message on the alert shown to the user when they try to select a photo that would put them over the maximum photo count of their selected product */
+"%d alert-message.maximum-photos (plural rule: one)" = "You can only use %d photo for this product";
+
+/* Message on the alert shown to the user when they try to select a photo that would put them over the maximum photo count of their selected product */
+"%d alert-message.maximum-photos (plural rule: other)" = "You can only use %d photos for this product";
+
+/* Message on the alert shown to the user when they try to select a photo that would put them over the maximum photo count of their selected product */
+"%d alert-message.maximum-photos (plural rule: two)" = "You can only use %d photos for this product";
+
+/* Message on the alert shown to the user when they try to select a photo that would put them over the maximum photo count of their selected product */
+"%d alert-message.maximum-photos (plural rule: zero)" = "You can only use %d photos for this product";
+
+/* Message on the alert shown to the user when they try to delete a photo that would put them below the minimum */
+"%d alert-message.minimum-photo-count (plural rule: few)" = "We cannot remove this photo as we require at least %d photos on this product.";
+
+/* Message on the alert shown to the user when they try to delete a photo that would put them below the minimum */
+"%d alert-message.minimum-photo-count (plural rule: many)" = "We cannot remove this photo as we require at least %d photos on this product.";
+
+/* Message on the alert shown to the user when they try to delete a photo that would put them below the minimum */
+"%d alert-message.minimum-photo-count (plural rule: one)" = "We cannot remove this photo as we require at least %d photo on this product.";
+
+/* Message on the alert shown to the user when they try to delete a photo that would put them below the minimum */
+"%d alert-message.minimum-photo-count (plural rule: other)" = "We cannot remove this photo as we require at least %d photos on this product.";
+
+/* Message on the alert shown to the user when they try to delete a photo that would put them below the minimum */
+"%d alert-message.minimum-photo-count (plural rule: two)" = "We cannot remove this photo as we require at least %d photos on this product.";
+
+/* Message on the alert shown to the user when they try to delete a photo that would put them below the minimum */
+"%d alert-message.minimum-photo-count (plural rule: zero)" = "We cannot remove this photo as we require at least %d photos on this product.";
+
+/* Alert message which informs the user that the calendar has missing photos */
+"%d alert-message.missing-photos (plural rule: few)" = "You have %d photos missing";
+
+/* Alert message which informs the user that the calendar has missing photos */
+"%d alert-message.missing-photos (plural rule: many)" = "You have %d photos missing";
+
+/* Alert message which informs the user that the calendar has missing photos */
+"%d alert-message.missing-photos (plural rule: one)" = "You have %d photo missing";
+
+/* Alert message which informs the user that the calendar has missing photos */
+"%d alert-message.missing-photos (plural rule: other)" = "You have %d photos missing";
+
+/* Alert message which informs the user that the calendar has missing photos */
+"%d alert-message.missing-photos (plural rule: two)" = "You have %d photos missing";
+
+/* Alert message which informs the user that the calendar has missing photos */
+"%d alert-message.missing-photos (plural rule: zero)" = "You have %d photos missing";
+
+/* Message of the alert shown to the user when they try to create a product with too few photos */
+"%d alert-message.required-photo-count (plural rule: few)" = "You need to select %d photos to continue creating this product";
+
+/* Message of the alert shown to the user when they try to create a product with too few photos */
+"%d alert-message.required-photo-count (plural rule: many)" = "You need to select %d photos to continue creating this product";
+
+/* Message of the alert shown to the user when they try to create a product with too few photos */
+"%d alert-message.required-photo-count (plural rule: one)" = "You need to select %d photo to continue creating this product";
+
+/* Message of the alert shown to the user when they try to create a product with too few photos */
+"%d alert-message.required-photo-count (plural rule: other)" = "You need to select %d photos to continue creating this product";
+
+/* Message of the alert shown to the user when they try to create a product with too few photos */
+"%d alert-message.required-photo-count (plural rule: two)" = "You need to select %d photos to continue creating this product";
+
+/* Message of the alert shown to the user when they try to create a product with too few photos */
+"%d alert-message.required-photo-count (plural rule: zero)" = "You need to select %d photos to continue creating this product";
+
+/* Alert title shown to the user when trying to upload a photo that is too small. This is used in both post-studio and creation studio */
+"%d alert-title.crop-too-small (plural rule: few)" = "%d Photos Are Too Small";
+
+/* Alert title shown to the user when trying to upload a photo that is too small. This is used in both post-studio and creation studio */
+"%d alert-title.crop-too-small (plural rule: many)" = "%d Photos Are Too Small";
+
+/* Alert title shown to the user when trying to upload a photo that is too small. This is used in both post-studio and creation studio */
+"%d alert-title.crop-too-small (plural rule: one)" = "%d Photo Is Too Small";
+
+/* Alert title shown to the user when trying to upload a photo that is too small. This is used in both post-studio and creation studio */
+"%d alert-title.crop-too-small (plural rule: other)" = "%d Photos Are Too Small";
+
+/* Alert title shown to the user when trying to upload a photo that is too small. This is used in both post-studio and creation studio */
+"%d alert-title.crop-too-small (plural rule: two)" = "%d Photos Are Too Small";
+
+/* Alert title shown to the user when trying to upload a photo that is too small. This is used in both post-studio and creation studio */
+"%d alert-title.crop-too-small (plural rule: zero)" = "%d Photos Are Too Small";
+
+/* Title on the alert shown to the user when they try to select a photo that would put them over the maximum photo count of their selected product */
+"%d alert-title.maximum-photos (plural rule: few)" = "%d Photos Maximum";
+
+/* Title on the alert shown to the user when they try to select a photo that would put them over the maximum photo count of their selected product */
+"%d alert-title.maximum-photos (plural rule: many)" = "%d Photos Maximum";
+
+/* Title on the alert shown to the user when they try to select a photo that would put them over the maximum photo count of their selected product */
+"%d alert-title.maximum-photos (plural rule: one)" = "%d Photo Maximum";
+
+/* Title on the alert shown to the user when they try to select a photo that would put them over the maximum photo count of their selected product */
+"%d alert-title.maximum-photos (plural rule: other)" = "%d Photos Maximum";
+
+/* Title on the alert shown to the user when they try to select a photo that would put them over the maximum photo count of their selected product */
+"%d alert-title.maximum-photos (plural rule: two)" = "%d Photos Maximum";
+
+/* Title on the alert shown to the user when they try to select a photo that would put them over the maximum photo count of their selected product */
+"%d alert-title.maximum-photos (plural rule: zero)" = "%d Photos Maximum";
+
+/* Alert title which informs the user that the calendar has missing photos */
+"%d alert-title.missing-photos (plural rule: few)" = "Missing photos";
+
+/* Alert title which informs the user that the calendar has missing photos */
+"%d alert-title.missing-photos (plural rule: many)" = "Missing photos";
+
+/* Alert title which informs the user that the calendar has missing photos */
+"%d alert-title.missing-photos (plural rule: one)" = "Missing photo";
+
+/* Alert title which informs the user that the calendar has missing photos */
+"%d alert-title.missing-photos (plural rule: other)" = "Missing photos";
+
+/* Alert title which informs the user that the calendar has missing photos */
+"%d alert-title.missing-photos (plural rule: two)" = "Missing photos";
+
+/* Alert title which informs the user that the calendar has missing photos */
+"%d alert-title.missing-photos (plural rule: zero)" = "Missing photos";
+
+/* Alert title which asks the user if they would like to remove items */
+"%d alert-title.remove-items (plural rule: few)" = "Remove Items";
+
+/* Alert title which asks the user if they would like to remove items */
+"%d alert-title.remove-items (plural rule: many)" = "Remove Items";
+
+/* Alert title which asks the user if they would like to remove items */
+"%d alert-title.remove-items (plural rule: one)" = "Remove Item";
+
+/* Alert title which asks the user if they would like to remove items */
+"%d alert-title.remove-items (plural rule: other)" = "Remove Items";
+
+/* Alert title which asks the user if they would like to remove items */
+"%d alert-title.remove-items (plural rule: two)" = "Remove Items";
+
+/* Alert title which asks the user if they would like to remove items */
+"%d alert-title.remove-items (plural rule: zero)" = "Remove Items";
+
+/* Title for alert shown to the user when they try to create a product with too few photos selected */
+"%d alert-title.required-photo-count (plural rule: few)" = "%d Photos Required";
+
+/* Title for alert shown to the user when they try to progress with too few photos */
+"%d alert-title.required-photo-count (plural rule: many)" = "%d Photos Required";
+
+/* Title for alert shown to the user when they try to create a product with too few photos */
+"%d alert-title.required-photo-count (plural rule: one)" = "%d Photo Required";
+
+/* Title of alert shown to the user when they try to continue to creation with too few photos selected */
+"%d alert-title.required-photo-count (plural rule: other)" = "%d Photos Required";
+
+/* Title of alert shown to the user when they try to create a product with too few photos */
+"%d alert-title.required-photo-count (plural rule: two)" = "%d Photos Required";
+
+/* Title of alert shown to the user when they try to create a product with too few photos */
+"%d alert-title.required-photo-count (plural rule: zero)" = "%d Photos Required";
+
+/* Button on the product detail screen that allows the user to add photos to a product */
+"%d button.add-photos (plural rule: few)" = "Add photos";
+
+/* Button on the product detail screen that allows the user to add photos to a product */
+"%d button.add-photos (plural rule: many)" = "Add photos";
+
+/* Button on the product detail screen that allows the user to add photos to a product */
+"%d button.add-photos (plural rule: one)" = "Add photo";
+
+/* Button on the product detail screen that allows the user to add photos to a product */
+"%d button.add-photos (plural rule: other)" = "Select photos";
+
+/* Button on the product detail screen that allows the user to add photos to a product */
+"%d button.add-photos (plural rule: two)" = "Add photos";
+
+/* Button on the product detail screen that allows the user to add photos to a product */
+"%d button.add-photos (plural rule: zero)" = "Add photos";
+
+/* A dynamic button title showing the number of selected photos interpolated onto it. This is currently shown in the Collage Canvas product flow. */
+"%d button.add-photos-interpolation (plural rule: few)" = "Add %ld photos";
+
+/* A dynamic button title showing the number of selected photos interpolated onto it. This is currently shown in the Collage Canvas product flow. */
+"%d button.add-photos-interpolation (plural rule: many)" = "Add %ld photos";
+
+/* A dynamic button title showing the number of selected photos interpolated onto it. This is currently shown in the Collage Canvas product flow. */
+"%d button.add-photos-interpolation (plural rule: one)" = "Add %ld photo";
+
+/* A dynamic button title showing the number of selected photos interpolated onto it. This is currently shown in the Collage Canvas product flow. */
+"%d button.add-photos-interpolation (plural rule: other)" = "Add %ld photos";
+
+/* A dynamic button title showing the number of selected photos interpolated onto it. This is currently shown in the Collage Canvas product flow. */
+"%d button.add-photos-interpolation (plural rule: two)" = "Add %ld photos";
+
+/* A dynamic button title showing the number of selected photos interpolated onto it. This is currently shown in the Collage Canvas product flow. */
+"%d button.add-photos-interpolation (plural rule: zero)" = "Add %ld photos";
+
+/* Label on the home screen that informs the user of the number of active order that they have */
+"%d label.active-photobox-orders (plural rule: few)" = "%d active PhotoBox orders\n";
+
+/* Label on the home screen that informs the user of the number of active order that they have */
+"%d label.active-photobox-orders (plural rule: many)" = "%d active PhotoBox orders\n";
+
+/* Label on the home screen that informs the user of the number of active order that they have */
+"%d label.active-photobox-orders (plural rule: one)" = "%d active PhotoBox order\n";
+
+/* Label on the home screen that informs the user of the number of active order that they have */
+"%d label.active-photobox-orders (plural rule: other)" = "%d active PhotoBox orders\n";
+
+/* Label on the home screen that informs the user of the number of active order that they have */
+"%d label.active-photobox-orders (plural rule: two)" = "%d active PhotoBox orders\n";
+
+/* Label on the home screen that informs the user of the number of active order that they have */
+"%d label.active-photobox-orders (plural rule: zero)" = "%d active PhotoBox orders\n";
+
+/* Label shown on the product creation screen that displays the quantity of the product that you are creating */
+"%d label.canvas (plural rule: few)" = "%d canvases";
+
+/* Label shown on the product creation screen that displays the quantity of the product that you are creating */
+"%d label.canvas (plural rule: many)" = "%d canvases";
+
+/* Label shown on the product creation screen that displays the quantity of the product that you are creating */
+"%d label.canvas (plural rule: one)" = "%d canvas";
+
+/* Label shown on the product creation screen that displays the quantity of the product that you are creating */
+"%d label.canvas (plural rule: other)" = "%d canvases";
+
+/* Label shown on the product creation screen that displays the quantity of the product that you are creating */
+"%d label.canvas (plural rule: two)" = "%d canvases";
+
+/* Label shown on the product creation screen that displays the quantity of the product that you are creating */
+"%d label.canvas (plural rule: zero)" = "%d canvases";
+
+/* Label shown on the product creation screen that displays the quantity of the product that you are creating */
+"%d label.case (plural rule: few)" = "%d cases";
+
+/* Label shown on the product creation screen that displays the quantity of the product that you are creating */
+"%d label.case (plural rule: many)" = "%d cases";
+
+/* Label shown on the product creation screen that displays the quantity of the product that you are creating */
+"%d label.case (plural rule: one)" = "%d case";
+
+/* Label shown on the product creation screen that displays the quantity of the product that you are creating */
+"%d label.case (plural rule: other)" = "%d cases";
+
+/* Label shown on the product creation screen that displays the quantity of the product that you are creating */
+"%d label.case (plural rule: two)" = "%d cases";
+
+/* Label shown on the product creation screen that displays the quantity of the product that you are creating */
+"%d label.case (plural rule: zero)" = "%d cases";
+
+/* Label showing the current credit balance on the credits screen */
+"%d label.credits (plural rule: few)" = "%d Credits";
+
+/* Label showing the current credit balance on the credits screen */
+"%d label.credits (plural rule: many)" = "%d Credits";
+
+/* Label showing the current credit balance on the credits screen */
+"%d label.credits (plural rule: one)" = "1 Credit";
+
+/* Label showing the current credit balance on the credits screen */
+"%d label.credits (plural rule: other)" = "%d Credits";
+
+/* Label showing the current credit balance on the credits screen */
+"%d label.credits (plural rule: two)" = "%d Credits";
+
+/* Label showing the current credit balance on the credits screen */
+"%d label.credits (plural rule: zero)" = "No Credits";
+
+/* Label shown on post-studio of the three-minute book to identify how many extra pages are added */
+"%d label.extra-pages (plural rule: few)" = "%d extra pages";
+
+/* Label shown on post-studio of the three-minute book to identify how many extra pages are added */
+"%d label.extra-pages (plural rule: many)" = "%d extra pages";
+
+/* Label shown on post-studio of the three-minute book to identify how many extra pages are added */
+"%d label.extra-pages (plural rule: one)" = "%d extra page";
+
+/* Label shown on post-studio of the three-minute book to identify how many extra pages are added */
+"%d label.extra-pages (plural rule: other)" = "%d extra pages";
+
+/* Label shown on post-studio of the three-minute book to identify how many extra pages are added */
+"%d label.extra-pages (plural rule: two)" = "%d extra pages";
+
+/* Label shown on post-studio of the three-minute book to identify how many extra pages are added */
+"%d label.extra-pages (plural rule: zero)" = "%d extra pages";
+
+/* Label shown on the product creation screen that displays the quantity of the product that you are creating */
+"%d label.mug (plural rule: few)" = "%d mugs";
+
+/* Label shown on the product creation screen that displays the quantity of the product that you are creating */
+"%d label.mug (plural rule: many)" = "%d mugs";
+
+/* Label shown on the product creation screen that displays the quantity of the product that you are creating */
+"%d label.mug (plural rule: one)" = "%d mug";
+
+/* Label shown on the product creation screen that displays the quantity of the product that you are creating */
+"%d label.mug (plural rule: other)" = "%d mugs";
+
+/* Label shown on the product creation screen that displays the quantity of the product that you are creating */
+"%d label.mug (plural rule: two)" = "%d mugs";
+
+/* Label shown on the product creation screen that displays the quantity of the product that you are creating */
+"%d label.mug (plural rule: zero)" = "%d mugs";
+
+/* Label on the photo collection view screen and checkout screen that displays the number of photos */
+"%d label.photo-count (plural rule: few)" = "%d photos";
+
+/* Label on the photo collection view screen and checkout screen that displays the number of photos */
+"%d label.photo-count (plural rule: many)" = "%d photos";
+
+/* Label on the photo collection view screen and checkout screen that displays the number of photos */
+"%d label.photo-count (plural rule: one)" = "%d photo";
+
+/* Label on the photo collection view screen and checkout screen that displays the number of photos */
+"%d label.photo-count (plural rule: other)" = "%d photos";
+
+/* Label on the photo collection view screen and checkout screen that displays the number of photos */
+"%d label.photo-count (plural rule: two)" = "%d photos";
+
+/* Label on the photo collection view screen and checkout screen that displays the number of photos */
+"%d label.photo-count (plural rule: zero)" = "%d photos";
+
+/* Label shown on the product configuration screen that shows the number of photos selected and on the album screen that displays the number of photos in an album */
+"%d label.photo-quantity (plural rule: few)" = "%d photos";
+
+/* Label shown on the product configuration screen that shows the number of photos selected and on the album screen that displays the number of photos in an album */
+"%d label.photo-quantity (plural rule: many)" = "%d photos";
+
+/* Label shown on the product configuration screen that shows the number of photos selected and on the album screen that displays the number of photos in an album */
+"%d label.photo-quantity (plural rule: one)" = "%d photo";
+
+/* Label shown on the product configuration screen that shows the number of photos selected and on the album screen that displays the number of photos in an album */
+"%d label.photo-quantity (plural rule: other)" = "%d photos";
+
+/* Label shown on the product configuration screen that shows the number of photos selected and on the album screen that displays the number of photos in an album */
+"%d label.photo-quantity (plural rule: two)" = "%d photos";
+
+/* Label shown on the product configuration screen that shows the number of photos selected and on the album screen that displays the number of photos in an album */
+"%d label.photo-quantity (plural rule: zero)" = "%d photos";
+
+/* Label shown on the album screen that displays the number of photos in an album */
+"%d label.photos (plural rule: few)" = "%d photos";
+
+/* Label shown on the album screen that displays the number of photos in an album */
+"%d label.photos (plural rule: many)" = "%d photos";
+
+/* Label shown on the album screen that displays the number of photos in an album */
+"%d label.photos (plural rule: one)" = "%d photos";
+
+/* Label shown on the album screen that displays the number of photos in an album */
+"%d label.photos (plural rule: other)" = "%d photos";
+
+/* Label shown on the album screen that displays the number of photos in an album */
+"%d label.photos (plural rule: two)" = "%d photos";
+
+/* Label shown on the album screen that displays the number of photos in an album */
+"%d label.photos (plural rule: zero)" = "%d photos";
+
+/* Label shown on the photo tray to show the user the range of photos they can use on their selected product */
+"%d label.photos-range-required (plural rule: few)" = "%ld-%ld required";
+
+/* Label shown on the photo tray to show the user the range of photos they can use on their selected product */
+"%d label.photos-range-required (plural rule: one)" = "%ld-%ld required";
+
+/* Label shown on the photo tray to show the user the range of photos they can use on their selected product */
+"%d label.photos-range-required (plural rule: other)" = "%ld-%ld required";
+
+/* Label shown on the photo tray to show the user the range of photos they can use on their selected product */
+"%d label.photos-range-required (plural rule: zero)" = "%ld-%ld required";
+
+/* Label shown on the photo tray to show the user how many photos they can use on their selected product */
+"%d label.photos-required (plural rule: few)" = "%ld required";
+
+/* Label shown on the photo tray to show the user how many photos they can use on their selected product */
+"%d label.photos-required (plural rule: many)" = "%ld required";
+
+/* Label shown on the photo tray to show the user how many photos they can use on their selected product */
+"%d label.photos-required (plural rule: one)" = "%ld required";
+
+/* Label shown on the photo tray to show the user how many photos they can use on their selected product */
+"%d label.photos-required (plural rule: other)" = "%ld required";
+
+/* Label shown on the photo tray to show the user how many photos they can use on their selected product */
+"%d label.photos-required (plural rule: two)" = "%ld required";
+
+/* Label shown on the photo tray to show the user how many photos they can use on their selected product */
+"%d label.photos-required (plural rule: zero)" = "%ld required";
+
+"%d label.photos-selected (plural rule: many)" = "photos selected";
+
+"%d label.photos-selected (plural rule: one)" = "photo selected";
+
+"%d label.photos-selected (plural rule: other)" = "photos selected";
+
+/* Photo selection count in the photo tray */
+"%d label.photos-selected-tray (plural rule: few)" = "%ld photos selected";
+
+/* Photo selection count in the photo tray */
+"%d label.photos-selected-tray (plural rule: many)" = "%ld photos selected";
+
+/* Photo selection count in the photo tray */
+"%d label.photos-selected-tray (plural rule: one)" = "%ld photo selected";
+
+/* Photo selection count in the photo tray */
+"%d label.photos-selected-tray (plural rule: other)" = "%ld photos selected";
+
+/* Photo selection count in the photo tray */
+"%d label.photos-selected-tray (plural rule: two)" = "%ld photos selected";
+
+/* Photo selection count in the photo tray */
+"%d label.photos-selected-tray (plural rule: zero)" = "%ld photos selected";
+
+/* Label shown on the post-studio summary highlighting how many prints the user is about to purchase
+, 
+, Note: This is appended to label.sets-count */
+"%d label.prints-count (plural rule: few)" = "%d prints";
+
+/* Label shown on the post-studio summary highlighting how many prints the user is about to purchase
+, 
+, Note: This is appended to label.sets-count */
+"%d label.prints-count (plural rule: many)" = "%d prints";
+
+/* Label shown on the post-studio summary highlighting how many prints the user is about to purchase
+, 
+, Note: This is appended to label.sets-count */
+"%d label.prints-count (plural rule: one)" = "%d print";
+
+/* Label shown on the post-studio summary highlighting how many prints the user is about to purchase
+, 
+, Note: This is appended to label.sets-count */
+"%d label.prints-count (plural rule: other)" = "%d prints";
+
+/* Label shown on the post-studio summary highlighting how many prints the user is about to purchase
+, 
+, Note: This is appended to label.sets-count */
+"%d label.prints-count (plural rule: two)" = "%d prints";
+
+/* Label shown on the post-studio summary highlighting how many prints the user is about to purchase
+, 
+, Note: This is appended to label.sets-count */
+"%d label.prints-count (plural rule: zero)" = "%d prints";
+
+/* Label shown on the minor notification in studio when there are photos with a quality issue */
+"%d label.quality-notification (plural rule: few)" = "%d photos have quality issues";
+
+/* Label shown on the minor notification in studio when there are photos with a quality issue */
+"%d label.quality-notification (plural rule: many)" = "%d photos have quality issues";
+
+/* Label shown on the minor notification in studio when there are photos with a quality issue */
+"%d label.quality-notification (plural rule: one)" = "%d photo has a quality issue";
+
+/* Label shown on the minor notification in studio when there are photos with a quality issue */
+"%d label.quality-notification (plural rule: other)" = "%d photos have quality issues";
+
+/* Label shown on the minor notification in studio when there are photos with a quality issue */
+"%d label.quality-notification (plural rule: two)" = "%d photos have quality issues";
+
+/* Label shown on the minor notification in studio when there are photos with a quality issue */
+"%d label.quality-notification (plural rule: zero)" = "%d photos have quality issues";
+
+/* Label shown on the post-studio summary highlighting how many sets of prints the user is about to purchase
+, 
+, Note: This is followed by label.prints-count */
+"%d label.sets-count (plural rule: few)" = "%d sets of";
+
+/* Label shown on the post-studio summary highlighting how many sets of prints the user is about to purchase
+, 
+, Note: This is followed by label.prints-count */
+"%d label.sets-count (plural rule: may)" = "%d sets of";
+
+/* Label shown on the post-studio summary highlighting how many sets of prints the user is about to purchase
+, 
+, Note: This is followed by label.prints-count */
+"%d label.sets-count (plural rule: one)" = "%d set of";
+
+/* Label shown on the post-studio summary highlighting how many sets of prints the user is about to purchase
+, 
+, Note: This is followed by label.prints-count */
+"%d label.sets-count (plural rule: other)" = "%d sets of";
+
+/* Label shown on the post-studio summary highlighting how many sets of prints the user is about to purchase
+, 
+, Note: This is followed by label.prints-count */
+"%d label.sets-count (plural rule: two)" = "%d sets of";
+
+/* Label shown on the post-studio summary highlighting how many sets of prints the user is about to purchase
+, 
+, Note: This is followed by label.prints-count */
+"%d label.sets-count (plural rule: zero)" = "%d sets of";
+
+/* Interpolated label showing the current number of photos removed */
+"%d label.toast-photos-removed (plural rule: few)" = "%ld photos removed";
+
+/* Interpolated label showing the current number of photos removed */
+"%d label.toast-photos-removed (plural rule: many)" = "%ld photos removed";
+
+/* Interpolated label showing the current number of photos removed */
+"%d label.toast-photos-removed (plural rule: one)" = "%ld photo removed";
+
+/* Interpolated label showing the current number of photos removed */
+"%d label.toast-photos-removed (plural rule: other)" = "%ld photos removed";
+
+/* Interpolated label showing the current number of photos removed */
+"%d label.toast-photos-removed (plural rule: two)" = "%ld photos removed";
+
+/* Interpolated label showing the current number of photos removed */
+"%d label.toast-photos-removed (plural rule: zero)" = "%ld photos removed";
+
+/* Label shown on the feedback screen that displays the number of votes for each new feature */
+"%d label.vote (plural rule: few)" = "%d Votes";
+
+/* Label shown on the feedback screen that displays the number of votes for each new feature */
+"%d label.vote (plural rule: many)" = "%d Votes";
+
+/* Label shown on the feedback screen that displays the number of votes for each new feature */
+"%d label.vote (plural rule: one)" = "%d Vote";
+
+/* Label shown on the feedback screen that displays the number of votes for each new feature */
+"%d label.vote (plural rule: other)" = "%d Votes";
+
+/* Label shown on the feedback screen that displays the number of votes for each new feature */
+"%d label.vote (plural rule: two)" = "%d Votes";
+
+/* Label shown on the feedback screen that displays the number of votes for each new feature */
+"%d label.vote (plural rule: zero)" = "%d Votes";
+
+/* Text for my albums button shown on the my photos screen on iphone and ipad */
+"action-sheet-button.my-albums" = "My Albums";
+
+/* Action sheet button shown on the side menu screen that logs the user out of Dropbox */
+"action-sheet-button.sign-out-dropbox" = "Sign out of Dropbox";
+
+/* Action sheet button shown on the side menu screen that logs the user out of Facebook */
+"action-sheet-button.sign-out-facebook" = "Sign out of Facebook";
+
+/* Action sheet button shown on the side menu screen that logs the user out of Google */
+"action-sheet-button.sign-out-google" = "Sign out of Google";
+
+/* Action sheet button shown on the side menu screen that logs the user out of Instagram */
+"action-sheet-button.sign-out-instagram" = "Sign out of Instagram";
+
+/* Action sheet button shown on the side menu screen that logs the user out of PhotoBox */
+"action-sheet-button.sign-out-photoBox" = "Sign out of PhotoBox";
+
+/* Action sheet other button shown on the album screen to enable the user to switch to the shared albums */
+"action-sheet-other-button.shared-albums" = "Shared Albums";
+
+/* Label text to notify the user that this action will clear their current select of photos */
+"action-sheet-title.clear-selection" = "This will clear your selection";
+
+/* Remove item action sheet title shown on product detail screen when selecting photos from the side menu */
+"action-sheet-title.remove-item" = "Remove Item";
+
+/* Text for the done action used within the Android SPA */
+"action.done" = "Done";
+
+/* Label for button on an alert view for performing an auto crop on a photo shown in the photos product detail screen */
+"alert-button.auto-crop" = "Auto crop";
+
+/* Text for alert button cancel */
+"alert-button.cancel" = "Cancel";
+
+/* Label for button on an alert view that will confirm an action */
+"alert-button.confirm" = "Confirm";
+
+/* Text for alert button continue */
+"alert-button.continue" = "Continue";
+
+/* Alert button on the login screen for when the user can't remember their password */
+"alert-button.forgot-password" = "Forgot password";
+
+/* Alert button on crop issue alert to select manual cropping shown on the product detail screen for photos */
+"alert-button.manual-crop" = "Manual crop";
+
+/* Alert button shown on the product creation and product configuration screens that allows the user to prevent an action from occurring */
+"alert-button.no" = "No";
+
+/* Alert button shown on the rate this app alert for the option of not wanting to rate the app */
+"alert-button.no-thanks" = "No, thanks";
+
+/* Alert button shown to accept the action and dismiss the alert view */
+"alert-button.ok" = "OK";
+
+/* Alert button for the rate PhotoBox alert */
+"alert-button.rate-photobox" = "Rate PhotoBox";
+
+/* Alert button for the rate PhotoBox alert for the option of reminding the user later */
+"alert-button.remind-me-later" = "Remind me later";
+
+/* Text for alert button to remove a photo shown on the product detail screen. Also used to remove basket item on basket screen */
+"alert-button.remove" = "Remove";
+
+/* Text for alert button retry */
+"alert-button.retry" = "Retry";
+
+/* Label for the button on an alert view to return the user back to editing a customised product */
+"alert-button.return-to-edit" = "Return to Edit";
+
+/* Alert button shown on the quality indicator alert that takes the user back and shows them where there are quality concerms */
+"alert-button.show-me" = "Show me";
+
+/* Alert button text for start again */
+"alert-button.start-again" = "Start again";
+
+/* Submit button shown on the forgot password alert */
+"alert-button.submit" = "Submit";
+
+/* Alert button text for try again */
+"alert-button.try-again" = "Try again";
+
+/* Label for the alert shown when forcing the user to update to a new version */
+"alert-button.update-now" = "Update now";
+
+/* Alert view confirmation button title */
+"alert-button.view" = "View";
+
+/* Alert button shown on the product creation and product configuration screens that allows the user to confirm an action */
+"alert-button.yes" = "Yes";
+
+/* Alert message shown on the registration screen to notify the user that the email address they entered already exists */
+"alert-message.already-registered" = "Sorry. The email address entered is already in use.";
+
+/* Alert view message on the uploads screen that notifies the user that they are about to cancel editing a product */
+"alert-message.cancel-editing" = "You haven't finished editing this product. Are you sure you want to cancel?";
+
+/* Alert message shown on the feedback controller when the user has no email setup */
+"alert-message.cannot-send-mail" = "There is no email account registered to this device. Please create one and try again.";
+
+/* Alert message shown to the user when they are required to confirm their current quality */
+"alert-message.confirm-quality" = "I have checked the quality and am happy";
+
+/* Alert message shown to notify the user that they have no connection */
+"alert-message.connection-error" = "You may not have an internet connection or our server may be experiencing difficulties";
+
+/* Alert view message in the calendar studio that allows to user to either continue editing a saved product or start a new item */
+"alert-message.continue-editing" = "Do you want to continue with your last customisation or do you want to start again with a new blank calendar.";
+
+/* Alert message shown to ask whether the crop should be done automatically or manually */
+"alert-message.crop-required" = "Cropping is required so we have selected an area of your photograph to crop automatically. Do you want to apply this crop automatically, or crop it manually?";
+
+/* Alert message shown when the user tries to discard the product they are currently creating */
+"alert-message.discard-product" = "Are you sure you want to discard the product you are creating?";
+
+/* Message shown in the alert when the user tries to cancel with a selection of photos being present */
+"alert-message.discard-selection" = "Are you sure? Your selection of photos will be lost.";
+
+/* Alert message shown on the create album screen that prompts the user to enter a name for their album */
+"alert-message.enter-album-name" = "Please enter an album name before proceeding.";
+
+/* Alert message on the checkout screen prompting the user to select a delivery address */
+"alert-message.error" = "Please select a delivery address";
+
+/* The alert message displayed when a user tries to exit the PhotoBox Android app. */
+"alert-message.exit-app" = "Are you sure you want to exit the PhotoBox app?";
+
+/* Alert view message shown when exiting the photobox app */
+"alert-message.exit-photobox" = "To continue, the PhotoBox app will be closed and a website will be opened in Safari. Are you sure you want to continue?";
+
+/* Message shown in the alert view when a user holds to preview a photo which we cannot successfully load into view. */
+"alert-message.fail-to-preview" = "Sorry. We are unable to preview this photo. However you can still select the photo to add to your product.";
+
+/* Text for alert message indicating the localisation fetch failed */
+"alert-message.failed-localisation-fetch" = "There was an error fetching localisations";
+
+/* Alert message for fetching prices error alert shown on the product detail screen */
+"alert-message.fetching-prices" = "Error fetching prices!";
+
+/* Alert message that notifies the user that the filesize is too small */
+"alert-message.filesize-error" = "The image is too small";
+
+/* Message shown in the alert forcing a user to update the app to a new version */
+"alert-message.forced-update" = "You will need to update to the new version before you can continue to use the PhotoBox App.";
+
+/* Alert message that notifies the user that the image's width or height is too small */
+"alert-message.image-too-small" = "The width or height of your image is too small";
+
+/* Alert message on the login screen that notifies the user that they have entered incorrect details */
+"alert-message.incorrect-details" = "You have entered incorrect details. Please try again";
+
+/* Text for alert message indicating an incorrect password */
+"alert-message.incorrect-password" = "Password is incorrect";
+
+/* Alert message on the forgot password screen that notifies the user that the email they entered is invalid and to try again */
+"alert-message.invalid-email" = "The email address you have entered is not properly formatted. Please re-enter and try again.";
+
+"alert-message.invalid-entry" = "Invalid Entry";
+
+/* Alert message for medium image size alert shown from the creation studio screen */
+"alert-message.medium-image-size" = "The print quality will still look great to a non-professional photographer";
+
+/* Alert message shown on the product creation screen that notifies the user that they have not selected a photo */
+"alert-message.no-photo" = "You have no photo selected! Please select a photo.";
+
+/* Alert message shown on the product creation screen that notifies the user they have no photos selected */
+"alert-message.no-photos" = "You have no photos selected. You require at least one photo to be added in order to continue.";
+
+/* Alert view message to inform the user they are about to leave the app and navigate to the photobooks app */
+"alert-message.open-photobooks" = "To create photo books you will be switched to a different PhotoBox app.";
+
+/* Alert message text for reseting password shown on the forgot password screen */
+"alert-message.password-reset" = "Your password has been reset. Please check your email.";
+
+/* Alert message text notifying the user that there was an issue with paypal */
+"alert-message.paypal-issue" = "There was a problem with PayPal, please try again";
+
+/* Alert title which informs the user that they can add photo days to a calendar */
+"alert-message.photo-days" = "You can add as many Photo Days to this calendar as you wish for only %@ more.";
+
+/* Alert message shown when a user on iPhone tries to launch a photobook product. */
+"alert-message.photobook-error" = "Currently Photo Books are only available on the PhotoBox website or on the Photobooks app for iPad. Search the iPad App Store for Photo Books by PhotoBox.";
+
+/* Alert message shown on the product upload screen informing the user to wait while the upload completes */
+"alert-message.please-wait" = "Please wait";
+
+/* Alert message to notify the user that selected product can't be edited from the basket screen  */
+"alert-message.product-cannot-be-edited" = "This type of product can not be edited from the basket";
+
+/* Alert message shown on the rate this app alert asking the user to rate the app */
+"alert-message.rate-app" = "We would be grateful if you could take a moment to rate this version of PhotoBox. We value your comments and thank you for your support!";
+
+/* Alert message text shown on the basket screen for removing a basket item */
+"alert-message.remove-basket-item" = "Are you sure you want to remove the selected item?";
+
+/* Alert message which informs the user that everything will be removed from the date and asks them whether they would like to continue */
+"alert-message.remove-from-date" = "This will remove everything from this date, should we continue?";
+
+/* Alert message text shown on the product creation studio for removing a current photo */
+"alert-message.remove-image" = "Are you sure? Your image will be removed.";
+
+/* Message shown on the basket screen when the user is removing a offer code */
+"alert-message.remove-offer" = "Do you want to remove the offer code?";
+
+/* Alert message for removing a photo on the product detail screen */
+"alert-message.remover-photo" = "Remove your photo from this product?";
+
+/* Alert message shown on the create product screen when the user tries to discard the product */
+"alert-message.reset-product" = "Are you sure? Your changes will be lost.";
+
+/* Alert message shown on the order history and product creation screens that notifies the user that an unknown problem has occurred and to restart the app if the problem continues */
+"alert-message.restart-app" = "Sorry. There was an unknown error. If the problem persists, restart the app and/or try again later.";
+
+/* Alert message that informs the user that the server is unavailable */
+"alert-message.server-unavailable" = "Server unavailable. Please check your internet connection.";
+
+/* Alert message that warns the user that the small image might result in a low quality print */
+"alert-message.small-size-warning" = "The print quality will be poor and may be pixelated, so we recommend that you upload a higher quality photo";
+
+/* Alert view message shown on the forgot password screen that apologises to the user if a problem occurred */
+"alert-message.sorry" = "Sorry. There was an unknown error. If the problem persists, restart the app and/or try again later.";
+
+/* Alert message which informs the user that the start month has changed for a calendar */
+"alert-message.start-month-changed" = "We've finished reorganising your calendar, we recommend checking any previously edited months.";
+
+/* Alert message shown when StoreKit produces an error. */
+"alert-message.storekit-error" = "We are unable to connect to the App Store at the moment. Please try again later.";
+
+/* Alert message shown on the login screen when the login has failed */
+"alert-message.unable-to-login" = "Unable to login at this time, please try again";
+
+/* Alert view message for an Unknown Error */
+"alert-message.unknown-error" = "Unknown Error";
+
+/* Alert message which informs the users that we can't print the highlighted characters that they have typed due to them being unsupported */
+"alert-message.unsupported-characters" = "We cannot print the highlighted characters";
+
+/* Alert title on the login screen shown when a user tries to login with an unsupported language */
+"alert-message.unsupported-language" = "Sorry this language is currently unsupported!";
+
+/* Alert message shown to the user when they try to sign into PhotoBox while uploads are ongoing within standard print studio */
+"alert-message.uploads-in-progress" = "We are unable to let you sign in until all uploads have completed";
+
+/* Text for alert message indicating the version number cannot be empty */
+"alert-message.version-number-empty" = "Version number cannot be empty";
+
+/* Alert view title on the uploads screen that notifies the user that they are about to cancel editing a product */
+"alert-title.cancel-editing" = "Cancel editing";
+
+/* Alert view title on the uploads screen that notifies the user that they are about to cancel an upload */
+"alert-title.cancel-upload" = "Cancel Image Upload?";
+
+/* Alert title shown on the feedback controller when the user has no email setup */
+"alert-title.cannot-send-mail" = "No Email Account";
+
+/* Alert title shown to the user when they are required to confirm their current quality */
+"alert-title.confirm-quality" = "Confirm quality";
+
+/* Alert title shown to notify the user that they have no connection */
+"alert-title.connection-error" = "Connection error";
+
+/* Alert view title in the calendar studio that notifies the user that they have a previously saved product */
+"alert-title.continue-editing" = "Continue editing";
+
+/* Alert title text for notifying the user that a crop is required */
+"alert-title.crop-required" = "Crop required";
+
+/* Alert title shown when prompting the user whether they want to discard their changes */
+"alert-title.discard" = "Discard";
+
+/* Title for alert shown to the user warning them that their selection of photos will be lost */
+"alert-title.discard-selection" = "Discard Selection";
+
+/* Alert title text shown on the create album screen to prompt the user to enter an album name */
+"alert-title.enter-album-name" = "Enter album name";
+
+/* Text for alert title for all error alerts */
+"alert-title.error" = "Error";
+
+/* Alert view title shown when exiting the photobox app */
+"alert-title.exit-photobox" = "Exit PhotoBox App";
+
+/* Title shown in the alert view when a user holds to preview a photo which we cannot successfully load into view. */
+"alert-title.fail-to-preview" = "Failed to load preview";
+
+/* Alert title which informs the user that a upload has failed */
+"alert-title.failed-upload" = "Failed to Upload";
+
+/* Alert title that notifies the user that the filesize is too small */
+"alert-title.filesize-error" = "Filesize error";
+
+/* Title shown on the alert forcing the user to update to a new app version */
+"alert-title.forced-update" = "New version available";
+
+/* Alert title that notifies the user that the image is too small */
+"alert-title.image-too-small" = "Image size too small";
+
+/* Alert title on the login screen that notifies the user that they have entered incorrect details */
+"alert-title.incorrect-details" = "Incorrect details";
+
+/* Alert title on the forgot password screen that notifies the user that the email they entered is invalid  */
+"alert-title.invalid-email" = "Invalid email address";
+
+/* Alert title for low image size alert shown from the creation studio screen  */
+"alert-title.low-image-size" = "Low Quality Image";
+
+/* Alert title for medium image size alert shown from the creation studio screen  */
+"alert-title.medium-image-size" = "Average Quality Image";
+
+/* Title on the alert shown to the user when they try to delete a photo that would put them below the minimum */
+"alert-title.minimum-photo-count" = "Minimum Photo Count";
+
+/* Alert title shown on the product creation screen that notifies the user that they have not selected a photo */
+"alert-title.no-photo" = "No photos added";
+
+/* Alert title shown on the product creation screen that notifies the user they have no photos selected */
+"alert-title.no-photos" = "No photos added";
+
+/* Alert title shown on the push notification screen that displays a notification */
+"alert-title.notification" = "Notification";
+
+/* Alert view title for opening the photobooks app  */
+"alert-title.open-photobooks" = "Open Photo Books app?";
+
+/* Alert title text for reseting password shown on the forgot password screen */
+"alert-title.password-reset" = "Done";
+
+/* Alert title which informs the user that they can add photo days to a calendar */
+"alert-title.photo-days" = "Photo Days";
+
+/* Alert title shown when a user on iPhone tries to launch a photobook product. */
+"alert-title.photobook-error" = "Discover our new Photo Books iPad app";
+
+/* Alert title shown on the product upload screen when photos are in the process of being uploaded */
+"alert-title.processing" = "Processing...";
+
+/* Alert title for the rate photoBox alert */
+"alert-title.rate-photobox" = "Rate PhotoBox";
+
+/* Alert title text shown on the product creation studio for removing a current photo and on the basket screen for remove a basket item */
+"alert-title.remove" = "Remove";
+
+/* Alert title for removing a photo on the product detail screen */
+"alert-title.remove-photo" = "Remove photo";
+
+"alert-title.share-using" = "Share Using:";
+
+/* Sign out title shown when the user is de-authenticating */
+"alert-title.sign-out" = "Sign Out";
+
+/* Alert title button show on the basket, feedback and forgot password screens that apologises to the user if a problem occurred */
+"alert-title.sorry" = "Sorry";
+
+/* Alert title which informs the user that the start month has changed for the calendar */
+"alert-title.start-month-changed" = "Start Month Changed";
+
+/* Alert title shown when StoreKit produces an error. */
+"alert-title.storekit-error" = "Cannot Connect to App Store";
+
+/* Alert title shown when the help screen, terms and conditions or privacy policy failed to load */
+"alert-title.unable-to-connect" = "Unable to connect";
+
+/* Alert title shown on the login screen when the login has failed */
+"alert-title.unable-to-login" = "Unable to login";
+
+/* Alert view title for an Unknown Error */
+"alert-title.unknown-error" = "Unknown Error";
+
+/* Alert title which informs the user that they are using unsupported characters */
+"alert-title.unsupported-characters" = "Unsupported Characters";
+
+/* Alert message on the login screen shown when a user tries to login with an unsupported language */
+"alert-title.unsupported-language" = "Unsupported Language";
+
+/* Alert title shown to the user when they try to sign into PhotoBox while uploads are ongoing within standard print studio */
+"alert-title.uploads-in-progress" = "Unable to sign in";
+
+/* Alert shown to the user when Google Play services has been disabled on their device. */
+"alert.google-play-disabled" = "The installed version of Google Play services has been disabled on this device.";
+
+/* Alert shown to the user when Google Play services is not available on their device. */
+"alert.google-play-missing" = "Google Play services is missing on this device.";
+
+/* Alert shown to the user when they are not signed in to their Google Play services. */
+"alert.google-play-not-signed-in" = "The client attempted to connect to the service but the user is not signed in.";
+
+/* Alert shown to the user when their Google Play service is out of date. */
+"alert.google-play-out-of-date" = "The installed version of Google Play services is out of date.";
+
+/* Message shown on the permissions alert on Android 6.0 and beyond when the user logs in, asking them to allow PhotoBox to send them notification. */
+"alert.message-android.notification.permissions" = "Allow PhotoBox to send you notifications regarding the latest offers.";
+
+/* Alert message for the content setting alert, warning the user to restart the app */
+"alert.message-content.settings" = "The app will be put to the background, but to apply these changes you will need to fully close the app before opening it up again";
+
+/* Message shown to the user to confirm that their chosen colour has been applied to the inside of the mug. */
+"alert.message-internal-colour" = "Internal colour applied";
+
+/* Subtitle on sign out dialog */
+"alert.message-tap.sign.out" = "Tap the icon to sign out";
+
+/* "New Product" badge used on Carousel and Featured Products */
+"assets.badge-new" = "New Product";
+
+/* "As seen on TV" badge used on Carousel and Featured Products */
+"assets.badge-tv" = "As seen on TV";
+
+/* CTA seen on the Add Contact screen to finish entering the details and confirm the new contact, */
+"button.add-contact" = "Add Contact";
+
+/* Label for button shown on the product details screen to allow user to add a photo */
+"button.add-photo" = "Add";
+
+/* Button shown on the product details screen to add photos to the product */
+"button.add-photos" = "Add Photos";
+
+/* Label for button shown at the end of product customisation flows to add a product to the basket */
+"button.add-to-basket" = "Add to basket";
+
+/* Button shown on the product details screen shown for telling the user the app is only available on iPad */
+"button.book-only-available-ipad" = "Only available on iPad";
+
+/* Button on the customer services screen that enables the user to call customer services */
+"button.call-customer-services" = "Call now";
+
+/* Cancel button text shown when logging out and when selecting photobox shared albums your own albums */
+"button.cancel" = "Cancel";
+
+/* Button text for the checkout button shown on the basket screen and the checkout screen */
+"button.checkout" = "Checkout";
+
+/* Button shown on style upsell view to allow the user to continue towards checkout */
+"button.continue" = "Continue";
+
+/* Create button title text on the photo selection page */
+"button.create" = "Create";
+
+/* Button text shown on the login screen that allows the user to create an account */
+"button.create-account" = "Create Account";
+
+/* Button that allows the user to continue to the credit card checkout screen */
+"button.credit-card-checkout" = "Credit Card Checkout";
+
+/* Button shown on the product details screen to allow the user to customise a product */
+"button.customise" = "Customise";
+
+/* Button shown on the product details screen shown for going to the photobook appstore */
+"button.download-book-app" = "Download PhotoBook App";
+
+/* Button text for the explore more products button shown on the order complete screen, empty basket screen and home screen */
+"button.explore-more-products" = "Explore more products";
+
+/* Button text for the explore shop button shown on the order complete screen and empty basket screen */
+"button.explore-shop" = "Explore shop";
+
+"button.flat" = "Flat";
+
+/* Button on the login screen for when the user can't remember their password */
+"button.forgot-password" = "Forgot Password";
+
+/* Button on the Special Offers Star Offer page */
+"button.go-to-website" = "Go to Website";
+
+/* CTA seen on the help tips when the user first enters the creation studio.  */
+"button.got-it" = "Got it!";
+
+/* Button shown to the user during checkout to allow them to view the information related to an entered offer code. */
+"button.info" = "Info";
+
+/* CTA shown on the hold to preview of a selected photo allowing the user to keep that photo selected */
+"button.keep-photo" = "Keep photo";
+
+/* Button shown on the album screen to indicate to the user that there are more options available to choose from */
+"button.more-options" = "...";
+
+/* Bar button shown on photo upload screens that navigates to the next screen */
+"button.next" = "Next";
+
+/* Button shown on the product upsell screen that allows the user to reject a product upgrade */
+"button.no-thanks" = "No thanks";
+
+/* Button shown on the product details screen shown for going to the photobook app */
+"button.open-book-app" = "Open Photo Book App";
+
+/* Button that allows the user to continue to the PhotoBox credit checkout screen */
+"button.photobox-credit-checkout" = "Pay with PhotoBox credit";
+
+/* Button shown on the photo picker screens that selects all the photos  */
+"button.photos-select-all" = "All";
+
+/* Button shown on the photo picker screens that shows a preview of selected photos */
+"button.preview" = "Preview";
+
+/* Register button used on Android SPA */
+"button.register" = "Register";
+
+/* CTA shown on the hold to preview of a selected photo allowing the user to remove that photo from the selection */
+"button.remove-photo" = "Remove photo";
+
+/* Reset button used within the Android SPA */
+"button.reset" = "Reset";
+
+"button.save" = "Save";
+
+"button.save-address" = "Save Address";
+
+/* CTA shown in the detail view of Prints studio to save the current changes and return to the grid view */
+"button.save-all-changes" = "Save All Changes";
+
+/* CTA shown on the new contact screen to allow the user to save the details they have entered */
+"button.save-contact" = "Save ";
+
+/* Title for the crop save button used in the crop studio */
+"button.save-crop" = "Save Crop";
+
+/* Button shown on product details screen to allow the user to select options before customising a product */
+"button.select-options" = "Select options";
+
+/* CTA used on the preview screen to allow an unselected photo to be selected */
+"button.select-photo" = "Select photo";
+
+/* Disabled CTA string used when the photo tray has no photos */
+"button.select-photos" = "Select photos";
+
+/* Button shown on the product details screen to allow the user to select the format and size of a product */
+"button.select-size" = "Select Size";
+
+"button.shop" = "Shop";
+
+/* Button text shown on the login screen that allows the user to sign in */
+"button.sign-in" = "Sign in";
+
+/* Button shown on the tabbed album screen that allows the user to sign in certain accounts */
+"button.sign-in-to" = "Sign in to";
+
+/* The action of starting an upload on the destination album upload screen */
+"button.start-upload" = "Upload";
+
+/* Button label on the feedback screen that enables the user to suggest new features within the app */
+"button.suggest-features" = "Suggest new features";
+
+/* CTA shown when editing the front cover of the 3-minute book */
+"button.update-cover" = "Update cover";
+
+/* Button title shown on the product studio when editing a product which is already in the basket */
+"button.update-order" = "Update order";
+
+/* CTA shown in the Uploads section that allows the user to start selecting photos to upload to their account */
+"button.upload-photos" = "Upload photos";
+
+/* String used on the Prints UJ CTA when the CTA is disabled during the upload progress */
+"button.uploading-photos" = "Uploading Photos";
+
+/* Button on the address detail view when going through checkout flow with the action of selecting the address currently presented */
+"button.use-address" = "Use address";
+
+"button.verify" = "Verify";
+
+/* Button shown on the product details screen shown for going to the product page */
+"button.view-products" = "View Products";
+
+/* Label for button on the feedback screen which allows the user to vote  */
+"button.vote" = "Vote";
+
+/* Button shown on the product upsell screen that allows the user to accept a product upgrade */
+"button.yes-please" = "Yes please!";
+
+/* Contact details for PhotoBox */
+"contact.details" = "9am - 7pm 7 days a week Excluding Christmas Day and Boxing Day";
+
+/* Contact Telephone Number */
+"contact.telephone" = "0845 505 0305";
+
+/* Error message saying the user can only place one vote per feature per day on the feedback screen  */
+"error.once-per-day" = "You can vote for each feature at most once per day";
+
+/* Error description shown when the session has expired due to the user being inactive for a period of time */
+"error.sorry" = "Sorry. Due to inactivity your session has expired";
+
+/* Error shown to the user in studio if an iCloud photo fails to synchronise. */
+"error.synchronise-icloud" = "iCloud synchronisation failed";
+
+/* Error message saying the user has placed too many votes on the feedback screen  */
+"error.too-many-votes" = "You already voted three times today";
+
+/* Help tip shown to the user within the 3-minute book cover studio to explain how to swap photos from the tray to the cover */
+"help-tip.change-cover-photo" = "Drag your photos to add them to your cover. You can also drag to rearrange them.";
+
+/* Text shown on the help tip within the Prints UJ to explain how to change the size and finish of prints */
+"help-tip.detail-01" = "Use the icons below to change the size and finish. Any changes will apply to this print only.";
+
+/* Help tip shown to the user explaining the Drag and Drop feature */
+"help-tip.drag-and-drop" = "You can drag and drop images to arrange, delete or change them";
+
+/* Text shown on the help tip within the Prints UJ to explain how to change the size and finish of prints */
+"help-tip.grid-01" = "Use the icons below to change the size and finish. Any changes will apply to all prints.";
+
+/* Text shown on the help tip within the Prints UJ to explain how to delete and duplicate a photo. */
+"help-tip.grid-02" = "You can drag and drop an image to delete it.";
+
+/* Content used in the 'Impressum' webview, primarily for the DE Localisation */
+"imprint-html.section-01-content" = "<p>\nPhotobox SAS </br>\nZI des Perriers </br>\n37-39, Rue De Beauce </br>\nF - 78500 Sartrouville </br>\nAuthorized representative: Sébastian Rohart\n</p>\n<p>\nPhotobox SAS is a company incorporated and registered under French law. </br>\nRegister: RCS Versailles 428 703 979, SIRET 428 703 979 00057 from 01.12.1999  </br>\nAPE: 7420Z, VAT number: TVA FR 07428703979 </br>\n</p>\n<p>\nFor any queries regarding our website or our services, please contact our customer service.\n</p>";
+
+"imprint-html.section-01-title" = "<p>\nOperator of the Germany website\n</p>";
+
+"imprint-html.section-02-content" = "<p>\nFor questions about your order please contact us as follows:\n<ul>\n  <li>In contact simply click on the \"Ask us\"</li>\n  <li>Service Hotline:</li>\n  <ul>\n  <li>Tel. No .: 040-638630001 </li>\n  <li>Mon-Fri: 9:00 until 18:00 clock on holidays (... Including 24.12 and 31.12) is the service hotline not occupied</li>\n  </ul>\n<li>Or via e-mail under info@photobox.de</li>\n<li>The frequently asked questions and their answers can help you</li>\n</ul>\n</p>";
+
+"imprint-html.section-02-title" = "<p>\nCustomer Service\n</p>";
+
+"imprint-html.section-03-content" = "<p>\nPhotobox Press: </br>\nE-mail: presse@photobox.de\n</p>";
+
+"imprint-html.section-03-title" = "<p>\nPress Contact\n</p>";
+
+"iPad" = "iPad";
+
+"iPhone" = "iPhone";
+
+/* Label heading on the checkout screen that provides ways to pay */
+"label-heading.payment" = "Payment";
+
+/* Label message shown on the customer services screen that notifies the user that payment has been received but an order was not created. This also provides a reference number */
+"label-message.unsuccessful-order" = "Payment has been made but PhotoBox were unable to create a succesful order. You're order reference code is";
+
+/* Label shown on the registration screen to accept subscription offers by email */
+"label.accept-offers" = "Accept money saving offers from PhotoBox";
+
+/* Label shown on the registration screen to accept the PhotoBox terms of use and privacy policy. This is the first part of a sentence */
+"label.accept-photobox" = "I accept the PhotoBox";
+
+/* Label on the login screen on iPad which links to the terms of use and privacy policy */
+"label.accept-terms-and-privacy" = "I accept the Terms of Use and Privacy policy";
+
+/* Label for prompting the user to enter account details for logging in shown on the login screens */
+"label.account-details" = "Enter your PhotoBox details to sign in.";
+
+/* Label for prompting the user to enter account details for creating an account shown on the register screens */
+"label.account-details-create" = "Create a new account to use this app.";
+
+/* Label on order history that shows active orders */
+"label.active-orders" = "Active orders";
+
+/* Label text to encourage the user to add a photo from one of their albums shown on the creation studio */
+"label.add-from-album" = "Add a photo from one of your albums";
+
+/* Placeholder text for any text apertures in creation studio */
+"label.add-text-placeholder" = "Add text here if you wish";
+
+/* Label for address section shown on the add address screen and contact address screen */
+"label.address" = "Address";
+
+/* Label shown on the no access error state view when the user is trying to access their photos informing them how to allow access */
+"label.allow-photo-access" = "Change your settings in:\n Privacy > Photos > PhotoBox";
+
+/* Label shown on the login screen - suggest that the user login if they have an account */
+"label.already-registered" = "Already have a PhotoBox account? Sign in";
+
+/* Label on creation product detail and product detail screen that suggests to the user how amazing the product prices are */
+"label.amazing-prices" = "At these amazing prices you can afford to relive all your great memories again and again.";
+
+/* Label text for the month april */
+"label.april" = "April";
+
+/* Label text abbreviation for the month april */
+"label.april-abbreviation" = "Apr";
+
+/* Label text for the month august */
+"label.august" = "August";
+
+/* Label text abbreviation for the month august */
+"label.august-abbreviation" = "Aug";
+
+/* Label shown on the register user country picker to show the country australia */
+"label.australia" = "Australia";
+
+/* Text shown on the notification in the crop studio when the user is cropping a photo that is average quality */
+"label.average-quality" = "This is currently average quality";
+
+/* Warning label shown to the user when they have an average quality image */
+"label.average-size-warning" = "This photo is average quality, but will still look good to a non-professional photographer";
+
+/* Label shown in the 3-min book studio to highlight the back cover within the page numbering */
+"label.back-cover" = "back cover";
+
+/* Label on the checkout screen that displays the number of items in the basket */
+"label.basket-item-count" = "Basket items";
+
+/* Label shown on the checkout screen to show the basket total of an order */
+"label.basket-total" = "Basket total";
+
+/* Label shown on the register user country picker to show the country belgium */
+"label.belgium" = "Belgium";
+
+/* Notification shown to the user when they try to apply borders to a print size that does not support borders */
+"label.borders-unavailable" = "Borders unavailable for this size";
+
+/* Label shown on the register user country picker to show the country canada */
+"label.canada" = "Canada";
+
+/* Label shown on the no connection error state view when the user is trying to access photos prompting them to check their internet connection  */
+"label.check-internet-connection" = "Check your connection\n and try again";
+
+/* Title label above the font picker on the creation studio screen. */
+"label.choose-font" = "Choose Font";
+
+/* Label shown on the address screen when filling out address information form for city */
+"label.city" = "City";
+
+/* Notification shown to the user when they tap the colour icon while it is disabled */
+"label.colour-unavailable" = "Colours not available for this product";
+
+/* Label on the order history view that shows orders that are complete */
+"label.complete-orders" = "Completed orders";
+
+/* Label shown to indicate that a process is completing */
+"label.completing" = "Completing";
+
+/* Shown on the dimmed screen that occurs when fetching a session */
+"label.connecting-to-photobox" = "Connecting to PhotoBox...";
+
+/* Label shown on the address screen when filling out address information form for country */
+"label.country" = "Country";
+
+/* Label shown on the register screen to create an account */
+"label.create-account" = "Join PhotoBox";
+
+/* String shown to the user on the post studio summary for Prints to highlight that price deductions (credits) are applied in the basket */
+"label.credits-applied-to-basket" = "Where applicable, any credits on your account will be shown during checkout";
+
+/* Label shown on the studio summary to show how many credits have been applied to the order */
+"label.credits-used (plural rule: few)" = "%d credits used";
+
+/* Label shown on the studio summary to show how many credits have been applied to the order */
+"label.credits-used (plural rule: many)" = "%d credits used";
+
+/* Label shown on the studio summary to show how many credits have been applied to the order */
+"label.credits-used (plural rule: one)" = "%d credit used";
+
+/* Label shown on the studio summary to show how many credits have been applied to the order */
+"label.credits-used (plural rule: other)" = "%d credits used";
+
+/* Label shown on the studio summary to show how many credits have been applied to the order */
+"label.credits-used (plural rule: two)" = "%d credits used";
+
+/* Label shown on the studio summary to show how many credits have been applied to the order */
+"label.credits-used (plural rule: zero)" = "%d credits used";
+
+/* Label shown when cropping the photos in the post studio, the interpolation key is where the numerator and denominator are shown */
+"label.cropping" = "Cropping: %@";
+
+/* Label shown on the register user country picker to show the language danish */
+"label.danish" = "Danish";
+
+/* Label text for the month december */
+"label.december" = "December";
+
+/* Label text abbreviation for the month december */
+"label.december-abbreviation" = "Dec";
+
+/* Label for delivery address shown on both the checkout screen and the order history screen  */
+"label.delivery-address" = "Delivery address";
+
+/* Label for shown on the checkout screen for showing the delivery details of an order */
+"label.delivery-details" = "Delivery details";
+
+/* Label shown on the checkout screen for showing delivery total */
+"label.delivery-total" = "Delivery total";
+
+/* Label shown on the register user country picker to show the country denmark */
+"label.denmark" = "Denmark";
+
+/* Label shown on the order history detail screen for showing the despatched date */
+"label.despatched-date" = "Despatched date";
+
+/* Label for the title of the destination album selection screen when uploading */
+"label.destination-album-title" = "Destination Album";
+
+/* Discount text for label shown on the order history details screen */
+"label.discount" = "Discount";
+
+/* Label shown on the album screen that provides information about accessing photos from Dropbox */
+"label.dropbox-connect" = "Connect to Dropbox to access your photos";
+
+/* Label album detail for Dropbox screen */
+"label.dropbox-folder-detail" = "Folder";
+
+/* Label shown on the register user country picker to show the language dutch */
+"label.dutch" = "Dutch";
+
+/* Label shown on the product details and creation product details screen that shows the price for each product */
+"label.each" = "each";
+
+/* Label shown on the product information screen that displays the price of each product. Place %@ where the price should be displayed */
+"label.each-product-price" = "%@ each";
+
+/* Label used when editing print products to show which photo is currently being edited, out of the total number of photos. */
+"label.edit-photos" = "Edit Photos %@/%@";
+
+/* Label for prompting the user to enter their email address when resetting password shown on the forgot password screen */
+"label.email-address" = "Enter your email address below and a new password will be sent to you.";
+
+/* Label on the empty basket screen to tell the user the basket is empty */
+"label.empty-basket" = "Your basket is currently empty";
+
+/* Label shown on the register user country picker to show the language english */
+"label.english" = "English";
+
+/* Label for estimated dispatch date shown on the order details screen */
+"label.estimated-despatch-date" = "Estimated Despatch Date";
+
+/* Label shown on the album screen that provides information about accessing photos from Facebook  */
+"label.facebook-connect" = "Connect to Facebook to access your photos";
+
+/* Label shown on the notification when the user has photos which have failed to load into the prints studio */
+"label.failed-to-upload" = "Failed to upload photo";
+
+/* Label to show that an image failed to upload */
+"label.failed-upload" = "Some photos failed to upload";
+
+/* From text with the price on the featured products view appearing on the Empty Basket and Checkout Success when the product is promoted as a range. %@ is placed where the price is going to be shown */
+"label.featured-product-from" = "From %@";
+
+/* Label text for the month february */
+"label.february" = "February";
+
+/* Label text abbreviation for the month february */
+"label.february-abbreviation" = "Feb";
+
+/* Label shown on the feedback screen that notifies the user that the proposed features were not able to be loaded  */
+"label.fetch-feedback-error" = "Sorry there was an error with the feedback request, please try again later.";
+
+/* Label for finish shown on the creation details, product details and order details screens */
+"label.finish" = "Finish";
+
+/* Label shown on the register user country picker to show the country finland */
+"label.finland" = "Finland";
+
+/* Label shown on the register user country picker to show the language finnish */
+"label.finnish" = "Finnish";
+
+/* Title for the button that activates the font picker on iPhone */
+"label.font" = "Font";
+
+/* Label shown on the register user country picker to show the country france */
+"label.france" = "France";
+
+/* Label for free product */
+"label.free" = "FREE !!!";
+
+/* Label shown on the register user country picker to show the language french */
+"label.french " = "French";
+
+/* Label text for friday shown in calendar studio */
+"label.friday" = "Friday";
+
+/* Label text show on the event editor which is an abbreviation of friday */
+"label.friday-abbreviation" = "F";
+
+/* From price text on the product info view and home page carousel. A %@ will be placed where the price is to be displayed */
+"label.from-price-product" = "From %@";
+
+/* Label shown in the 3-minute book studio to highlight the front cover page in the page numbering */
+"label.front-cover" = "front cover";
+
+/* Label shown on the register user country picker to show the language german */
+"label.german" = "German";
+
+/* Label shown on the register user country picker to show the country germany */
+"label.germany" = "Germany";
+
+/* Label shown on the notification when the user applies a gloss finish */
+"label.gloss-applied" = "Gloss finish applied";
+
+/* Notification shown to the user when they try to apply a gloss finish to a print size that does not support that gloss */
+"label.gloss-finish-unavailable" = "Gloss finish is unavailable for this size";
+
+/* Label shown on the album screen that provides information about accessing photos from Google */
+"label.google-connect" = "Connect to Google to access your photos";
+
+/* String shown on the Google sign in notification presenting the user with their device code */
+"label.google-signin-code" = "Your device code is: %@";
+
+/* Label for the side menu screen that welcomes the user */
+"label.hello" = "Hello";
+
+/* Label that notifies the user that the image is too small */
+"label.image-too-small" = "Image size too small";
+
+/* Label shown in the product sizes menu to show which canvas thickness is included in the cost of that size of canvas (as seen used within the MSite) */
+"label.included" = "included";
+
+/* Label shown in the 3-min book studio to highlight the inside pages in the page numbering */
+"label.inside-page" = "inside cover";
+
+/* Label shown on the album screen that provides information about accessing photos from Instagram */
+"label.instagram-connect" = "Connect to Instagram to access your photos";
+
+/* Label shown on the register user country picker to show the country ireland */
+"label.ireland" = "Ireland";
+
+/* Label shown on the register user country picker to show the language italian */
+"label.italian " = "Italian";
+
+/* Label shown on the register user country picker to show the country italy */
+"label.italy" = "Italy";
+
+/* Label detail text on the order history screen for an item */
+"label.item-detail-text" = "Item";
+
+/* Label detail text on the basket item screen that lists multiple items */
+"label.items-detail-text" = "Items";
+
+/* Label text for the month january */
+"label.january" = "January";
+
+/* Label text abbreviation for the month january */
+"label.january-abbreviation" = "Jan";
+
+/* Label text for the month july */
+"label.july" = "July";
+
+/* Label text abbreviation for the month july */
+"label.july-abbreviation" = "Jul";
+
+/* Label text for the month june */
+"label.june" = "June";
+
+/* Label text abbreviation for the month june */
+"label.june-abbreviation" = "Jun";
+
+/* Text for last updated label for all screens which have a pull down to refresh feature */
+"label.last-updated" = "Last Updated: %@";
+
+/* Label shown within the banner to demonstrate that prices do not include shipping. Primarily used within DE.
+, 
+, NOTE: Line breaks will be ignored on tablet. */
+"label.legal-compliance" = "All prices inc. VAT but exc. delivery. \nTap to view our current delivery times.";
+
+/* Label shown on screen when the user enters the photo selection stage and we have to pause to load in the necessary information */
+"label.loading" = "We're just loading the studio, shouldn't be much longer now!";
+
+/* Shown on the shop page when fetching products to display to the user */
+"label.loading-content" = "Fetching the latest prices and special offers on our exciting range of personalised cases, canvases, mugs, prints and more...";
+
+"label.login-to" = "Sign in to";
+
+/* Text shown on the notification to alert the user to the current quality level of their photo while cropping */
+"label.low-quality" = "This is currently low quality";
+
+/* Label text for the month march */
+"label.march" = "March";
+
+/* Label text abbreviation for the month march */
+"label.march-abbreviation" = "Mar";
+
+/* Label shown on the notification when the user applies a matt finish to a print product */
+"label.matt-applied" = "Matt finish applied";
+
+/* Notification shown to the user when they try to apply a matt finish to a print size that does not support matt */
+"label.matt-finish-unavailable" = "Matt finish is unavailable for this size";
+
+/* Label text to show the user that they have reached the maximum font size used on the toolbar when the user is editing the text on a calendar. This text has limited space */
+"label.max" = "Max";
+
+/* Label text for the month may */
+"label.may" = "May";
+
+/* Label text abbreviation for the month may */
+"label.may-abbreviation" = "May";
+
+/* Label text for monday shown in calendar studio */
+"label.monday" = "Monday";
+
+/* Label text show on the event editor which is an abbreviation of monday */
+"label.monday-abbreviation" = "M";
+
+/* More options section label for the side menu */
+"label.more-options" = "More Options";
+
+/* Title shown on the my orders screen */
+"label.my-orders-title" = "My Orders";
+
+/* My Photobox section label for the side menu */
+"label.my-photobox" = "My PhotoBox";
+
+/* Label on the checkout success that asks the user if they require any more products */
+"label.need-extra" = "Need anything else?";
+
+/* Label on the empty basket screen that asks the user if they need inspiration for which products to buy */
+"label.need-ideas" = "Need some ideas?";
+
+/* Label shown on the register user country picker to show the country netherlands */
+"label.netherlands" = "Netherlands";
+
+/* Label shown on the registration screen that asks if the user is new */
+"label.new-user" = "New user?";
+
+/* Label shown on the register user country picker to show the country new zealand */
+"label.new-zealand" = "New Zealand ";
+
+/* Label shown on the album screen to indicate that the user does not have any albums */
+"label.no-albums" = "No Albums";
+
+/* Label on the empty address screen saying that that the user has no contacts  */
+"label.no-contacts" = "You don't have any contacts yet.";
+
+/* Label shown on the credits screen when the user currently has no credits */
+"label.no-credits" = "You currently have no credits";
+
+/* Label shown on the no connection error state view when the user is trying to access photos but does not have an internet connection */
+"label.no-internet-connection" = "No internet connection";
+
+/* Message seen on the My Orders screen when the user has no orders to be displayed. */
+"label.no-orders" = "You have no orders on this account";
+
+/* Label shown on the album screen that is displayed if there are no photos in an album */
+"label.no-photos" = "No photos";
+
+/* Message shown on the minor alert when the user taps the quality issue while there are no quality issues on their product */
+"label.no-quality-issue" = "No quality issues";
+
+/* Label shown on the special offers screen when there are currently no special offers */
+"label.no-special-offers" = "Special Offers are coming soon";
+
+/* Label shown on the empty upload screen that is displayed if there are no uploads */
+"label.no-uploads" = "No uploads";
+
+/* Label shown on the register user country picker to show the country norway */
+"label.norway" = "Norway";
+
+/* Label shown on the register user country picker to show the language norwegian nynorsk */
+"label.norwegian-nynorsk" = "Norwegian Nynorsk";
+
+/* Message shown to the user when multiple photos fails to add to the selected product. */
+"label.not-added (plural rule: many)" = "images not added";
+
+/* Message shown to the user when a photo fails to add to the selected product. */
+"label.not-added (plural rule: one)" = "Image not added";
+
+/* Message shown to the user when multiple photos fails to add to the selected product. */
+"label.not-added (plural rule: other)" = "images not added";
+
+/* Label show on the product creation and product configuration screens. It is used to indicate that something does not apply in a particular case */
+"label.not-applicable" = "N/A";
+
+/* Label text for the month november */
+"label.november" = "November";
+
+/* Label text abbreviation for the month november */
+"label.november-abbreviation" = "Nov";
+
+/* Label text for the month october */
+"label.october" = "October";
+
+/* Label text abbreviation for the month october */
+"label.october-abbreviation" = "Oct";
+
+/* Label shown on the checkout screen that notifies the user that they can only use one offer code per order */
+"label.one-offer-code" = "Only one offer code or credit per order";
+
+/* Label shown when the photos in the post studio screen are being cropped and prepared for uploading. The interpolation key is where the numerator and denominator are shown */
+"label.optimising" = "Optimising photos: %@";
+
+/* Displayed in the Product Options menu for products which are grouped together as ranges not just sizes e.g. Home & Gifts. */
+"label.options" = "Options";
+
+/* Notification shown to the user when they change their size of prints, therefore causing the Finish and Borders to reset to the default settings. */
+"label.options-reset" = "Borders and finish have been reset";
+
+/* Notification shown to the user when they try to change the finish / border options when they are not supported */
+"label.options-unavailable" = "Options unavailable for this size";
+
+/* Text for the label that separates login and register on iPad */
+"label.or-separator" = "OR";
+
+/* Status label on the order history screen */
+"label.order-history-status-blocked" = "Blocked";
+
+/* Status label on the order history screen */
+"label.order-history-status-busy" = "Busy";
+
+/* Status label on the order history screen */
+"label.order-history-status-cancelled" = "Cancelled";
+
+/* Status label on the order history screen */
+"label.order-history-status-cooling" = "Cooling";
+
+/* Status label on the order history screen */
+"label.order-history-status-despatched" = "Despatched";
+
+/* Status label on the order history screen */
+"label.order-history-status-error" = "Error";
+
+/* Status label on the order history screen */
+"label.order-history-status-failed" = "Failed";
+
+/* Status label on the order history screen */
+"label.order-history-status-hold" = "Hold";
+
+/* Status label on the order history screen */
+"label.order-history-status-new" = "New";
+
+/* Status label on the order history screen */
+"label.order-history-status-packed" = "Packed";
+
+/* Status label on the order history screen */
+"label.order-history-status-paid" = "Paid";
+
+/* Status label on the order history screen */
+"label.order-history-status-partial" = "Partial";
+
+/* Status label on the order history screen */
+"label.order-history-status-pending" = "Pending";
+
+/* Status label on the order history screen */
+"label.order-history-status-printing" = "Printing";
+
+/* Status label on the order history screen */
+"label.order-history-status-refund" = "Refund";
+
+/* Status label on the order history screen */
+"label.order-history-status-unpaid" = "Unpaid";
+
+/* Title label shown on the customer services screen */
+"label.order-issue" = "Order Issue";
+
+/* Label on the checkout success that says the order number */
+"label.order-number" = "Your Order Number:";
+
+/* Label on the order invoice screen saying the order has been recieved */
+"label.order-recieved" = "Your order has been received. You may still cancel or amend the order if required.";
+
+/* Label text on the order detail screen to indicate to a user that the order has been cancelled */
+"label.order-status-cancelled" = "This order was cancelled. Visit the website to recreate the order.";
+
+/* Label on the order invoice screen saying the order has been despatched */
+"label.order-status-despatched" = "Your order has been despatched. Order again with us soon!";
+
+/* Label text on the order detail screen to indicate to a user that the order has been failed */
+"label.order-status-failed" = "This order was failed. Visit the website to recreate the order.";
+
+/* Label text shown on order detail screen to indicate to the user that there was an issue with this order and to contact customer services */
+"label.order-status-issue" = "This order has been partially dispatched. Remaining product(s) will be shipped shortly.";
+
+/* Label on the order invoice screen saying the order has been packed */
+"label.order-status-packed" = "Your order is currently being packaged up ready for despatch.";
+
+/* Label on the order invoice screen saying the order is in production */
+"label.order-status-production" = "Your order is in production. No changes can be made to the order.";
+
+/* Label shown on the checkout and order history screens to display the order total */
+"label.order-total" = "Order total";
+
+/* Label shown on the checkout screen that informs the user that they can pay using credit card or PayPal */
+"label.payment-method-information" = "Pay using your credit card or PayPal account";
+
+/* Label header shown on the order history screen that informs the user that an order is being processed */
+"label.pending" = "Pending";
+
+"label.phone" = "Phone";
+
+/* Label shown on the no access error state view when the user is trying to access their photos but has previously prevented the app from having access to their photos */
+"label.photo-access-denied" = "No access to photos";
+
+/* Label shown on the wrap view toggle that wraps the photo around the product */
+"label.photo-around-edges" = "Photo around edges";
+
+/* Photo count shown on the photo preview (hold to preview) to show the current photo out of the total */
+"label.photo-preview-count" = "Photo %d/%d";
+
+/* Label on the notification shown to the user when they remove a photo from their product (updated in v.3.12.0 to handle prints) */
+"label.photo-removed" = "Photo removed";
+
+/* Label on the product configuration screen that informs the selection of a photo */
+"label.photo-selection" = "Photo Selection";
+
+/* Label shown on the notification when the user has tried to add a photo whose file size is too small */
+"label.photo-too-small" = "Photo is too small to use";
+
+/* Label shown on the album screen that provides information about accessing photos from PhotoBox */
+"label.photobox-connect" = "Connect to PhotoBox to access your photos";
+
+/* Label shown on the photo browser screen that is displayed if there is no album title */
+"label.photos" = "Photos";
+
+/* Label shown on the photo tray to show the user the range of photos they can use on their selected product */
+"label.photos-range-required" = "%ld-%ld required";
+
+/* Notification shown to the user after they have 'shuffled' their photos */
+"label.photos-rearranged" = "Photos rearranged ";
+
+/* Label text for postage section shown on the order details screen */
+"label.postage" = "Postage";
+
+/* Label shown on the order details screen that displays the price of each product */
+"label.price-each" = "Price each";
+
+/* Label on the product detail screen - prices start from */
+"label.price-from" = "From";
+
+/* Label text for product section shown on the order details screen */
+"label.product" = "Product";
+
+/* Used on the product details screen in the product options menu on iPad */
+"label.product-type" = "Product Type";
+
+/* Label on the pull to refresh that implies that if the user pulls the view down the screen will refresh */
+"label.pull-to-refresh" = "Pull to refresh...";
+
+/* Label shown on the minor notification in studio when there are photos with a quality issue */
+"label.quality-warning" = "Some photos have quality issues";
+
+/* Label for quantity shown on the creation details, product details and order details screens */
+"label.quantity" = "Quantity";
+
+/* Label on the customer services screen that asks the user to contact PhotoBox, quoting the reference number provided */
+"label.quote-ref-number" = "Please contact PhotoBox quoting this reference number.";
+
+/* Label text shown on the order history screen (see screenshot) */
+"label.ref" = "ref";
+
+/* Label shown on the registration screen that tells the user they need a PhotoBox account to use the app */
+"label.register-information" = "You need a PhotoBox account to use this app.";
+
+/* Label text to suggest to the user to release to refresh for all screens which have a pull down to refresh feature */
+"label.release-to-refresh" = "Release to refresh...";
+
+/* Label shown on the photo preview when the user has tapped to remove a photo */
+"label.removed" = "Removed";
+
+/* Label shown on post-studio to alert the user to the ability to rotate to view a full 3-minute book preview */
+"label.rotate-device" = "Rotate device for full preview";
+
+/* Label text for saturday shown in calendar studio */
+"label.saturday" = "Saturday";
+
+/* Label text show on the event editor which is an abbreviation of saturday */
+"label.saturday-abbreviation" = "S";
+
+/* Label detail on the checkout screen that encourages the user to select a delivery address */
+"label.select-delivery-address" = "Select delivery address...";
+
+/* Label shown on the basket item and product creation screens that encourage the user to select a photo finish */
+"label.select-style" = "Select...";
+
+/* Label shown on the photo preview when the user has selected a photo */
+"label.selected" = "Selected";
+
+/* Label shown when there are no photos available in the tray */
+"label.selected-photos-empty-tray" = "Selected photos will appear here";
+
+/* Label text for the month september */
+"label.september" = "September";
+
+/* Label text abbreviation for the month september */
+"label.september-abbreviation" = "Sep";
+
+/* Label shown on the Prints post-studio summary to highlight how many sets of their prints the user is ordering */
+"label.sets" = "Sets";
+
+/* Main title for the share pop up options */
+"label.share" = "Share";
+
+/* Label shown on the registration screen that shows the user where to sign in */
+"label.sign-in" = "Sign in";
+
+/* Label that is on the heads up display that is shown when a user signs in */
+"label.signed-in" = "Signed in";
+
+/* Notification shown to the user when they try to change the size of a print that is not supported.  */
+"label.size-unavailable" = "No other sizes available";
+
+/* Label text that warns the user that the small image might result in a low quality print */
+"label.small-size-warning" = "The small size image you are using for this product might result in reduced print quality.";
+
+/* Label shown on the register user country picker to show the country spain */
+"label.spain" = "Spain";
+
+/* Label shown on the register user country picker to show the language spanish */
+"label.spanish" = "Spanish";
+
+/* Label for standard delivery shown on the order history screen */
+"label.standard-delivery" = "Standard Delivery";
+
+/* Label text shown on pre-studio and in calendar studio for informing the user of the current start month */
+"label.start-month" = "Start Month";
+
+/* Label shown on the basket item screen that indicates where to select a style for a photo */
+"label.style" = "Style";
+
+/* Label on the style picker view. This is a heading which has a list of styles to choose from */
+"label.styles" = "Styles";
+
+/* Label on the order history screen that shows the order total */
+"label.sub-total" = "Sub-total";
+
+/* Label text for sunday shown in calendar studio */
+"label.sunday" = "Sunday";
+
+/* Label text show on the event editor which is an abbreviation of sunday */
+"label.sunday-abbreviation" = "S";
+
+/* Label shown on the register user country picker to show the country sweden */
+"label.sweden" = "Sweden";
+
+/* Label shown on the register user country picker to show the language swedish */
+"label.swedish" = "Swedish";
+
+/* Label shown on the product configuration screen that hints to the user that they can swipe to view photos */
+"label.swipe-to-view-photos" = "Swipe to view current photos";
+
+/* Label shown on the register user country picker to show the country switzerland */
+"label.switzerland" = "Switzerland";
+
+/* Label shown in studio while an iCloud photo is being synchronised. */
+"label.synchronise-icloud" = "Synchronising iCloud photo";
+
+"label.tablet" = "Tablet";
+
+/* Label text on the product details screen which informs the user that they can tap on a photo to reveal more options */
+"label.tap-photo" = "Tap photo to reveal more options";
+
+/* Label text to encourage the user to tap to add a photo shown on the creation studio */
+"label.tap-to-add-photo" = "Tap to add a photo";
+
+/* Label shown on the preview when the user has zoomed in, indicating they can tap to close the view */
+"label.tap-to-close" = "Tap to close";
+
+/* Label shown on the photo preview when the user is able to tap to remove the photo */
+"label.tap-to-remove" = "Tap to remove";
+
+/* Label shown in the photo preview when the user is able to tap to select that photo */
+"label.tap-to-select" = "Tap to select";
+
+/* Notification shown to the user when they tap the template icon while it is disabled */
+"label.template-unavailable" = "Templates not available for this product";
+
+/* Label shown on the registration screen to accept the PhotoBox terms of use and privacy policy. This is the second part of a sentence */
+"label.terms-of-use" = "Terms of Use and Privacy policy";
+
+/* Label text on the checkout success screen that thanks the user and informs them that their order has been placed and will get a confirmation email */
+"label.thank-you" = "Thank you! Your order has been placed. You should receive a confirmation email shortly.";
+
+/* Label shown on the size menu as the header to the Thickness section for canvas products */
+"label.thickness" = "Thickness";
+
+/* Label text for thursday shown in calendar studio */
+"label.thursday" = "Thursday";
+
+/* Label text show on the event editor which is an abbreviation of thursday */
+"label.thursday-abbreviation" = "T";
+
+/* Minor alert shown to the user when they have rotated in post-studio to view a full preview of their 3-minute book */
+"label.toast-rotate-back" = "Rotate back to portrait to add to basket";
+
+/* Label text for total cost shown on the basket, product detail, creation product detail screen */
+"label.total-cost" = "Total cost";
+
+/* Label text for tracking number on the order details screen */
+"label.tracking-no" = "Tracking No";
+
+/* Label text shown on the order success screen and the empty basket screen to encourage the user to explore more popular products */
+"label.try-popular-product" = "Try one of these popular PhotoBox products...";
+
+/* Label text shown on the order success screen and the empty basket screen to encourage the user to explore more popular products */
+"label.try-popular-product-android" = "Try one of these popular PhotoBox products...";
+
+/* Label text for tuesday shown in calendar studio */
+"label.tuesday" = "Tuesday";
+
+/* Label text show on the event editor which is an abbreviation of tuesday */
+"label.tuesday-abbreviation" = "T";
+
+/* Label shown on the register user country picker to show the country united kingdom */
+"label.united-kingdom" = "United Kingdom";
+
+/* Text shown on all the pull to refresh views whilst it is in its loading state */
+"label.updating" = "Updating...";
+
+/* Label indicating that uploads are in progress after customising a product */
+"label.uploading" = "Uploading";
+
+/* Label shown to indicate uploads to PhotoBox are in progress */
+"label.uploading-to-photobox" = "Uploading to PhotoBox";
+
+/* Label indicating that an upload is in its completing stage */
+"label.uploads-completing" = "Uploads completing...";
+
+/* Placeholder text used on the credits screen for the expiry date. %@ will be replaced with a date. e.g. Valid until 4th Aug 2014 */
+"label.valid-until" = "Valid until %@";
+
+/* Caption text for the banner label when showing an offer with no offer code */
+"label.view-offer" = "Tap to view offer";
+
+/* Label at the top of the feedback screen giving the user some information about voting */
+"label.vote-information" = "Vote for a feature you would like to see in future versions of the app (up to 3 votes per day) or suggest a feature if you've got a great idea!";
+
+/* Label on the head-up display spinner letting the user know that their vote is being processed */
+"label.voting" = "Voting";
+
+/* Label shown on the product upload screen to indicate that a photo is waiting to be uploaded */
+"label.waiting-to-upload" = "Waiting to upload";
+
+/* Label text for wednesday shown in calendar studio */
+"label.wednesday" = "Wednesday";
+
+/* Label text show on the event editor which is an abbreviation of wednesday */
+"label.wednesday-abbreviation" = "W";
+
+/* Label shown on the toggle screen when the photo is wrapped around a product */
+"label.wrap-photo" = "Wrap";
+
+/* Label shown on the checkout screen to notify the user that the offer code they entered is incorrect */
+"label.wrong-offer-code" = "Oops! We can't find the offer code %@. Please check again and try again. Ref: 8121";
+
+/* Label on the home screen that informs the user of the number of active orders that they have */
+"label.you-have" = "You have";
+
+"menu-action.delete" = "Delete";
+
+"menu-action.deselect-all" = "Deselect all";
+
+/* Edit option shown on the overflow menu within the basket allowing the user to edit a product */
+"menu-action.edit" = "Edit";
+
+"menu-action.select-all" = "Select all";
+
+/* Label shown on basket menu item in the app side menu */
+"menu-button.basket" = "Basket";
+
+/* Label shown on feedback menu item in the app side menu */
+"menu-button.feedback" = "Feedback";
+
+/* Menu button text for the help screen shown in the side menu */
+"menu-button.help" = "Help";
+
+/* Label shown on home menu item in the app side menu */
+"menu-button.home" = "Home";
+
+/* Menu item used primarily in the DE SPA to give the user access to the 'Impressum' screen */
+"menu-button.imprint" = "Imprint";
+
+/* Label shown on last order date menu item in the app side menu */
+"menu-button.last-order-date" = "Last Order Dates";
+
+/* Menu button text for the my contact screen shown in the side menu */
+"menu-button.my-contacts" = "My Contacts";
+
+/* Label shown on credits menu item in the app side menu  */
+"menu-button.my-credits" = "My Credits";
+
+/* My orders menu button text shown in the side menu */
+"menu-button.my-orders" = "My Orders";
+
+/* Menu button text for the my photos screen shown in the side menu */
+"menu-button.my-photos" = "My Photos";
+
+/* Menu button text for the privacy policy screen shown in the side menu */
+"menu-button.privacy-policy" = "Privacy Policy";
+
+/* Label shown on products menu item in the app side menu */
+"menu-button.products" = "Products";
+
+/* Menu button text for the share the app button in the side menu that allows the user to share the app via email, facebook or twitter */
+"menu-button.share" = "Share the App";
+
+/* Delivery item shown within the side menu to highlight the different delivery costs. Primarily used in DE SPA. */
+"menu-button.shipping" = "Shipping";
+
+/* Label shown on shop menu item in the app side menu */
+"menu-button.shop" = "Shop";
+
+/* Button label shown on feedback menu item in the app side menu that takes the user to the sign in screen */
+"menu-button.sign-in" = "Sign In";
+
+/* Menu button text for the sign out button in the side menu that allows the user to sign out */
+"menu-button.sign-out" = "Sign Out";
+
+/* Label shown on home menu item in the app side menu  */
+"menu-button.special-offers" = "Special Offers";
+
+/* Label shown on terms and conditions menu item in the app side menu */
+"menu-button.terms-and-conditions" = "Terms & Conditions";
+
+/* Menu button text for the uploads screen shown in the side menu */
+"menu-button.uploads" = "Uploads";
+
+/* Label shown in the style picker of the Prints Studio highlighting the Borders option */
+"print-style.borders" = "Border";
+
+/* Label shown in the style picker of the Prints Studio highlighting the Finish option */
+"print-style.finish" = "Matt";
+
+/* The Privacy content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used. */
+"privacy-html.section-01-content" = "<p>We are a company registered in England and Wales (registration number 03906401) under the name PhotoboxLimited; the address of our registered office is Unit 7, Metal Box Factory, 30 Great Guildford Street,\nLondon SE1 0HS. We are registered as a data controller with the Information Commissioner’s Office (registration number Z4768023).</p>\n\n<p>Photobox is committed to respecting the privacy rights of visitors to its Site and App. This privacy policy explains how we collect, store and use personal data about you when you visit the Site or App, buy Products from us or otherwise provide your personal data to us. It provides you with details about the types of personal data that we \ncollect from you, how we use your personal data and the rights you have to control our use of your personal data. Words used in this Privacy Policy have the same meaning as is attributed to them in the Photobox Terms of Use.</p>\n\n";
+
+/* The Privacy content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used. */
+"privacy-html.section-01-title" = "Introduction";
+
+/* The Privacy content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used. */
+"privacy-html.section-02-content" = "<p>When you access and move around Photobox, register an Account with Photobox or purchase a Product from Photobox, we may collect some or all of the following personal data about you:</p>\n<ul>\n<li>a username and password;</li>\n<li>name, date of birth, age and sex;</li>\n<li>billing and delivery addresses, email address and phone number(s);</li>\n<li>Payment Method (typically credit card or debit card) details;</li>\n<li>your Images and other User Content;</li>\n<li>correspondence with and from Photobox;</li>\n<li>your preferences about receiving communications from Photobox;</li>\n<li>information about your use of Photobox, and your browsing and online purchasing activities; and details we may ask you to submit to verify your identity.</li>\n</ul>\n<p>We may also collect some of this personal data from third parties who have your consent to pass your details to us.</p>\n<p>In order to take advantage of some of our Services, you may need to supply us with the personal details of a third party (for example, their name and address if you wish to send them a Product to them as a gift). We will not use this information for anything other than providing the Services for which the information was supplied..</p>\n\n<p>We may disclose your first name and last name, to selected third parties, including but not limited to Pro-Gallery owners from whom you have purchased items. The purpose of this is so that a record may be kept by the third parties of who has purchased Products from them. It is a condition of your use of our Services that you agree to this disclosure of this data..</p>\n";
+
+/* The Privacy content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used. */
+"privacy-html.section-02-title" = "1. What personal information do we collect about you?";
+
+/* The Privacy content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used. */
+"privacy-html.section-03-content" = "<p>Your personal data will be collected, processed, stored and used by us, and passed to and processed by our subsidiary and/or affiliated companies and other data processors acting under contract with us:</p>\n<ul>\n<li>to provide Photobox to you;</li>\n<li>to tailor aspects of your experience of Photobox;</li>\n<li>to contact you to provide examples of Products bearing your Images we think might interest you;</li>\n<li>to create personalised Products selected by you;</li>\n<li>to associate your Account, and your Product purchases, with you, and to verify your identity;\nto process payments you make for Products;</li>\n<li>to provide customer support;</li>\n<li>to contact you by email and mobile communication (such as text (SMS) and “push” notification);</li>\n<li>for customer satisfaction and customer experience improvement purposes; and in connection with the prevention and detection of fraud and other crime.</li>\n</ul>\n<p>If you elect to store a Payment Method with us, that Payment Method will not in fact be stored by Photobox itself, but instead it will be stored by a payment service provider under contract with us. The storing payment service provider will be required to comply with the Payment Card Industry Data Security Standard (PCI DSS). Note that, when using a stored Payment Method to make payment for your Photobox order, certain techniques will be used to assist in maintaining the security of the details of your stored Payment Method. For example, not all of the payment card number will be visible to you (typically, all except the final four digits will be masked), and you will be required to provide certain information (such as, but not limited to, a CV2 card security number) in order to proceed with using that Payment Method.To remove or change a stored Payment Method, please follow the procedures specified on the Site or App, or contact our customer services team. </p>\n<p>We may use automatically collect anonymous information about your use of Photobox. For example, we may automatically log which parts of Photobox you access, which web browser you deploy and the website from which you linked to Photobox. You cannot be identified from any of this information. It enables us to compile statistics about the use of Photobox, and to help target aspects of Photobox and advertising to you more accurately.</p>";
+
+/* The Privacy content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used. */
+"privacy-html.section-03-title" = "2. How do we use your personal information?";
+
+/* The Privacy content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used. */
+"privacy-html.section-04-content" = "<p>We will not disclose any of your personal data, other than to subsidiary and/or affiliated companies and data processors (including payment service providers) under contract with us, without your permission unless:</p>\n<ul>\n<li>we are legally entitled to do so (for example, pursuant to a court order or for the purposes of prevention or detection of crime or fraud);</li>\n\n<li>we are in negotiations with a third party for the sale or purchase of any of Photobox’s business or assets, in which case we may disclose your personal data to the prospective seller or buyer of such business or assets;</li>\n<li>Photobox, or substantially all of its assets, is acquired by a third party, in which case personal data held by Photobox about its customers will be one of the transferred assets; or</li>\n<li>to enforce or apply our Terms of Use and other agreements to which you are party, or to protect our rights, property, safety, customers, or others.</li>\n</ul>";
+
+/* The Privacy content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used. */
+"privacy-html.section-04-title" = "3. Disclosing your personal data";
+
+/* The Privacy content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used. */
+"privacy-html.section-05-content" = "<p>\n			The emails and mobile communication (such as text (SMS) and “push” notification) we send to you fall into two categories:\n		</p>\n		<ul>\n			<li>Emails (we call them newsletters) and mobile communication (such as text (SMS) and “push” notification) (we call them messaging alerts) which provide you with information about offers, new Products and other things that we think may interest you or PhotoBox customers generally. You can notify us of your preferences concerning our newsletters here: <a href=\"http://www.photobox.co.uk/my/account/newsletters/\">http://www.photobox.co.uk/my/account/newsletters</a> and you can opt out of receiving text (SMS) messaging alerts at any time by texting STOP to the number which appears in the relevant text (SMS) messaging alert, and prevent receipt of “push” notification messaging alerts by turning off the push function on your mobile device.\n			</li>\n			<li>The emails and messaging alerts that we send concerning activity on your Photobox Account (“Service Messages”), specifically:\n			</li>\n			<li>\n				<ul>\n					<li>To remind you of free PhotoBox credits that may be in your account\n					</li>\n					<li>To remind you of unordered items in your online basket\n					</li>\n					<li>To remind you of Product creations that you have abandoned\n					</li>\n					<li>To explain how PhotoBox credits that you have purchased work\n					</li>\n					<li>To remind you to use PhotoBox credits before they expire\n					</li>\n					<li>Surveys to capture your feedback on orders you have placed with PhotoBox\n					</li>\n					<li>Surveys to capture your feedback on contact with our customer service team\n					</li>\n					<li>To inform you of last Product order dates for seasonal events such as Christmas, Valentine’s day, Mother’s Day and Father’s day\n					</li>\n					<li>To remind you that you have an Account\n					</li>\n				</ul>\n			</li>\n			<li>Should you wish to, you can opt out of receiving the above Service Messages here: http://photobox-en.custhelp.com/app/ask.<a href=\"http://photobox-en.custhelp.com/app/home\">http://photobox-en.custhelp.com/app/home</a>\n			</li>\n		</ul>\n		<p>\n			Should you wish to, you can opt out of receiving our service emails here: http://photobox-en.custhelp.com/app/ask.<a href=\"http://photobox-en.custhelp.com/app/home\">http://photobox-en.custhelp.com/app/home</a>\n		</p>\n		<p>\n			While we do our best to act on your preferences as soon as we reasonably can, please be aware that it may take up to 14 days for changes to your preferences concerning Service Messages to take effect.\n		</p>\n		<p>\n			Please note that (a) emails that we need to send you relating directly to your orders and purchases from PhotoBox (such as order and dispatch confirmation emails), and (b) emails which notify you of changes to our Terms of Use, or to policies we apply under our Terms of Use, are unaffected by your preferences for newsletters and Service Messages; you cannot opt-out of receiving these emails.\n		</p>";
+
+/* The Privacy content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used. */
+"privacy-html.section-05-title" = "4. Email and Text preferences";
+
+/* The Privacy content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used. */
+"privacy-html.section-06-content" = "		<p>\n			Information about our use of cookies\n		</p>\n		<p>\n			Our Site and App uses cookies to distinguish you from other users of the Site and App. This helps us to provide you with a good experience when you browse, and also allows us to improve, the Site and App. By visiting or using the Site and App with your browser and/or device set to allow cookies, you are consenting to our use of cookies for the purposes set out below.\n		</p>\n		<p>\n			A cookie is a small file of letters and numbers that we store on your browser or in the hard drive of your device. Cookies contain information that is transferred to your device's hard drive.\n		</p>\n		<p>\n			To make full use of our Site and App and to benefit from certain personalised features, your computer, tablet, mobile phone or other device will need to be set up to accept cookies. The Site and App (like many other interactive shopping services) will not work when cookies are blocked. The list below details the cookies used on our Site and App. We have outlined who sets these cookies and their purpose.\n		</p>\n		<p>\n			Information about our use of cookies\n		</p>\n		<p>\n			Our website uses cookies to distinguish you from other users of our website. This helps us to provide you with a good experience when you browse our website and also allows us to improve our site. By visiting or using this site with your browser set to allow cookies, you are consenting to our use of cookies for the purposes set out below.\n		</p>\n		<p>\n			A cookie is a small file of letters and numbers that we store on your browser or the hard drive of your computer. Cookies contain information that is transferred to your computer's hard drive.\n		</p>\n		<p>\n			To make full use of Photobox.co.uk and to benefit from certain personalised features, your computer, tablet or mobile phone will need to be set up to accept cookies. The PhotoBox.co.uk website (like many other shopping websites) will not work when cookies are blocked. The list below details the cookies used on Photobox.co.uk. We have outlined who sets these cookies and their purpose.\n		</p>\n		<p>\n			Managing Cookies\n		</p>\n		<p>\n			You can block cookies by activating the setting on your browser that allows you to refuse the setting of all or some cookies. However, if you use your browser settings to block all cookies (including essential cookies) you may not be able to access all or parts of our site. Here’s how to do it:\n		</p>\n		<ul>\n			<li>Google Chrome<br>\n				<ul>\n					<li>In the settings menu, select 'show advanced settings' at the bottom of the page.\n					</li>\n					<li>Select the 'content settings' button in the privacy section.\n					</li>\n					<li>The top section of the page that then appears tells you about cookies and allows you to set the cookies you want. It also allows you to clear any cookies currently stored.\n					</li>\n				</ul>\n			</li>\n			<li>Mozilla Firefox\n			</li>\n			<li style=\"list-style: none\">\n				<ul>\n					<li>In the tools menu, select 'options' (MAC users, go to the Firefox menu &amp; select ‘preferences’)\n					</li>\n					<li>Select the privacy tab in the options box.\n					</li>\n					<li>From the dropdown choose, 'use custom settings for history'. This will bring up the options for cookies and you can choose to enable or disable them by clicking the tickbox.\n					</li>\n				</ul>\n			</li>\n			<li>Internet Explorer 6+\n			</li>\n			<li style=\"list-style: none\">\n				<ul>\n					<li>In the tools menu, select 'Internet options'\n					</li>\n					<li>Click the privacy tab.\n					</li>\n					<li>You will see a privacy settings slider which has six settings that allow you to control the number of cookies that will be placed: Block All Cookies, High, Medium High, Medium (default level), Low, and Accept All Cookies.\n					</li>\n				</ul>\n			</li>\n			<li>Safari browser\n			</li>\n			<li style=\"list-style: none\">\n				<ul>\n					<li>In the settings menu / Safari menu, select the 'preferences' option.\n					</li>\n					<li>Open the privacy tab.\n					</li>\n					<li>Select the option you want from the 'block cookies' section.\n					</li>\n				</ul>\n			</li>\n			<li>All other browsers\n			</li>\n			<li style=\"list-style: none\">\n				<li> \n				<ul>\n					<li>For information on how to manage cookies via other browsers, please consult your documentation or online help files.\n					</li>\n				</ul>\n			</li>\n		</ul>\n		<p>\n			What happens if I disable cookies?\n		</p>\n		<p>\n			This depends on which cookies you disable, but in general our Site will not operate properly if cookies are off. In particular, note that you may be prevented from making purchases of Products if cookies are disabled.\n		</p>";
+
+/* The Privacy content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used. */
+"privacy-html.section-06-title" = "5. Cookies";
+
+/* The Privacy content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used. */
+"privacy-html.section-07-content" = "<p>We may transfer personal data that we collect from you to third party data processors located in countries that are outside of the European Economic Area (EEA) and to other Photobox group companies in connection with the above purposes. Please be aware that countries outside the EEA may not offer the same level of data protection as the United Kingdom; however, we always require that third party data processors deal with your personal data in accordance with this privacy policy.</p>";
+
+/* The Privacy content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used. */
+"privacy-html.section-07-title" = "6. International transfers";
+
+/* The Privacy content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used. */
+"privacy-html.section-08-content" = "<p>The Data Protection Act 1998 gives you the right to access personal data held about you. Your right of access can be exercised in accordance with that Act. Any access request may be subject to a fee of £10 to meet our costs in providing you with details of the personal information we hold about you. </p>";
+
+/* The Privacy content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used. */
+"privacy-html.section-08-title" = "7. Access to Information";
+
+/* The Privacy content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used. */
+"privacy-html.section-09-content" = "<p>Our Site may, from time to time, contain links to the websites of third parties. If you follow a link to any of these websites, please note that these websites have their own privacy policies and that we do not accept any responsibility or liability for those websites or their policies.</p>";
+
+/* The Privacy content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used. */
+"privacy-html.section-09-title" = "8. Links to third party sites";
+
+/* The Privacy content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used. */
+"privacy-html.section-10-content" = "<p>We take appropriate technical and organisational measures to guard against unauthorised or unlawful processing of your personal data and against accidental loss or destruction of, or damage to, your personal data. While no computer system is completely secure, we believe the measures implemented by our site reduce the likelihood of security problems to a level appropriate to the type of data involved.</p>\n<p>We have security measures in place to protect our database of Users and access to this database is restricted internally. However, note that it remains each User's responsibility:</p>\n<ul>\n<li>to ensure no-one else uses Photobox through his/her Account;</li>\n<li>to log off or exit from your Photobox Account when not using it; and</li>\n<li>to keep his/her password or other access information secret.</li>\n</ul>\n";
+
+/* The Privacy content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used. */
+"privacy-html.section-10-title" = "9. Security";
+
+/* The Privacy content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used. */
+"privacy-html.section-11-content" = "<p>We will never ask you to confirm the details of your Account or Payment Method by email or mobile communication. If you receive such contact, please do not respond to it.</p>";
+
+/* The Privacy content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used. */
+"privacy-html.section-11-title" = "10. Deceptive emails";
+
+/* The Privacy content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used. */
+"privacy-html.section-12-content" = "<p>If you would like to contact us about any aspect of this Privacy Policy click <a href=“http://www.photobox.co.uk/mobile/contactus/“>here</a></p>";
+
+/* The Privacy content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used. */
+"privacy-html.section-12-title" = "11. Contact us";
+
+/* Product format option */
+"product-format.enlargement" = "Enlargement";
+
+/* Product format option */
+"product-format.panoramic" = "Panoramic";
+
+/* Product format option */
+"product-format.square" = "Square";
+
+/* Product format option */
+"product-format.standard" = "Standard";
+
+/* Title of the Classic thickness (3.6mm) shown on the size menu within the product's details */
+"product-thickness.classic" = "Classic (3.8cm)";
+
+/* Title of the Lite thickness (1.8mm) shown on the size menu within the product's details */
+"product-thickness.lite" = "Lite (1.8cm)";
+
+/* Title of the Premium thickness (4.7mm) shown on the size menu within the product's details */
+"product-thickness.premium" = "Premium (4.7cm)";
+
+/* Table section title on the product details screen */
+"product_details.format" = "Format";
+
+/* Table section title on the product details screen */
+"product_details.size" = "Size";
+
+/* The Shipping content is presented as a webview within the SPA, broken into several sections. */
+"shipping-html.section-01-content" = "  <p>\n    All prices on our site include VAT. and exclude shipping.\n  </p>";
+
+/* The Shipping content is presented as a webview within the SPA, broken into several sections. */
+"shipping-html.section-01-title" = "  <p>\n    Product Prices\n  </p>";
+
+/* The Shipping content is presented as a webview within the SPA, broken into several sections. */
+"shipping-html.section-02-content" = "<p>\n    Our shipping fee includes the professional packaging, transport costs, transport insurance, and a service fee. Within some product groups is an extra charge when ordering multiple items. When ordering different products and formats, the shipping costs of the individual products are added. Once we have completed a product in the order, it is sent to the post. So you may not get all the items on the order at the same time, because we want your item to arrive as quickly as possible. Once your order leaves our factory, you will receive a shipment notification email with the expected date of delivery.\n  </p>\n  <p>\n    The average length of standard shipping is 3-5 working days (excl. Sundays and public holidays). In individual cases, there can be delays due to weather circumstances or seasonal events.\n  </p>\n   <p>\n     Please note: We offer currently no deliveries to packing stations at. Orders with addresses of packing stations can not be edited!\n  </p>";
+
+/* The Shipping content is presented as a webview within the SPA, broken into several sections. */
+"shipping-html.section-02-title" = "<p>\n    Shipping and Delivery\n  </p>";
+
+/* The Shipping content is presented as a webview within the SPA, broken into several sections. */
+"shipping-html.section-03-content" = "<p>\nFor delivery by express delivery with DHL Express we charge an additional 8 € per order. An express delivery is only possible via DHL Express. Express shipping is only available for delivery addresses within Germany. \n</p>\n<p>\nThe Express Shipping requires 24-48 hours in addition to the processing time of your order. Once your product has left our factory, you will get a number you can use to track your order at the latest of 19.00 the next day online. Saturdays, Sundays and at regional / federal German holidays packages will not be delivered by Express Shipping.\n</p>";
+
+/* The Shipping content is presented as a webview within the SPA, broken into several sections. */
+"shipping-html.section-03-title" = "<p>\nExpress Delivery\n</p>";
+
+/* The Shipping content is presented as a webview within the SPA, broken into several sections. */
+"shipping-html.section-04-content" = "<p>\nOn the dispatch of supplies to other European and international countries, a surcharge will be applied in addition to the regular shipping cost.\n</p>\n<p>\nFor deliveries outside of Germany the following should be noted: due to customs regulations, and longer shipping routes to foreign countries the delivery times may also be extended to the regular shipping times by up to 10 days.\n</p>";
+
+/* The Shipping content is presented as a webview within the SPA, broken into several sections. */
+"shipping-html.section-04-title" = "<p>\nDelivery abroad\n</p>\n";
+
+/* The Shipping content is presented as a webview within the SPA, broken into several sections. */
+"shipping-html.section-05-content" = "<p>\nWe produce your products only on weekdays (excl. Sundays and public holidays). The production times listed are excl. Delivery times, according to the delivery method you have chosen.\n</p>";
+
+/* The Shipping content is presented as a webview within the SPA, broken into several sections. */
+"shipping-html.section-05-title" = "<p>\nProduction time\n</p>";
+
+/* Tab button for dropbox shown in image sources screen and from the more button */
+"tab-button.dropbox" = "Dropbox";
+
+/* Tab button for switching the the Facebook screen */
+"tab-button.facebook" = "Facebook";
+
+/* Tab button for google shown in image sources screen and from the more button */
+"tab-button.google" = "Google +";
+
+/* Tab button for instagram shown in image sources screen and from the more button */
+"tab-button.instagram" = "Instagram";
+
+/* Tab button text shown on image sources when on photobox images for my albums */
+"tab-button.my-albums" = "My Albums";
+
+/* Tab button for PhotoBox shown on the albums screen that enables the user to switch to PhotoBox images */
+"tab-button.photobox" = "PhotoBox";
+
+/* Tab button for shared shown on the albums screen that enables the user to switch to shared images */
+"tab-button.shared" = "Shared";
+
+/* Tab button shown on the album screen to enable the user to switch to the shared albums */
+"tab-button.shared-albums" = "Shared albums";
+
+/* Table view header on the credits screen */
+"table-header-title.current-credits" = "Current Credits";
+
+/* Table view header on the product options screen for the produts finish */
+"table-header-title.finish" = "Finish";
+
+/* Table view header used post-studio for an additional product option, e.g. Hanging Kit */
+"table-header-title.options" = "Options";
+
+/* Table view header on the product options screen for the produts finish */
+"table-header-title.size" = "Size";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-01-content" = "<p>These Terms set out your rights and obligations, and those of PhotoBox Limited (\"we\" or \"us\"), in relation to www.photobox.co.uk (the \"Site\"), any PhotoBox application that you access (the \"App\") and any goods or services available through, and material of any kind accessible or relating to, the Site, the App or us (the “Services”).  When we refer to \"PhotoBox\" in these Terms, we mean us, the Site, the App and/or the Services, according to the context.\n</p>\n<p>You must take the time to read and understand these Terms before PhotoBox. By registering with PhotoBox, you accept that you are entering into a contract with us under these Terms. People who register for PhotoBox establish an \"Account\", and become \"Users\". Visitors to PhotoBox who do not become Users, but who nevertheless use the Site and/or download the App, affirm that they are bound by these Terms each time they access PhotoBox. You should be aware that these Terms may change from time to time in accordance with Clause 20 below.</p>";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-01-title" = "Introduction";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-02-content" = "<p> If we ask you to provide some information about yourself when you register for PhotoBox, you must ensure that this information is accurate and current. You may keep this information updated through your Account.</p>\n<p> Note that we are entitled to treat anything done through a User's Account, or by means of an email address, phone number or other communications method associated with that Account, as having been done by the User; it is up to the User to maintain the security of his/her Account.</p>\n<p> When you place an order for a Product, you will need to supply us with details of a payment method, such as a credit or debit card, which we accept at the time of your order (your “Payment Method”) and other personal details so that we may process the order for you.  In the event that you supply or attempt to use an invalid Payment Method an order made using that Payment Method will fail.  If we suspect that your Payment Method belongs to someone else or is one which you are not entitled to use, we reserve the right to suspend or terminate your Account at any time. </p>\n<p> The same person may not register more than one Account.  We reserve the right to suspend or terminate any Account which we reasonably suspect of infringing this requirement.</p>\n<p>Important: You must ensure that the email address we hold for you is kept up-to-date and that you have full access to it – we will be sending you important messages there. So if you change email address, then you must change it on your Account.  Should you provide an invalid email address or an email address that belongs to someone else, PhotoBox may terminate your Account at any time without notice.</p>\n<p>You should not register as a User if you are under 13 years of age.</p>";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-02-title" = "Obtaining an Account";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-03-content" = "<p>PhotoBox provides Users with the facility to upload and store digital photographic images (each an “Image”), and to access those Images through the User’s Account.  All Images must meet our Image specifications, which may be changed by us from time to time.</p>\n<p>For further guidance and information on uploading Images please visit our <a href=\"http://photobox-en.custhelp.com/app/answers/list/c/2225\">FAQs</a>.</p>\n<p>PhotoBox also offers Users the ability to order:</p>\n<ul>\n<li>prints of their Images;</li>\n<li>personalised products and services which bear Users’ Images on or within them;</li>\n<li>other, non-personalised, products and services,</li>\n</ul>\n<p>and we refer to those prints, products and services as our “Products”.</p>\n<p>As PhotoBox evolves and changes over time, we may add Products or remove Products from our Services.  Clause 6 contains the terms of purchase for Products.</p>\n<p>It is the responsibility of Users to have sufficient web, app and device usage skills to make use of our Services.</p>\n<p>Although we incur cost in providing you with the facility to store and access your Images and other User Content with PhotoBox (your “Image Storage”), we don’t charge you for Image Storage.  However, we reserve the right to introduce a policy under which we may withdraw your Image Storage if (a) you have not purchased a personalised Product from us through your Account at least once in any given twelve month period, (b) we have notified you by email of the fact, and of our intention to withdraw your Image Storage unless you purchase a personalised Product, and (c) you have not purchased a personalised Product from us within 30 days of that emailed notification.  We will notify Users by email if and when we are to commence enforcing this policy.</p>\n";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-03-title" = "The Essentials of PhotoBox";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-04-content" = "<p>PhotoBox allows you to access your Images through your Account.  However, please note that:</p>\n<ul>\n<li>We provide Image Storage at no cost principally in order to facilitate Users’ creation and purchase of personalised Products bearing their Images</li>\n<li>Accordingly, we do not intend or invite Users to store their Images other than for those purposes </li>\n<li>We do not currently apply a fixed limit to the volume of Images which may be uploaded provided you comply with our reasonable fair use requirements</li>\n<li>Those fair use requirements would be breached by, for example:</li>\n<li><ul>\n <li>The automated or scripted uploading of Images or other User Content;</li>\n <li>The uploading of Images or other User Content on a high-frequency basis; or</li>\n <li>The inclusion of very large volumes of Images or other User Content in an individual album</li>\n</ul></li>\n<li>Should you breach our fair use requirements, we may suspend your Account, cease to provide you with Image Storage and/or delete your Images and other User Content from our systems</li>\n<li>We are entitled to introduce a policy for the removal of your Image Storage if you do not make limited purchases of personalised Products from us (see Clause 3 for details of this policy)</li>\n<li>In the course of storing your Images, we reserve the right to apply various techniques to make generally accepted improvements to the quality of the Image, such as by:</li>\n<li><ul>\n <li>Removal of “red-eye”;</li>\n <li> Brightness enhancement; and</li>\n <li>Detail enhancement</li>\n</ul></li>\n<li>We also reserve the right to make changes to Images which are intended to improve their storability, including:</li>\n<li><ul>\n <li> Compression;</li>\n <li>Size reduction and downscaling; and</li>\n <li>Format conversion,</li>\n</ul></li>\n</ul>\n<p>We strive to retain Images that are of sufficient quality for inclusion in personalised Products, but some loss and modification of detail may be apparent under close examination;</p>\n<ul>\n<li>We use reasonable commercial endeavours in our provision of Image Storage, but do not provide any guarantees as to the availability, speed of access to or reliability of the storage we provide;</li>\n<li>Images and other User Content may be deleted from your Account in various circumstances, as stated elsewhere in these Terms (including Clause 8);</li>\n<li>Our policies concerning the storage of Images and User Content may change from time to time;</li>\n<li>If an Image does not meet our specifications you may not be able to upload it and/or you may find that it is not possible to use that Image in conjunction with some or all of our Products;</li>\n<li>We have rules about User Content, and these apply to the content of Images (see Clause 5 below) (“Content Rules”); if you breach our Content Rules, we may – amongst other things – terminate your Account.  And if your Account is terminated, we  may delete all Images associated with that Account, so that they will no longer be accessible; and</li>\n<li>If we are notified of a claim or allegation that an Image breaches our Content Rules, we may prevent that Image being accessible through PhotoBox or being used in connection with Products.</li>\n</ul>\n<p> Note that we may send you emails which include your Images, or to create examples of personalised Products which may be of interest to you: by uploading Images, you consent to us doing these things with those Images.</p>\n<p>PhotoBox allows you to share your Images with others (your \"Guests\") by allowing them to have access to your Images.  This sharing can be effected by means we make available from time to time, such as by email to Guests, by sharing on the web or through social media.  By sharing Images with Guests:</p>\n<ul>\n<li> you undertake that you have those Guests’ consent to the sharing of your Images with them;</li>\n<li>you agree that doing so will not result in an infringement or perceived infringement of our Content Rules; and</li>\n<li>you acknowledge and agree that Guests – and others with whom they may share the Images – may:</li>\n<li><ul>\n <li>purchase Products which include those Images;</li>\n <li>submit comments about the Images; and</li>\n <li>notify us if Images infringe our Content Rules.</li>\n</ul></li>\n</ul>\n<p> We are not responsible for the acts or omissions of Guests. </p>\n\n<p>You must not share or allow access to any of your Images in return for payment or for any other commercial purpose.</p>\n\n<p>If you delete Images from your Account, we will promptly remove the Images from the “album” view in your Account, but the Images will not be completely erased from our systems; “deep” links which lead directly to the relevant Images may continue to provide access to those Images.  Initially we will apply a grace period of at least one month before completely erasing deleted Images from our systems: this grace period is applied in case we are requested by you to recover the Images or if we are asked by a relevant third party to recover them. Once the grace period is ended, we will check if the Images are in use on our systems, as part of a personalised Product or in some other way.  If the Images are in use, we will send you an email explaining that the Images are in use and how you can release them to allow them to be erased from our systems. For more information on our Image deletion policies and practices, please contact our customer services team.</p>\n\n<p>You are advised to keep back-ups of all of your User Content, including backup copies of Images.  We do not undertake or guarantee to keep your Images and other User Content indefinitely, and we will not be responsible for the loss of, deletion or corruption of Images or any User Content.  We do not keep back-up copies of Images and other User Content; we have no liability to you or any User if Images or other User Content become lost or corrupted as a result of any cause (including human error, software or hardware failure, failures of telecommunications or internet services, or events beyond our control).</p>\n\n<p>If we actively decide that we are to cease hosting Images or other User Content, we will give you reasonable advance notice (of at least three months’ duration) to permit you to make alternative arrangements. </p>\n";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-04-title" = "Your images";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-05-content" = "<p> Images and other material (including textual annotations to and comments on Images) uploaded, posted, contributed, distributed, communicated, transmitted or linked-to by a User on, through or in connection with PhotoBox are treated as \"User Content\" for the purposes of these Terms.</p>\n\n<p>Users must have the right to deal with their User Content in the manner provided by our Services.  You must not upload User Content, or otherwise deal with User Content through PhotoBox, if you do not have the right to do so.</p>\n\n<p>Each User shall ensure that his/her User Content does not:</p>\n<ul>\n<li>infringe anyone’s copyright; in particular, you must ensure that you either own the copyright in an Image that you upload to PhotoBox or that you are fully licensed by the copyright owner to upload the Image and to make any subsequent use of it (such as by including the Image in a personalised Product);</li>\n<li>infringe any other rights, such as a trade mark, of any person or entity or a duty owed to any person or entity, such as a duty of confidentiality;</li>\n<li>contravene any applicable law (including, without limitation, any criminal law) or regulation;</li>\n<li>include anything that is false, inaccurate, misleading, offensive, abusive, threatening or defamatory, or that might cause needless annoyance, inconvenience or distress to any person;</li>\n<li>contain any computer virus, macro virus, Trojan horse, worm, or anything else designed to interfere with, interrupt, or disrupt the normal operating procedures of a computer or to surreptitiously intercept, access without authority, or expropriate any system, data or personal information; </li>\n<li>misrepresent the User's identity in any way or impersonate any person;</li>\n<li>include any material containing personally identifying information about another person, such as their real name, address, phone number, or email address, except with the written approval of that person; </li>\n<li>contain material which is pornographic, obscene, indecent or offensive, which promotes discrimination based on race, sex, religion, nationality, disability, sexual orientation or age, or that may incite hatred or violence against any person or group;</li>\n<li>harass, upset, embarrass, alarm or annoy any person;</li>\n<li>give the impression that it emanates from us, if this is not the case;</li>\n<li>advocate, promote or assist any unlawful act such as (by way of example only) copyright infringement or computer misuse; or</li>\n<li>infringe our fair use requirements (see Clause 4 above) or otherwise interfere with the proper working of PhotoBox. </li>\n</ul>\n<p>The above are our Content Rules.</p>\n\n<p>Although we prohibit the uploading of Images and other User Content which infringes our Content Rules, we cannot control and do not monitor or pre-screen the use of our Site and App.  It is possible that Images or other User Content may be accessible through our Site and App which contravenes our Content Rules.  We are not responsible for such Images or User Content, but if you become aware of any such Images or User Content on our Site or App please contact us <a href=\"http://photobox-en.custhelp.com/app/ask\">here</a>. </p>\n\n<p>We may without notice delete any Image or other User Content which appears to breach our Content Rules, or prevent any use of Services (including purchase of Products) which includes any such Image or User Content.</p>\n";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-05-title" = "User Content and Content Rules";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-06-content" = "<p> A contract between a User and PhotoBox for the purchase of a Product is created as follows:</p>\n<ul>\n<li>The User places the order for a Product on the Site or App by pressing an order confirmation button at the end of the checkout process: if the Product in question includes an Image or other User Content selected by the User it is a “personalised Product”; if it is a standard Product which does not include any Image or User Content it is a “non-personalised Product”</li>\n<li>By confirming your order, you are agreeing to purchase the Product you have selected</li>\n<li>At this point, we take payment for your order by means of your nominated Payment Method.</li>\n<li>We will send to you a “Thanks for your order” email detailing your order for the Product, and other information we must provide to you.</li>\n<li>When the Product you have ordered is shipped to you, we will send you a “dispatch” email</li>\n</ul>\n<p>Note that PhotoBox may reject an order in certain circumstances, namely:</p>\n<ul>\n<li>Your order breaching the requirements of these Terms;</li>\n<li>The use of Images which infringe the Content Rules;</li>\n<li>The use of Images which are corrupted, unsupported technically or inadequately pixelated;</li>\n<li>The Product you order being unavailable;</li>\n<li>Our inability to obtain authorisation for your payment; or</li>\n<li>A relevant pricing or Product description error being identified.</li></ul>\n<p>If your order is rejected, we will contact you to confirm this and reverse the payment you have made for that order.</p>\n\n<p>You have the right to cancel your contract for the purchase of a non-personalised Product, provided you notify us of the cancellation no longer than 14 days after the day following the day on which the Product is delivered.  You must return the unused non-personalised Product to us within 14 days of notifying us of the cancellation, and must pay the cost of returning the Product to our nominated address.  We will refund the purchase price you have paid for the Product and its standard delivery charges (but not any expedited, tracked or other special delivery charges you may have chosen to pay) within 14 days of its return.  However, if the value of the Product has been reduced by any handling of it beyond what is necessary to check whether the Product is as expected, we may deduct an amount to reflect that reduction in value from the sum we refund to you. Please follow any returns procedure for non-personalised Products which we specify from time to time.</p>\n\n<p>Please note that the right to cancel a contract and return Products does not apply to any personalised Products – although you do have the right to reject any Product which is faulty or not as described in our specifications.  However, for orders of personalised Products made from the Site (but not through the App) we generally allow a 30 minute period during which you can amend your order.  That 30 minutes runs from the appearance of the “Thank you for your order” screen on the Site at the end of the order process; if you wish to avail of this, you must click on the “Amend my order” button on that screen and complete the amendment process within the 30 minute period.</p>\n";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-06-title" = "Terms of purchase for Products";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-07-content" = "<p>You must ensure that you comply with the laws that apply to you and your use of PhotoBox, including as to User Content, the Images that may be viewed and the Products that may be bought through PhotoBox. That use may be prohibited or restricted in various jurisdictions.</p>";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-07-title" = "International use of PhotoBox";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-08-content" = "<p>You may choose to cancel your Account at any time <a href=\"http://www.photobox.co.uk/my/account/close \">here</a></p>\n<p>You may be asked to provide further proof that you are the holder of the Account. </p>\n\n<p>Further, we are entitled to lapse an Account if its User has not logged in to the Account for two years or more. </p>\n\n<p>If your Account is terminated because you have breached this Agreement (including a breach of our Content Rules), we may prohibit you from establishing another Account.</p>\n\n<p>Where an Account is cancelled, lapses or is terminated, we are entitled to close the Account and entitled (but not obliged) to delete all Images and other User Content associated with that Account.  You will nevertheless remain responsible for performing your obligations under these Terms, and the rights granted to us under these Terms (including in Clause 9) shall not be terminated as a result.</p>\n";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-08-title" = "Closure of Accounts";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-09-content" = "<p>By uploading, posting, contributing, distributing, communicating or transmitting User Content (including Images), a User expressly grants to us a non-exclusive, royalty-free, irrevocable licence (including the right to grant sub-licences through multiple tiers) to use, reproduce, adapt, distribute and communicate to the public that User Content (a) worldwide through PhotoBox and any other interactive services through which PhotoBox (or a service based on PhotoBox) is accessible, and (b) too perform obligations and exercise rights under these Terms. For the avoidance of doubt, the licence under this Clause 9 will survive any termination of these Terms or any cancellation, suspension or lapse of the relevant Account. Note that we may modify User Content in order to conform it to PhotoBox or the requirements of a Product (such as by cropping Images).</p>\n\n<p> You acknowledge that all copyright, trade marks, and other intellectual property rights in and relating to PhotoBox (including, without limitation, User Content associated Users other than you) are owned by, or licensed to, us. You may use and access PhotoBox and that User Content only to the extent required for the use of the Services in accordance with these Terms, and for the purpose that we make them available.</p>\n\n<p>No-one may copy, distribute, show in public or create any derivative work from PhotoBox, or any of the material which is found on PhotoBox unless properly licensed to do so by us.  You are not allowed to use PhotoBox (or to copy or use any material found on PhotoBox) for any commercial purpose other than to conduct the purchase of a Product from PhotoBox.</p>\n\n<p> You are not allowed to remove any copyright, trade mark or other intellectual property notices contained in material taken from PhotoBox. </p>\n\n<p>No-one may use any robot, spider, scraper or other automated means to access PhotoBox for any purpose without our prior express written permission.</p>\n";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-09-title" = "Intellectual Property";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-10-content" = "<p>Our Privacy Policy governs all users of PhotoBox. By using or accessing PhotoBox, you give your consent to the content of that policy. If you do not wish your personal data to be handled in that way, then you must not use PhotoBox.</p>\n\n<p>Users shall not use the Services in connection with the sending of any unsolicited messages, or to harvest or otherwise collect information about Users, including email addresses, without their express consent. No User shall use any information regarding other Users that is accessible through the Services except as expressly permitted by these Terms.</p>\n";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-10-title" = "Privacy";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-11-content" = "<p>To the extent that the law permits, you release PhotoBox, its agents, directors, officers, shareholders and employees from all liability arising out of or in connection with any Images or other User Content.</p>\n\n<p>You must not assume that accessing, the import or export, or the advertising, offering, purchase or sale, of any Image, User Content or Product complies with applicable law or regulation by reason of it appearing on PhotoBox.   We do not have any responsibility or liability for the deletion of, or any failure to store or deliver, Images or User Content.</p>\n\n<p>PhotoBox may contain links to or advertisements for other sites, services or products (\"Third Party Promotions\").  Third Party Promotions may contain materials which you find offensive, objectionable, unlawful or inaccurate.  The sites or other destinations to which Third Party Promotions lead are governed by their own terms of use and privacy policies which will differ from these Terms. The inclusion of links to Third Party Promotions does not indicate that we endorse them and we are not responsible for examining or evaluating the content of such sites or destinations or goods or services available through them.</p>\n";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-11-title" = "Our Role";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-12-content" = "<p>We reserve the right at any time and without notice (a) to suspend or terminate your ability to access PhotoBox, (b) your use of all of part of the Services, (c) to remove from access via PhotoBox any User Content associated with a User or his/her Account, (d) to warn Users and other users of PhotoBox against interacting with a particular User, and/or (e) to take technical and legal steps to stop any Users from using PhotoBox if they appear to us to be in breach of any provision of these Terms. Should we do so, you acknowledge that we shall not incur any liability to you or to any other person.</p>\n\n<p>In addition, we are entitled to suspend provision of all or part the Services, or the availability of User Content associated with any User, at any time if we are obliged or advised to comply with an order, instruction or request of any limb of government, or any regulator, court or other competent authority.</p>\n";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-12-title" = "Suspension";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-13-content" = "<p>If anyone contacts us in relation to User Content or a transaction associated with you, then you agree:</p>\n<ul>\n<li>to provide all reasonable information and assistance we may require in connection with responding to that contact; and</li>\n<li>to respond promptly and accurately to it, should we pass the message to you for a response.</li>\n</ul>";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-13-title" = "Contact from third parties";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-14-content" = "<p> We, our affiliates or third parties with which we contract may offer new, updated or additional services through PhotoBox from time to time. Your use of those services will be governed by these Terms but may also be subject to additional terms of use, which you must comply with. Provided that those terms are notified to you on PhotoBox in an appropriate manner (as determined by us in our reasonable discretion) when you agree to take those services, any failure by you to comply with a material provision of the terms governing those services will amount to a breach of these Terms.</p>";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-14-title" = "Additional services";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-15-content" = "<p>We reserve the right to withdraw or modify all or part of the Services or PhotoBox where we have legal or commercial reasons to do so.</p>\n<p>There may be times when the operation of PhotoBox is adversely affected, or becomes inaccessible, as a result of technical difficulties experienced by PhotoBox, on the Internet or other communications networks, or other matters that are beyond our control. Please note, however, that we cannot guarantee continuous, uninterrupted or secure access to PhotoBox or any of the material that appears on it.</p>\n\n<p>If we are conducting a period of planned unavailability of the Services, we will inform Users of this by a notice that appears on one or more pages of Photobox.</p>\n\n<p>For security or other reasons, we may require you to change your password or other information which facilitates access to Photobox; however, we will never ask you for your password. You are solely responsible for maintaining the confidentiality of your password and any additional identifying information.</p>";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-15-title" = "Operation of PhotoBox";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-16-content" = "<p>We use reasonable care and skill to provide PhotoBox in accordance with our specifications for PhotoBox but:</p>\n<ul>\n<li>the Services are provided \"as is\"; and</li>\n<li>we cannot and do not guarantee that PhotoBox or the Services will meet your requirements, including (without limitation) as to the availability or speed of delivery of any User Content placed on or made through PhotoBox.</li>\n</ul>\n<p>We shall have no obligation, duty or liability whatsoever in contract, tort (including negligence, breach of statutory duty and any other tort) or otherwise, save as expressly provided in these Terms.</p>\n\n<p>Nothing in these Terms excludes or restricts our liability for fraudulent misrepresentation or for death or personal injury resulting from our negligence, nor our contractual obligations in respect of Products we agree to supply following our acceptance of your order in accordance with Clause 6.</p>\n\n<p>We, our agents, directors, officers, shareholders, employees and subcontractors will not be liable to you or anyone else, whether in contract, tort (including negligence, breach of statutory duty or other tort) or otherwise:</p>\n<ul>\n<li>for any loss of revenue, data, business, anticipated savings, profits, opportunity, goodwill or reputation, or for any business interruption; or</li>\n<li> for any indirect, special or consequential loss damage, costs or other claims,</li>\n</ul>\n\n<p>howsoever caused or arising.</p>\n\n<p>Except as expressly stated elsewhere in these Terms, all representations, warranties, conditions and other terms, whether express or implied (by common law, statute, collaterally or otherwise) are hereby excluded, except in the case of fraud, or where such exclusion is not permitted by law.</p>\n\n<p>For the avoidance of doubt, PhotoBox will not have liability to you or any other person in respect of User Content.</p>\n\n<p>We will not be liable for any failure to perform our obligations under these Terms caused by matters beyond our reasonable control.</p>\n\n<p>The provisions of this Clause 16 shall survive the termination or expiry of these Terms.</p>";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-16-title" = "Liability";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-17-content" = "<p>You agree to indemnify PhotoBox, its agents, directors, officers, shareholders, employees and subcontractors against all liabilities, claims and expenses that may arise out of or in connection with any:</p>\n<ul>\n<li> breach of these Terms by you or through your Account; or</li>\n<li>User Content associated with you or your Account.</li>\n</ul>";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-17-title" = "Indemnity";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-18-content" = "<p>We reserve the right to assign these Terms, and to assign or subcontract any or all of our rights and obligations under these Terms, but will not do so in such a way as to reduce any guarantees you are given under these Terms. You may not without the written consent of PhotoBox assign or dispose of these Terms or any of your rights and obligations under it.</p>\n";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-18-title" = "Assignment";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-19-content" = "<p>These Terms are intended to contain your entire agreement with us relating to your use of and access to PhotoBox; we believe them to be fair and reasonable. They replace all earlier agreements and understandings with you relating to PhotoBox.</p>";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-19-title" = "Entire Agreement";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-20-content" = "<p>We reserve the right to change these Terms from time to time, and post the new version on PhotoBox. The new version of these Terms will take effect:</p>\n<ul>\n<li>commencing 28 days after the date of posting (or such later date as we indicate in the relevant posting), if any of the changes is to an operative provision of these Terms which is capable of adversely affecting you; or </li>\n<li>immediately upon the date of posting (or such later date as we indicate in the relevant posting), if the changes are not reasonably capable of adversely affecting you - examples of which would include, without limitation, (i) changing the name of, and/or the web-address (www.photobox.co.uk) that you use to access, PhotoBox, and (ii) the refinement of provisions that are already included or referred to in these Terms.</li>\n</ul>\n<p>In either case, if you do not wish to be governed by the new version of these Terms, you must cease to use the Services and PhotoBox. For the avoidance of doubt, we will not have any liability to you in that event.</p>";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-20-title" = "Changes to these Terms";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-21-content" = "<p>If any part of these Terms is held to be invalid or unenforceable, the remainder shall remain valid and enforceable.</p>\n\n<p>Our failure to act with respect to a breach of these Terms by you or others does not waive our right to act with respect to subsequent or similar breaches.</p>\n\n<p>The headings to the Clauses are for ease of reference only and do not affect the interpretation or construction of these Terms.</p>\n\n<p>A person who is not a party to these Terms has no right under the Contracts (Rights of Third Parties) Act 1999 to enforce any of these Terms, provided that this shall not affect any right or remedy of a third party which exists or is available apart from that Act.</p>\n";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-21-title" = "General";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-22-content" = "<p>These Terms, the Services and each order and purchase of a Product shall be governed by English law.</p>\n\n<p>You and we each submit to the non-exclusive jurisdiction of the English courts in relation to disputes arising in connection with these Terms, the Services and any order for or purchase of a Product.</p>";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-22-title" = "Law";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-23-content" = "<p>We don't separately file the Terms entered into by Users when they register for PhotoBox. You can access them <a href=\"http://www.photobox.co.uk/content/mobile/terms-and-conditions\">here</a>. Please make a durable copy of these Terms by printing and/or saving a downloaded copy on your own computer. They are offered in English only.</p>";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-23-title" = "Keeping these Terms";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-24-content" = "<p>We are a company registered in England and Wales under registration number 03906401 under the name PhotoBox Limited; the address of our registered office is Unit 7, Metal Box Factory, 30 Great Guildford Street,\nLondon SE1 0HS.  Our VAT registration number is GB115138543.  You can contact us by post at Unit 7, Metal Box Factory, 30 Great Guildford Street, London SE1 0HS. We will send our notices to you by email to the email address specified in your Account.</p>";
+
+/* The T&Cs content is presented as a structured, collapsible accordion menu, broken into multiple sections. Each section may not be directly translated for each language but the same structure must be used */
+"terms-html.section-24-title" = "Contact";
+
+/* Text on the feedback email screen that provides the app version of the device that the user is on  */
+"text.app-version" = "App Version";
+
+/* Text on the feedback email screen that provides the country of the device that the user is on */
+"text.country" = "Country";
+
+/* Text on the feedback email screen that provides the version of the device that the user is on */
+"text.device-hardware" = "Hardware";
+
+/* Default subject line on the feedback suggest new features email. %@ will be replaced with either iPhone or iPad dynamically. */
+"text.email-subject" = "SPA iOS %@ %@";
+
+"text.share-android" = "Get the PhotoBox app for Android! Download it now from Google Play.";
+
+/* Default detail text shown for sharing the app via twitter, facebook and email */
+"text.share-detail-text" = "Get the PhotoBox app for iPhone and iPad! Download it now from the App Store";
+
+/* Title text shown for sharing the app via email */
+"text.share-title-text" = "Get the PhotoBox app!";
+
+/* Textfield placeholder text shown in the address field on the add address screen */
+"textfield-placeholder.address" = "Address";
+
+/* Placeholder text for album name textfield shown on the create album screen */
+"textfield-placeholder.album-name" = "Enter album name";
+
+/* Placeholder text used on the City field when adding a new contact */
+"textfield-placeholder.city" = "City";
+
+/* Placeholder text for all email textfields */
+"textfield-placeholder.email" = "Email";
+
+/* Textfield placeholder text shown when filling out the address information form for first name */
+"textfield-placeholder.first-name" = "First name";
+
+/* Placeholder text for last name textfields shown in add address screen and register screen */
+"textfield-placeholder.last-name" = "Last name";
+
+/* Placeholder text shown in the offer code textfield shown on the checkout screen */
+"textfield-placeholder.offer-code" = "Enter your offer code here";
+
+/* Placeholder text for all password textfields */
+"textfield-placeholder.password" = "Password";
+
+/* Textfield placeholder text shown in the postcode field on the add address screen */
+"textfield-placeholder.postcode" = "Postcode";
+
+/* Textfield placeholder text for retype password textfields */
+"textfield-placeholder.retype" = "Retype";
+
+/* Textfield placeholder text for retype password textfields  */
+"textfield-placeholder.retype-password" = "Retype password";
+
+/* Title heading shown on the checkout screen that shows where the user can enter an offer code */
+"title-heading.offer-code" = "Offer code";
+
+/* Title heading shown on the checkout screen for showing the order total of an order */
+"title-heading.order-total" = "Order total";
+
+/* Title heading shown on the checkout screen for showing the order summary of an order */
+"title-heading.order.summary" = "Order summary";
+
+/* Title shown on the address screen for adding an address */
+"title.add-address" = "Add Address";
+
+/* Title for the All Photos album */
+"title.all-photos" = "All Photos";
+
+/* Title shown on the Grid View within the Prints studio when the user can see all their prints */
+"title.all-prints" = "All Prints";
+
+/* Title shown on basket screen */
+"title.basket" = "Basket";
+
+/* Title on the checkout screen */
+"title.checkout" = "Checkout";
+
+/* Title on the products screen shown for choosing a product */
+"title.choose-product" = "Choose Product";
+
+/* Title used on iPad when the colour picker is open */
+"title.colours" = "Colours";
+
+/* Title shown on the address detail screen */
+"title.contact" = "Contact";
+
+/* Title for the content settings screen that enables the developer to configure the application settings */
+"title.content-settings" = "Content Settings";
+
+/* Title shown on the country screen */
+"title.country" = "Country";
+
+/* Title for the create album screen */
+"title.create-album" = "Create Album";
+
+/* Title for credit card screen that allows the user to enter their credit card information */
+"title.credit-card" = "Credit Card";
+
+/* Title shown on the credits screen */
+"title.credits" = "My Credits";
+
+/* Title for the crop photo screen that allows the user to crop a photo */
+"title.crop" = "Crop";
+
+/* Title for the creation aperture screen */
+"title.crop-rotate" = "Crop / Rotate";
+
+/* Title used on the navigation bar within the creation studio */
+"title.customise" = "Customise";
+
+/* Title shown on style upsell view before checkout screen */
+"title.customise-product" = "Customise your product!";
+
+"title.delivery-method" = "Delivery Method";
+
+/* Text for dropbox title on the dropbox authorisation screen and image selection screen/side menu */
+"title.dropbox" = "Dropbox";
+
+/* Title for the edit events screen on the calendar studio */
+"title.edit-events" = "Edit Events";
+
+/* Title shown on the Detail view in Prints studio when the user can see and edit only a single photo */
+"title.edit-print" = "Edit Print";
+
+/* Title for text editing screen on calendar studio */
+"title.edit-text" = "Edit Text";
+
+/* Title text shown on album screen for signing in to Facebook */
+"title.facebook" = "Facebook";
+
+/* Title for the feedback screen */
+"title.feedback" = "Feedback";
+
+"title.finish" = "Finish";
+
+/* Title for the forgot password screen */
+"title.forgot-password" = "Forgot Password";
+
+/* Text for google title on the google authorization screen and image selection screen/side menu */
+"title.google" = "Google +";
+
+/* Title for the help screen that answers common questions users may have */
+"title.help" = "Help";
+
+/* Title shown on the imprint section, primarily for the DE Legal compliance work */
+"title.imprint" = "Imprint";
+
+/* Text for instagram title on the instagram authorisation screen and image selection screen/side menu */
+"title.instagram" = "Instagram";
+
+/* Title text for last order date screen */
+"title.last-order-date" = "Last Order Dates";
+
+/* Title used on iPad during creation when the template picker is open */
+"title.layouts" = "Layouts";
+
+/* Title label for the my contacts screen */
+"title.my-contacts" = "My Contacts";
+
+"title.name" = "Name";
+
+/* Title shown on the order details screen in order history */
+"title.order-details" = "Order Details";
+
+/* Title for the PayPal screen */
+"title.paypal" = "PayPal";
+
+/* Title for the authorisation screen for photobox albums and is also used for the button on the photobox album screen that takes you to sign in and the share text for the app name */
+"title.photobox" = "PhotoBox";
+
+/* Title for the login and register screens */
+"title.photobox-account" = "PhotoBox Account";
+
+/* Title shown on the photos album screen */
+"title.photos" = "Photos";
+
+/* Title for the privacy screen */
+"title.privacy" = "Privacy";
+
+"title.product-options" = "Product Options";
+
+/* Title for products shown in the side menu */
+"title.products" = "Products";
+
+/* Title text for the rotation studio screen */
+"title.rotation" = "Rotation";
+
+/* Title on the country picker screen in registration for selecting a country */
+"title.select-country" = "Select Country";
+
+/* Title for the select start month screen when the user selects to change the start month in calendar studio */
+"title.select-start-month" = "Select Start Month";
+
+/* Title shown during multi-select on iPad over the area where the photos are displayed after being selected */
+"title.selected-photos" = "Selected Photos";
+
+/* Title shown in the delivery section, primarily seen within the DE SPA */
+"title.shipping" = "Shipping";
+
+/* Title for the sign in screen */
+"title.sign-in" = "Sign In";
+
+/* Title for the special offers screen */
+"title.special_offers" = "Special Offers";
+
+/* Title text for terms and conditions screen */
+"title.terms-and-conditions" = "T&Cs";
+
+/* Title for the checkout success screen */
+"title.thanks" = "Thanks";
+
+/* Label for the title on the product upsell screen */
+"title.upgrade" = "Upgrade";
+
+/* Label for the title on the uploads view controller */
+"title.upload" = "Upload";
+
+/* Toast shown to the user when they enter the print studio to alert them to the Auto-crop */
+"toast.photos-auto-cropped" = "Photos automatically cropped";
+
