@@ -1,0 +1,5 @@
+/* Comment */
+"Key" = "Value1";
+
+/* Comment 2 */
+"Key %d" = "Value2";
