@@ -1,5 +1,5 @@
 
-class KeyGenerator
+class StringsKeyGenerator
 
 	def self.create_from_file(input_file)
 		initialize_from_lines File.readlines(input_file)
@@ -11,8 +11,7 @@ class KeyGenerator
 		.select { |l| l[0] == "\"" }
 		.map do |line|
 			line.gsub(/\n$/, "")
-			.gsub(/(")(.*)(" = ".*\";)/, "\\2") # extracts key from "key" = "description"; format
-			
+			.gsub(/(")(.*)(" = ".*)/, "\\2") # extracts key from "key" = "description"; format
 		end
 	end
 

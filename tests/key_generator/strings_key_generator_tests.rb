@@ -19,7 +19,7 @@ class StringsKeyGeneratorTests < Minitest::Test
 
 	def test_keys_should_handle_UTF_16
 		utf16 = "\"key\" = \"value\";".encode("UTF-16")
-		generator = KeyGenerator.new [utf16]
+		generator = StringsKeyGenerator.new [utf16]
 		assert_equal ["key"], generator.keys
 	end
 
@@ -69,13 +69,13 @@ class StringsKeyGeneratorTests < Minitest::Test
 
 	def code_safe_keys_with_key key
 		lines = StringsBuilder.new.add_comment_key("comment", key).build
-		generator = KeyGenerator.new lines
+		generator = StringsKeyGenerator.new lines
 		generator.code_safe_keys
 	end
 
 	def keys_with_key key
 		lines = StringsBuilder.new.add_comment_key("comment", key).build
-		generator = KeyGenerator.new lines
+		generator = StringsKeyGenerator.new lines
 		generator.keys
 	end
 
@@ -83,7 +83,7 @@ class StringsKeyGeneratorTests < Minitest::Test
 		builder = StringsBuilder.new
 		keys.each { |key| builder.add_comment_key("comment", key) }
 		lines = builder.build
-		generator = KeyGenerator.new lines
+		generator = StringsKeyGenerator.new lines
 		generator.keys
 	end
 end
