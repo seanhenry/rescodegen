@@ -1,6 +1,6 @@
 @import Foundation;
 
-typedef NS_ENUM(NSInteger, StringSingular) {
+typedef NS_ENUM(NSInteger, SingularString) {
 };
 
-NSString* NSStringFromStringSingular(StringSingular stringSingular);
+NSString* LocalizedSingularString(SingularString singularString);

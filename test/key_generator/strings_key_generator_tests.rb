@@ -51,8 +51,8 @@ class StringsKeyGeneratorTests < Minitest::Test
         assert_equal ["_3_keys"], code_safe_keys_with_key("3 keys")
     end
 
-    def test_code_safe_keys_should_be_lower_case
-        assert_equal ["some_upper_case_key"], code_safe_keys_with_key("SOME UPPer cAse Key")
+    def test_code_safe_keys_should_maintain_case
+        assert_equal ["SOME_MixED_cAse_Key"], code_safe_keys_with_key("SOME MixED cAse Key")
     end
 
     def test_code_safe_keys_should_not_have_multi_underscores

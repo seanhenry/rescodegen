@@ -1,8 +1,8 @@
 @import Foundation;
 
-typedef NS_ENUM(NSInteger, StringSingular) {
-    StringSingularKey1,
-    StringSingularKey2,
+typedef NS_ENUM(NSInteger, SingularString) {
+    SingularStringKey1,
+    SingularStringKey2,
 };
 
-NSString* NSStringFromStringSingular(StringSingular stringSingular);
+NSString* LocalizedSingularString(SingularString singularString);

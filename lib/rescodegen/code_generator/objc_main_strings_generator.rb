@@ -8,9 +8,9 @@ module Rescodegen
             newline
             .import_header("Strings.h")
             .newline
-            .start_c_method("NSString*", "NSStringFromStringSingular", "StringSingular", "stringSingular")
-                .start_switch("stringSingular")
-                    .add_cases(keys.map { |k| "StringSingular" + k }, values)
+            .start_c_method("NSString*", "LocalizedSingularString", "SingularString", "singularString")
+                .start_switch("singularString")
+                    .add_cases(keys.map { |k| "SingularString" + k }, values)
                 .close_brackets
             .close_brackets
             .newline

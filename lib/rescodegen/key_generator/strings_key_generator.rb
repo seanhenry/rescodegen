@@ -27,7 +27,6 @@ module Rescodegen
                 .gsub(/(\s|_)+/, "_") # replaces 1 or more occurance of whitespace and/or '_' with single '_'
                 .gsub(/^_|_$/, "") # remove _ from beginning and end 
                 .gsub(/(^[0-9])/, "_\\1") # add underscore at beginning if starts with number
-                .downcase
             end
         end
     end

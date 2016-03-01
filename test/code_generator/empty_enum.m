@@ -1,8 +1,8 @@
 
 #import "Strings.h"
 
-NSString* NSStringFromStringSingular(StringSingular stringSingular) {
-    switch (stringSingular) {
+NSString* LocalizedSingularString(SingularString singularString) {
+    switch (singularString) {
         default:
             return @"";
     }

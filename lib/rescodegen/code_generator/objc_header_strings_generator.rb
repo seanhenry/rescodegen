@@ -6,10 +6,10 @@ module Rescodegen
         def generate(keys, values)
             super(keys, values)
             import_module("Foundation")
-            .start_enum("StringSingular", "NSInteger")
-                .add_cases("StringSingular", keys)
+            .start_enum("SingularString", "NSInteger")
+                .add_cases("SingularString", keys)
             .finish_enum
-            .add_c_method("NSString*", "NSStringFromStringSingular", "StringSingular", "stringSingular")
+            .add_c_method("NSString*", "LocalizedSingularString", "SingularString", "singularString")
             .newline
             @output
         end
