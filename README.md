@@ -28,6 +28,8 @@ A command line tool for creating Swift and Objective-C code from localizable str
 $ rescodegen -l swift -o . Localizable.strings
 $ rescodegen -l objc -o . Localizable.strings
 ```
+### Xcode
+Drag the generated files into Xcode and add them to your target.
 ### Swift
 Access localised strings using the `localizedString` property.
 `Strings.Singular.homeScreen_alert_loadErrorMessage.localizedString`
