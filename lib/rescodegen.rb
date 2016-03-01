@@ -1,9 +1,11 @@
 #! /usr/bin/env ruby
 require 'optparse'
-require './lib/code_generator/swift_strings_generator'
-require './lib/code_generator/objc_header_strings_generator'
-require './lib/code_generator/objc_main_strings_generator'
-require './lib/key_generator/strings_key_generator'
+require_relative 'code_generator/swift_strings_generator'
+require_relative 'code_generator/objc_header_strings_generator'
+require_relative 'code_generator/objc_main_strings_generator'
+require_relative 'key_generator/strings_key_generator'
+require_relative 'code_formatter/swift_code_formatter'
+require_relative 'code_formatter/objc_code_formatter'
 
 options = { output: ".", language: "swift" }
 
@@ -26,10 +28,14 @@ abort "Missing input_file.\n\n#{parser.help}" if input_file.nil?
 output_file = options[:output] + "/Strings"
 
 def generate_swift_file(code_safe_keys, keys, output_file)
+	formatter = SwiftCodeFormatter.new
+	code_safe_keys = code_safe_keys.map { |k| formatter.format_string(k) }
 	File.write(output_file + ".swift", SwiftStringsGenerator.new.generate(code_safe_keys, keys))
 end
 
 def generate_objc_files(code_safe_keys, keys, output_file)
+	formatter = ObjcCodeFormatter.new
+	code_safe_keys = code_safe_keys.map { |k| formatter.format_string(k) }
 	File.write(output_file + ".h", ObjcHeaderStringsGenerator.new.generate(code_safe_keys, keys))
 	File.write(output_file + ".m", ObjcMainStringsGenerator.new.generate(code_safe_keys, keys))
 end
