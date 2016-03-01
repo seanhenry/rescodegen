@@ -1,6 +1,8 @@
 #! /usr/bin/env ruby
 require 'optparse'
 require './lib/code_generator/swift_strings_generator'
+require './lib/code_generator/objc_header_strings_generator'
+require './lib/code_generator/objc_main_strings_generator'
 require './lib/key_generator/strings_key_generator'
 
 options = { output: ".", language: "swift" }
@@ -21,11 +23,21 @@ parser.parse!
 abort "Invalid -l argument. Expects swift or objc." if !options[:language].match("swift|objc")
 input_file = ARGV.last
 abort "Missing input_file.\n\n#{parser.help}" if input_file.nil?
+output_file = options[:output] + "/Strings"
 
-output_file = options[:output] + "/Strings.swift"
+def generate_swift_file(code_safe_keys, keys, output_file)
+	File.write(output_file + ".swift", SwiftStringsGenerator.new.generate(code_safe_keys, keys))
+end
+
+def generate_objc_files(code_safe_keys, keys, output_file)
+	File.write(output_file + ".h", ObjcHeaderStringsGenerator.new.generate(code_safe_keys, keys))
+	File.write(output_file + ".m", ObjcMainStringsGenerator.new.generate(code_safe_keys, keys))
+end
 
 generator = StringsKeyGenerator.new(File.readlines(input_file))
 keys = generator.keys
 code_safe_keys = generator.code_safe_keys
-File.write(output_file, SwiftStringsGenerator.new.generate(code_safe_keys, keys))
+generate_swift_file(code_safe_keys, keys, output_file) if options[:language] == "swift"
+generate_objc_files(code_safe_keys, keys, output_file) if options[:language] == "objc"
+
 
