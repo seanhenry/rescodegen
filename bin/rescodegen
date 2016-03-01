@@ -48,7 +48,7 @@ def generate_objc_files(code_safe_keys, keys, output_file)
     File.write(output_file + ".m", Rescodegen::ObjcMainStringsGenerator.new.generate(code_safe_keys, keys))
 end
 
-generator = Rescodegen::StringsKeyGenerator.new(File.readlines(input_file))
+generator = Rescodegen::StringsKeyGenerator.create_from_file(input_file)
 keys = generator.keys
 code_safe_keys = generator.code_safe_keys
 generate_swift_file(code_safe_keys, keys, output_file) if options[:language] == "swift"

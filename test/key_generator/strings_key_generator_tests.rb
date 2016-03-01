@@ -3,6 +3,11 @@ require 'rescodegen/key_generator/strings_key_generator'
 
 class StringsKeyGeneratorTests < Minitest::Test
 
+    def test_create_from_file_should_handle_UTF_16
+        generator = Rescodegen::StringsKeyGenerator.create_from_file(Dir.pwd + "/test/key_generator/test.strings")
+        assert_equal ["Key 1", "Key 2"], generator.keys
+    end
+
     def test_keys_generates_keys
         assert_equal ["key"], code_safe_keys_with_key("key")
     end

@@ -3,11 +3,12 @@ module Rescodegen
     class StringsKeyGenerator
 
         def self.create_from_file(input_file)
-            initialize_from_lines File.readlines(input_file)
+            lines = File.open(input_file, "rb:UTF-16BE")
+            StringsKeyGenerator.new lines
         end
 
         def initialize(lines)
-            @keys = lines.map { |l| l.encode("UTF-16be", :invalid=>:replace, :replace=>"?").encode('UTF-8') }
+            @keys = lines.map { |l| l.encode("UTF-8", :invalid=>:replace, :replace=>"?").encode('UTF-8') }
             .reject { |l| l.strip == "" }
             .select { |l| l[0] == "\"" }
             .map do |line|
