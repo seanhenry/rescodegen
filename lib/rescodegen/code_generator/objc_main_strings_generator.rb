@@ -40,7 +40,7 @@ module Rescodegen
             i = 0
             until i == keys.size
                 start_case(keys[i], values[i])
-                    .return_value("@\"#{values[i]}\"")
+                    .return_value(localized_string(values[i]))
                 .finish_case
                 i += 1
             end
@@ -79,6 +79,10 @@ module Rescodegen
             @output += "return #{value};"
             newline
             self
+        end
+
+        def localized_string(value) 
+            return "NSLocalizedString(@\"#{value}\", @\"\")"
         end
     end
 end
