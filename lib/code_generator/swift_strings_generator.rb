@@ -1,4 +1,4 @@
-require './lib/code_generator/strings_generator'
+require_relative 'strings_generator'
 
 class SwiftStringsGenerator < StringsGenerator
 
