@@ -1,5 +1,5 @@
-require 'minitest/autorun'
-require './lib/code_formatter/objc_code_formatter'
+require 'test_helper'
+require 'rescodegen/code_formatter/objc_code_formatter'
 
 class ObjcCodeFormatterTests < Minitest::Test
 
@@ -16,6 +16,6 @@ class ObjcCodeFormatterTests < Minitest::Test
     end
 
     def formatter
-        ObjcCodeFormatter.new
+        Rescodegen::ObjcCodeFormatter.new
     end
 end

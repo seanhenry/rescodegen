@@ -1,12 +1,12 @@
-require 'minitest/autorun'
-require './lib/code_generator/swift_strings_generator'
-require './tests/code_generator/code_generator_test_helper'
+require 'test_helper'
+require 'rescodegen/code_generator/swift_strings_generator'
+require_relative 'code_generator_test_helper'
 
 class SwiftStringsGeneratorTests < Minitest::Test
 
     def test_generate_raises_exception_when_keys_and_values_are_different_sizes
         assert_raises RuntimeError do 
-            SwiftStringsGenerator.new.generate([""], ["", ""])
+            Rescodegen::SwiftStringsGenerator.new.generate([""], ["", ""])
         end 
     end
 
@@ -19,6 +19,6 @@ class SwiftStringsGeneratorTests < Minitest::Test
     end
 
     def assert_file_is_generated_by_keys_values(file_name, keys, values)
-        assert_equal(true, CodeGeneratorTestHelper.new.file_is_generated_by_keys_values(SwiftStringsGenerator.new, file_name, keys, values))
+        assert_equal(true, CodeGeneratorTestHelper.new.file_is_generated_by_keys_values(Rescodegen::SwiftStringsGenerator.new, file_name, keys, values))
     end
 end

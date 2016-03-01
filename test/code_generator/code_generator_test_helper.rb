@@ -20,7 +20,7 @@ class CodeGeneratorTestHelper
 
 private
     def file_lines(file_name)
-        file_path = Dir.pwd + "/tests/code_generator/" + file_name
+        file_path = Dir.pwd + "/test/code_generator/" + file_name
         File.readlines(file_path).map do |line|
             line.gsub(/\n/, "")
         end

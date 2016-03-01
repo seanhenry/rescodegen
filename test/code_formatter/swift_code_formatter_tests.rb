@@ -1,5 +1,5 @@
-require 'minitest/autorun'
-require './lib/code_formatter/swift_code_formatter'
+require 'test_helper'
+require 'rescodegen/code_formatter/swift_code_formatter'
 
 class SwiftCodeFormatterTests < Minitest::Test
 
@@ -16,6 +16,6 @@ class SwiftCodeFormatterTests < Minitest::Test
     end
 
     def formatter
-        SwiftCodeFormatter.new
+        Rescodegen::SwiftCodeFormatter.new
     end
 end
