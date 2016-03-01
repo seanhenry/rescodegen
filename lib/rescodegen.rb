@@ -10,15 +10,15 @@ require_relative 'code_formatter/objc_code_formatter'
 options = { output: ".", language: "swift" }
 
 parser = OptionParser.new do |opts|
-	opts.banner = "Usage: rescodegen [options] input_file"
-	opts.separator "Generates some strings"
-	opts.separator "Options:"
-	opts.on("-l", "--language=swift|objc", "swift or objc") do |l|
-		options[:language] = l
-	end
-	opts.on("-o", "--output=directory", "Directory to create file.") do |o|
-		options[:output] = o
-	end
+    opts.banner = "Usage: rescodegen [options] input_file"
+    opts.separator "Generates some strings"
+    opts.separator "Options:"
+    opts.on("-l", "--language=swift|objc", "swift or objc") do |l|
+        options[:language] = l
+    end
+    opts.on("-o", "--output=directory", "Directory to create file.") do |o|
+        options[:output] = o
+    end
 end
 parser.parse!
 
@@ -28,16 +28,16 @@ abort "Missing input_file.\n\n#{parser.help}" if input_file.nil?
 output_file = options[:output] + "/Strings"
 
 def generate_swift_file(code_safe_keys, keys, output_file)
-	formatter = SwiftCodeFormatter.new
-	code_safe_keys = code_safe_keys.map { |k| formatter.format_string(k) }
-	File.write(output_file + ".swift", SwiftStringsGenerator.new.generate(code_safe_keys, keys))
+    formatter = SwiftCodeFormatter.new
+    code_safe_keys = code_safe_keys.map { |k| formatter.format_string(k) }
+    File.write(output_file + ".swift", SwiftStringsGenerator.new.generate(code_safe_keys, keys))
 end
 
 def generate_objc_files(code_safe_keys, keys, output_file)
-	formatter = ObjcCodeFormatter.new
-	code_safe_keys = code_safe_keys.map { |k| formatter.format_string(k) }
-	File.write(output_file + ".h", ObjcHeaderStringsGenerator.new.generate(code_safe_keys, keys))
-	File.write(output_file + ".m", ObjcMainStringsGenerator.new.generate(code_safe_keys, keys))
+    formatter = ObjcCodeFormatter.new
+    code_safe_keys = code_safe_keys.map { |k| formatter.format_string(k) }
+    File.write(output_file + ".h", ObjcHeaderStringsGenerator.new.generate(code_safe_keys, keys))
+    File.write(output_file + ".m", ObjcMainStringsGenerator.new.generate(code_safe_keys, keys))
 end
 
 generator = StringsKeyGenerator.new(File.readlines(input_file))
