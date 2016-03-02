@@ -6,7 +6,7 @@ class ObjcMainStringsGeneratorTests < Minitest::Test
 
     def test_generate_raises_exception_when_keys_and_values_are_different_sizes
         assert_raises RuntimeError do 
-            Rescodegen::ObjcMainStringsGenerator.new.generate([""], ["", ""])
+            Rescodegen::ObjcMainStringsGenerator.new("").generate([""], ["", ""])
         end 
     end
 
@@ -19,6 +19,7 @@ class ObjcMainStringsGeneratorTests < Minitest::Test
     end
 
     def assert_file_is_generated_by_keys_values(file_name, keys, values)
-        assert_equal(true, CodeGeneratorTestHelper.new.file_is_generated_by_keys_values(Rescodegen::ObjcMainStringsGenerator.new, file_name, keys, values))
+        generator = Rescodegen::ObjcMainStringsGenerator.new "SH"
+        assert_equal(true, CodeGeneratorTestHelper.new.file_is_generated_by_keys_values(generator, file_name, keys, values))
     end
 end

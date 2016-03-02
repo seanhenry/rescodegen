@@ -10,6 +10,10 @@ module Rescodegen
 
     protected
 
+        def prefix(string)
+            @prefix + string
+        end
+
         def newline
             @output += "\n"
             self

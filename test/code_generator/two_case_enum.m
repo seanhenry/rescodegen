@@ -1,11 +1,11 @@
 
 #import "Strings.h"
 
-NSString* LocalizedSingularString(SingularString singularString) {
+NSString* SHLocalizedSingularString(SHSingularString singularString) {
     switch (singularString) {
-        case SingularStringKey1:
+        case SHSingularStringKey1:
             return NSLocalizedString(@"value1", @"");
-        case SingularStringKey2:
+        case SHSingularStringKey2:
             return NSLocalizedString(@"value2", @"");
         default:
             return @"";

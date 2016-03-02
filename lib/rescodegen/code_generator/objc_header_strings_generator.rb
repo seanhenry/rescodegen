@@ -3,13 +3,18 @@ require_relative 'strings_generator'
 module Rescodegen
     class ObjcHeaderStringsGenerator < StringsGenerator
 
+        def initialize(prefix)
+            @prefix = prefix
+        end
+
         def generate(keys, values)
             super(keys, values)
+            enum_name = prefix "SingularString"
             import_module("Foundation")
-            .start_enum("SingularString", "NSInteger")
-                .add_cases("SingularString", keys)
+            .start_enum(enum_name, "NSInteger")
+                .add_cases(enum_name, keys)
             .finish_enum
-            .add_c_method("NSString*", "LocalizedSingularString", "SingularString", "singularString")
+            .add_c_method("NSString*", prefix("LocalizedSingularString"), enum_name, "singularString")
             .newline
             @output
         end
