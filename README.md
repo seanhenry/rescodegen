@@ -10,8 +10,9 @@ A command line tool for creating Swift and Objective-C code from localizable str
 
 |Option|Value|Description   |
 |---|---|---|
-|-l|swift\|objc|The language of the generated code|
-|-o|directory|Where to generate the files|
+|-l|swift\|objc|The language of the generated code.|
+|-o|relative/path/to/output/directory|Where to generate the files.|
+|-p|e.g. SH|An optional prefix to apply to Objective-C types.|
 ## Example
 ### Localizable.strings  
 
