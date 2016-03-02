@@ -43,7 +43,7 @@ module Rescodegen
         def add_cases(enum_name, keys)
             keys.each do |key|
                 indent
-                @output += "#{enum_name}#{key},"
+                @output += "#{enum_name}_#{key},"
                 newline
             end
             self

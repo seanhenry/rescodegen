@@ -15,7 +15,7 @@ module Rescodegen
             .newline
             .start_c_method("NSString*", prefix("LocalizedSingularString"), enum_name, "singularString")
                 .start_switch("singularString")
-                    .add_cases(keys.map { |k| enum_name + k }, values)
+                    .add_cases(keys.map { |k| enum_name + "_" + k }, values)
                 .close_brackets
             .close_brackets
             .newline
@@ -44,7 +44,7 @@ module Rescodegen
         def add_cases(keys, values)
             i = 0
             until i == keys.size
-                start_case(keys[i], values[i])
+                start_case(keys[i])
                     .return_value(localized_string(values[i]))
                 .finish_case
                 i += 1
@@ -59,7 +59,7 @@ module Rescodegen
             .finish_case
         end
 
-        def start_case(key, value)
+        def start_case(key)
             indent
             @output += "case #{key}:"
             newline

@@ -15,7 +15,7 @@ class ObjcMainStringsGeneratorTests < Minitest::Test
     end
 
     def test_generate_generates_many_cases_when_keys_and_values
-        assert_file_is_generated_by_keys_values("two_case_enum.m", ["Key1", "Key2"], ["value1", "value2"])
+        assert_file_is_generated_by_keys_values("two_case_enum.m", ["key1", "key2"], ["value1", "value2"])
     end
 
     def assert_file_is_generated_by_keys_values(file_name, keys, values)
