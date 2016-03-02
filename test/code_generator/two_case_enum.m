@@ -1,5 +1,5 @@
 
-#import "Strings.h"
+#import "SHStrings.h"
 
 NSString* SHLocalizedSingularString(SHSingularString singularString) {
     switch (singularString) {

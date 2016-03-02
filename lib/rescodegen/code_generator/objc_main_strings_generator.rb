@@ -11,7 +11,7 @@ module Rescodegen
             super(keys, values)
             enum_name = prefix "SingularString"
             newline
-            .import_header("Strings.h")
+            .import_header(prefix("Strings.h"))
             .newline
             .start_c_method("NSString*", prefix("LocalizedSingularString"), enum_name, "singularString")
                 .start_switch("singularString")
