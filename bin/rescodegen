@@ -12,8 +12,7 @@ require 'rescodegen/code_generator/swift_strings_generator'
 require 'rescodegen/code_generator/objc_header_strings_generator'
 require 'rescodegen/code_generator/objc_main_strings_generator'
 require 'rescodegen/key_generator/strings_key_generator'
-require 'rescodegen/code_formatter/swift_code_formatter'
-require 'rescodegen/code_formatter/objc_code_formatter'
+require 'rescodegen/code_formatter/code_formatter'
 
 options = { output: ".", language: "swift", prefix: "" }
 
@@ -39,14 +38,10 @@ abort "Missing input_file.\n\n#{parser.help}" if input_file.nil?
 output_file = options[:output] + "/Strings"
 
 def generate_swift_file(code_safe_keys, keys, output_file)
-    formatter = Rescodegen::SwiftCodeFormatter.new
-    code_safe_keys = code_safe_keys.map { |k| formatter.format_string(k) }
     File.write(output_file + ".swift", Rescodegen::SwiftStringsGenerator.new.generate(code_safe_keys, keys))
 end
 
 def generate_objc_files(code_safe_keys, keys, output_file, prefix)
-    formatter = Rescodegen::ObjcCodeFormatter.new
-    code_safe_keys = code_safe_keys.map { |k| formatter.format_string(k) }
     File.write(output_file + ".h", Rescodegen::ObjcHeaderStringsGenerator.new(prefix).generate(code_safe_keys, keys))
     File.write(output_file + ".m", Rescodegen::ObjcMainStringsGenerator.new(prefix).generate(code_safe_keys, keys))
 end
@@ -54,5 +49,7 @@ end
 generator = Rescodegen::StringsKeyGenerator.create_from_file(input_file)
 keys = generator.keys
 code_safe_keys = generator.code_safe_keys
+formatter = Rescodegen::CodeFormatter.new
+code_safe_keys = code_safe_keys.map { |k| formatter.format_string(k) }
 generate_swift_file(code_safe_keys, keys, output_file) if options[:language] == "swift"
 generate_objc_files(code_safe_keys, keys, output_file, options[:prefix]) if options[:language] == "objc"
