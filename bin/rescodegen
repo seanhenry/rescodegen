@@ -15,7 +15,7 @@ require 'rescodegen/key_generator/strings_key_generator'
 require 'rescodegen/code_formatter/swift_code_formatter'
 require 'rescodegen/code_formatter/objc_code_formatter'
 
-options = { output: ".", language: "swift" }
+options = { output: ".", language: "swift", prefix: "" }
 
 parser = OptionParser.new do |opts|
     opts.banner = "Usage: rescodegen [options] input_file"
@@ -26,6 +26,9 @@ parser = OptionParser.new do |opts|
     end
     opts.on("-o", "--output=directory", "Directory to create file.") do |o|
         options[:output] = o
+    end
+    opts.on("-p", "--prefix=PREFIX", "Optional prefix for Objective-C types.") do |p|
+        options[:prefix] = p
     end
 end
 parser.parse!
@@ -41,15 +44,15 @@ def generate_swift_file(code_safe_keys, keys, output_file)
     File.write(output_file + ".swift", Rescodegen::SwiftStringsGenerator.new.generate(code_safe_keys, keys))
 end
 
-def generate_objc_files(code_safe_keys, keys, output_file)
+def generate_objc_files(code_safe_keys, keys, output_file, prefix)
     formatter = Rescodegen::ObjcCodeFormatter.new
     code_safe_keys = code_safe_keys.map { |k| formatter.format_string(k) }
-    File.write(output_file + ".h", Rescodegen::ObjcHeaderStringsGenerator.new.generate(code_safe_keys, keys))
-    File.write(output_file + ".m", Rescodegen::ObjcMainStringsGenerator.new.generate(code_safe_keys, keys))
+    File.write(output_file + ".h", Rescodegen::ObjcHeaderStringsGenerator.new(prefix).generate(code_safe_keys, keys))
+    File.write(output_file + ".m", Rescodegen::ObjcMainStringsGenerator.new(prefix).generate(code_safe_keys, keys))
 end
 
 generator = Rescodegen::StringsKeyGenerator.create_from_file(input_file)
 keys = generator.keys
 code_safe_keys = generator.code_safe_keys
 generate_swift_file(code_safe_keys, keys, output_file) if options[:language] == "swift"
-generate_objc_files(code_safe_keys, keys, output_file) if options[:language] == "objc"
+generate_objc_files(code_safe_keys, keys, output_file, options[:prefix]) if options[:language] == "objc"
