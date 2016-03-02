@@ -35,7 +35,7 @@ parser.parse!
 abort "Invalid -l argument. Expects swift or objc." if !options[:language].match("swift|objc")
 input_file = ARGV.last
 abort "Missing input_file.\n\n#{parser.help}" if input_file.nil?
-output_file = options[:output] + "/Strings"
+output_file = options[:output] + "/" + options[:prefix] + "Strings"
 
 def generate_swift_file(code_safe_keys, keys, output_file)
     File.write(output_file + ".swift", Rescodegen::SwiftStringsGenerator.new.generate(code_safe_keys, keys))
