@@ -36,4 +36,4 @@ Access localised strings using the `localizedString` property.
 `Strings.Singular.homeScreen_alert_loadErrorMessage.localizedString`
 ### Objective-C
 Access localised strings using the `LocalizedSingularString` function.
-`LocalizedSingularString(SingularStringHomeScreen_alert_loadErrorMessage);`
+`LocalizedSingularString(SingularString_homeScreen_alert_loadErrorMessage);`
