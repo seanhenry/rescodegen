@@ -18,7 +18,6 @@ module Rescodegen
                     .add_cases(keys.map { |k| enum_name + "_" + k }, values)
                 .close_brackets
             .close_brackets
-            .newline
             @output
         end
 

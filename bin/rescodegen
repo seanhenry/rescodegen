@@ -11,8 +11,10 @@ require 'optparse'
 require 'rescodegen/code_generator/swift_strings_generator'
 require 'rescodegen/code_generator/objc_header_strings_generator'
 require 'rescodegen/code_generator/objc_main_strings_generator'
-require 'rescodegen/key_generator/strings_key_generator'
+require 'rescodegen/key_generator/key_generator'
+require 'rescodegen/key_generator/code_safe_key_generator'
 require 'rescodegen/code_formatter/code_formatter'
+require 'rescodegen/key_reader/strings_key_reader'
 
 options = { output: ".", language: "swift", prefix: "" }
 
@@ -46,7 +48,10 @@ def generate_objc_files(code_safe_keys, keys, output_file, prefix)
     File.write(output_file + ".m", Rescodegen::ObjcMainStringsGenerator.new(prefix).generate(code_safe_keys, keys))
 end
 
-generator = Rescodegen::CodeSafeKeyGenerator.create_from_file(input_file)
+key_reader = Rescodegen::StringsKeyReader.new
+code_safe_key_generator = Rescodegen::CodeSafeKeyGenerator.new
+generator = Rescodegen::KeyGenerator.new(key_reader, code_safe_key_generator, input_file)
+
 keys = generator.keys
 code_safe_keys = generator.code_safe_keys
 formatter = Rescodegen::CodeFormatter.new
