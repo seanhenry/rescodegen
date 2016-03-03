@@ -70,21 +70,21 @@ RSpec.describe "CLI" do
 
     context "when providing correct input path" do
         it "should succeed" do 
-            expect(run_with_strings_file).to be true
+            
         end
         it "should generate a swift file" do
-            run_with_strings_file
+            expect(run_with_strings_file).to be true
             expect(output_file_to_string("Strings.swift")).to eq file_to_string($swift_file)
         end
         context "and requesting objc" do
             it "should generate objc files" do
-                run_with_objc_and_strings_file
+                expect(run_with_objc_and_strings_file).to be true
                 expect(output_file_to_string("Strings.h")).to eq file_to_string($objc_header_file)
                 expect(output_file_to_string("Strings.m")).to eq file_to_string($objc_main_file)
             end
             context "and requesting a prefix" do
                 it "should generate prefixed files" do
-                    run_with_prefix_and_strings_file
+                    expect(run_with_prefix_and_strings_file).to be true
                     expect(output_file_to_string("SHStrings.h")).to eq file_to_string($objc_prefix_header_file)
                     expect(output_file_to_string("SHStrings.m")).to eq file_to_string($objc_prefix_main_file)
                 end
