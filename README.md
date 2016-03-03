@@ -1,3 +1,5 @@
+<a href="https://codeclimate.com/github/seanhenry/rescodegen/coverage"><img src="https://codeclimate.com/github/seanhenry/rescodegen/badges/coverage.svg" /></a>
+<a href="https://codeclimate.com/github/seanhenry/rescodegen"><img src="https://codeclimate.com/github/seanhenry/rescodegen/badges/gpa.svg" /></a>
 # rescodegen
 A command line tool for creating Swift and Objective-C code from localizable strings.
 ## Installation
@@ -10,9 +12,9 @@ A command line tool for creating Swift and Objective-C code from localizable str
 
 |Option|Value|Description   |
 |---|---|---|
-|-l|swift\|objc|The language of the generated code.|
-|-o|relative/path/to/output/directory|Where to generate the files.|
-|-p|e.g. SH|An optional prefix to apply to Objective-C types.|
+|`-l`|swift\|objc|The language of the generated code.|
+|`-o`|relative/path/to/output/directory|Where to generate the files.|
+|`-p`|e.g. SH|An optional prefix to apply to Objective-C types.|
 ## Example
 ### Localizable.strings  
 
