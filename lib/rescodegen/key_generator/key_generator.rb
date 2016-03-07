@@ -19,7 +19,7 @@ module Rescodegen
             if encoding == :utf16
                 key_reader.read_keys_from_lines File.open(file_path, "rb:UTF-16BE")
             elsif encoding == :utf8
-                key_reader.read_keys_from_lines File.open(file_path)
+                key_reader.read_keys_from_lines File.open(file_path).readlines
             else
                 raise "Unsupported encoding #{encoding}. Expects utf8 or utf16."
             end 

@@ -28,6 +28,10 @@ def run_with_no_input_path
     run ""
 end
 
+def run_with_invalid_file
+    run "invalid.xml"
+end
+
 def run_with_strings_file
     run "-o #{$output_file} -i #{$localizable_strings_file}"
 end
@@ -86,7 +90,13 @@ RSpec.describe "CLI" do
         end
     end
 
-    context "when providing correct input path" do
+    context "when providing invalid format" do
+        it "should fail" do
+            expect(run_with_invalid_file).to be false
+        end
+    end
+
+    context "when providing strings file" do
         it "should generate a swift file" do
             expect(run_with_strings_file).to be true
             expect(output_file_to_string("Strings.swift")).to eq file_to_string($swift_file)

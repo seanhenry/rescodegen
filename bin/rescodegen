@@ -15,8 +15,9 @@ require 'rescodegen/key_generator/key_generator'
 require 'rescodegen/key_generator/code_safe_key_generator'
 require 'rescodegen/code_formatter/code_formatter'
 require 'rescodegen/key_reader/strings_key_reader'
+require 'rescodegen/key_reader/stringsdict_key_reader'
 
-options = { output: ".", language: "swift", prefix: "" }
+options = { output: ".", language: "swift", prefix: "", input: [] }
 
 parser = OptionParser.new do |opts|
     opts.banner = "Usage: rescodegen [options] input_file"
@@ -31,30 +32,54 @@ parser = OptionParser.new do |opts|
     opts.on("-p", "--prefix=PREFIX", "Optional prefix for Objective-C types.") do |p|
         options[:prefix] = p
     end
+    opts.on("-i", "--input=file1,file2", Array, "Accepts .strings or .stringsdict files.") do |i|
+        options[:input] += i
+    end
 end
 parser.parse!
 
 abort "Invalid -l argument. Expects swift or objc." if !options[:language].match("swift|objc")
-input_file = ARGV.last
-abort "Missing input_file.\n\n#{parser.help}" if input_file.nil?
+abort "Missing -i argument. Must have at least 1 input file." if options[:input].size == 0
 output_file = options[:output] + "/" + options[:prefix] + "Strings"
 
-def generate_swift_file(code_safe_keys, keys, output_file)
-    File.write(output_file + ".swift", Rescodegen::SwiftStringsGenerator.new.generate(code_safe_keys, keys))
+def generate_swift_file(singular_code_safe_keys, singular_keys, plural_code_safe_keys, plural_keys, output_file)
+    File.write(output_file + ".swift", Rescodegen::SwiftStringsGenerator.new.generate(singular_code_safe_keys, singular_keys, plural_code_safe_keys, plural_keys))
 end
 
-def generate_objc_files(code_safe_keys, keys, output_file, prefix)
-    File.write(output_file + ".h", Rescodegen::ObjcHeaderStringsGenerator.new(prefix).generate(code_safe_keys, keys))
-    File.write(output_file + ".m", Rescodegen::ObjcMainStringsGenerator.new(prefix).generate(code_safe_keys, keys))
+def generate_objc_files(singular_code_safe_keys, singular_keys, plural_code_safe_keys, plural_keys, output_file, prefix)
+    File.write(output_file + ".h", Rescodegen::ObjcHeaderStringsGenerator.new(prefix).generate(singular_code_safe_keys, singular_keys, plural_code_safe_keys, plural_keys))
+    File.write(output_file + ".m", Rescodegen::ObjcMainStringsGenerator.new(prefix).generate(singular_code_safe_keys, singular_keys, plural_code_safe_keys, plural_keys))
 end
 
-key_reader = Rescodegen::StringsKeyReader.new
-code_safe_key_generator = Rescodegen::CodeSafeKeyGenerator.new
-generator = Rescodegen::KeyGenerator.new(key_reader, code_safe_key_generator, input_file)
+def abort_bad_input_file
+    abort "Only currenly supports .strings and .stringsdict files."
+end
 
-keys = generator.keys
-code_safe_keys = generator.code_safe_keys
+abort_bad_input_file if options[:input].select { |file| file.end_with?(".strings") || file.end_with?(".stringsdict") }.empty?
+
+singular_keys = []
+singular_code_safe_keys = []
+options[:input].select { |file| file.end_with?(".strings") }
+               .map { |file|
+    key_reader = Rescodegen::StringsKeyReader.new
+    code_safe_key_generator = Rescodegen::CodeSafeKeyGenerator.new
+    generator = Rescodegen::KeyGenerator.new(key_reader, code_safe_key_generator, file, :utf16)
+    singular_keys += generator.keys
+    singular_code_safe_keys += generator.code_safe_keys
+}
+
+plural_keys = []
+plural_code_safe_keys = []
+options[:input].select { |file| file.end_with?(".stringsdict") }
+               .map { |file|
+    key_reader = Rescodegen::StringsdictKeyReader.new
+    code_safe_key_generator = Rescodegen::CodeSafeKeyGenerator.new
+    generator = Rescodegen::KeyGenerator.new(key_reader, code_safe_key_generator, file, :utf8)
+    plural_keys += generator.keys
+    plural_code_safe_keys += generator.code_safe_keys
+}
+
 formatter = Rescodegen::CodeFormatter.new
-code_safe_keys = code_safe_keys.map { |k| formatter.format_string(k) }
-generate_swift_file(code_safe_keys, keys, output_file) if options[:language] == "swift"
-generate_objc_files(code_safe_keys, keys, output_file, options[:prefix]) if options[:language] == "objc"
+singular_code_safe_keys = singular_code_safe_keys.map { |k| formatter.format_string(k) }
+generate_swift_file(singular_code_safe_keys, singular_keys, plural_code_safe_keys, plural_keys, output_file) if options[:language] == "swift"
+generate_objc_files(singular_code_safe_keys, singular_keys, plural_code_safe_keys, plural_keys, output_file, options[:prefix]) if options[:language] == "objc"
