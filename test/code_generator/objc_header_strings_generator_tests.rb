@@ -4,10 +4,6 @@ require_relative 'code_generator_test_helper'
 
 class ObjcHeaderStringsGeneratorTests < Minitest::Test
 
-    def test_generate_generates_empty_enum_when_no_keys_or_values
-        assert_file_is_generated_by_keys_values("empty.h", [], [])
-    end
-
     def test_generate_generates_singular_cases
         assert_file_is_generated_by_keys_values("singular.h", ["key1", "key2"], ["value1", "value2"])
     end

@@ -2,8 +2,9 @@
 module Rescodegen
     class StringsGenerator
 
-        def generate(keys, values)
-            raise "Expects keys and values of equal sizes" if keys.size != values.size
+        def generate(singular_keys, singular_values, plural_keys, plural_values)
+            raise "Expects keys and values of equal sizes" if singular_keys.size != singular_values.size || plural_keys.size != plural_values.size
+            raise "Expects at least one key and one value" if singular_keys.size == 0 && plural_keys.size == 0
             @output = ""
             @tab_level = 0
         end
