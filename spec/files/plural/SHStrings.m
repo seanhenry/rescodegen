@@ -24,9 +24,9 @@ NSString* SHLocalizedPluralString(SHPluralString pluralString, ...) {
 
 NSString* NSStringFromPluralString(SHPluralString pluralString) {
     switch (pluralString) {
-        case PluralString_downloads_remaining:
+        case SHPluralString_downloads_remaining:
             return NSLocalizedString(@"%lu downloads remaining", @"");
-        case PluralString_souls_days:
+        case SHPluralString_souls_days:
             return NSLocalizedString(@"%lu souls, %lu days", @"");
         default:
             return @"";

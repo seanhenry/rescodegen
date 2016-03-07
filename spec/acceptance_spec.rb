@@ -1,16 +1,16 @@
 $output_file = "spec_output"
 $localizable_strings_file = "spec/files/Localizable.strings"
-$localizable_stringsdict_file = "spec/files/plural/Localizable.strings"
+$localizable_stringsdict_file = "spec/files/plural/Localizable.stringsdict"
 $swift_file = "spec/files/Strings.swift"
 $objc_header_file = "spec/files/Strings.h"
 $objc_main_file = "spec/files/Strings.m"
 $objc_prefix_header_file = "spec/files/SHStrings.h"
 $objc_prefix_main_file = "spec/files/SHStrings.m"
-$swift_plural_file = "spec/files/Strings.swift"
-$objc_plural_header_file = "spec/files/Strings.h"
-$objc_plural_main_file = "spec/files/Strings.m"
-$objc_plural_prefix_header_file = "spec/files/SHStrings.h"
-$objc_plural_prefix_main_file = "spec/files/SHStrings.m"
+$swift_plural_file = "spec/files/plural/Strings.swift"
+$objc_plural_header_file = "spec/files/plural/Strings.h"
+$objc_plural_main_file = "spec/files/plural/Strings.m"
+$objc_plural_prefix_header_file = "spec/files/plural/SHStrings.h"
+$objc_plural_prefix_main_file = "spec/files/plural/SHStrings.m"
 
 def silence_shell_output
     " &> /dev/null"
@@ -29,27 +29,27 @@ def run_with_no_input_path
 end
 
 def run_with_strings_file
-    run "-o #{$output_file} #{$localizable_strings_file}"
+    run "-o #{$output_file} -i #{$localizable_strings_file}"
 end
 
 def run_with_objc_and_strings_file
-    run "-o #{$output_file} -l objc #{$localizable_strings_file}"
+    run "-o #{$output_file} -l objc -i #{$localizable_strings_file}"
 end
 
 def run_with_prefix_and_strings_file
-    run "-o #{$output_file} -l objc -p SH #{$localizable_strings_file}"
+    run "-o #{$output_file} -l objc -p SH -i #{$localizable_strings_file}"
 end
 
 def run_with_strings_and_stringsdict_files
-    run "-o #{$output_file} #{$localizable_strings_file} #{$localizable_stringsdict_file}"
+    run "-o #{$output_file} -i #{$localizable_strings_file} -i #{$localizable_stringsdict_file}"
 end
 
 def run_with_objc_strings_and_stringsdict_files
-    run "-o #{$output_file} -l objc #{$localizable_strings_file} #{$localizable_stringsdict_file}"
+    run "-o #{$output_file} -l objc -i #{$localizable_strings_file} -i #{$localizable_stringsdict_file}"
 end
 
 def run_with_objc_prefix_strings_and_stringsdict_file
-    run "-o #{$output_file} -l objc -p SH #{$localizable_strings_file} #{$localizable_stringsdict_file}"
+    run "-o #{$output_file} -l objc -p SH -i #{$localizable_strings_file} -i #{$localizable_stringsdict_file}"
 end
 
 def file_to_string(path)

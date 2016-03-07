@@ -9,7 +9,7 @@ typedef NS_ENUM(NSInteger, SHSingularString) {
 typedef NS_ENUM(NSInteger, SHPluralString) {
     SHPluralString_downloads_remaining,
     SHPluralString_souls_days,
-}
+};
 
 NSString* SHLocalizedSingularString(SHSingularString singularString);
 NSString* SHLocalizedPluralString(SHPluralString pluralString, ...);
