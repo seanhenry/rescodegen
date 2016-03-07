@@ -17,9 +17,7 @@ NSString* LocalizedSingularString(SingularString singularString) {
 NSString* LocalizedPluralString(PluralString pluralString, ...) {
     va_list args;
     va_start(args, pluralString);
-    NSString *string = [[NSString alloc] initWithFormat:NSStringFromPluralString(pluralString)
-                                                 locale:[NSLocale currentLocale]
-                                              arguments:args];
+    NSString *string = [[NSString alloc] initWithFormat:NSStringFromPluralString(pluralString) locale:[NSLocale currentLocale] arguments:args];
     va_end(args);
     return string;
 }

@@ -3,12 +3,10 @@
 
 NSString* SHLocalizedSingularString(SHSingularString singularString) {
     switch (singularString) {
-        case SHSingularString_first_key:
-            return NSLocalizedString(@"First key", @"");
-        case SHSingularString_key_with_format:
-            return NSLocalizedString(@"Key with format %ld", @"");
-        case SHSingularString_key_without_description:
-            return NSLocalizedString(@"Key without description", @"");
+        case SHSingularString_key1:
+            return NSLocalizedString(@"value1", @"");
+        case SHSingularString_key2:
+            return NSLocalizedString(@"value2", @"");
         default:
             return @"";
     }
@@ -24,10 +22,10 @@ NSString* SHLocalizedPluralString(SHPluralString pluralString, ...) {
 
 NSString* NSStringFromPluralString(SHPluralString pluralString) {
     switch (pluralString) {
-        case PluralString_downloads_remaining:
-            return NSLocalizedString(@"%lu downloads remaining", @"");
-        case PluralString_souls_days:
-            return NSLocalizedString(@"%lu souls, %lu days", @"");
+        case SHPluralString_key3:
+            return NSLocalizedString(@"value3", @"");
+        case SHPluralString_key4:
+            return NSLocalizedString(@"value4", @"");
         default:
             return @"";
     }
