@@ -4,22 +4,29 @@ require_relative 'code_generator_test_helper'
 
 class ObjcHeaderStringsGeneratorTests < Minitest::Test
 
-    def test_generate_raises_exception_when_keys_and_values_are_different_sizes
-        assert_raises RuntimeError do 
-            Rescodegen::ObjcHeaderStringsGenerator.new("").generate([""], ["", ""])
-        end 
-    end
-
     def test_generate_generates_empty_enum_when_no_keys_or_values
-        assert_file_is_generated_by_keys_values("empty_enum.h", [], [])
+        assert_file_is_generated_by_keys_values("empty.h", [], [])
     end
 
-    def test_generate_generates_many_cases_when_keys_and_values
-        assert_file_is_generated_by_keys_values("two_case_enum.h", ["key1", "key2"], ["value1", "value2"])
+    def test_generate_generates_singular_cases
+        assert_file_is_generated_by_keys_values("singular.h", ["key1", "key2"], ["value1", "value2"])
+    end
+
+    def test_generate_generates_singular_and_plural_cases
+        file_is_generated_by_singular_and_plural_keys_and_values("singular_and_plural.h", ["key1", "key2"], ["value1", "value2"], ["key3", "key4"], ["value3", "value4"])
+    end
+
+    def test_generate_generates_plural_cases
+        file_is_generated_by_singular_and_plural_keys_and_values("plural.h", [], [], ["key1", "key2"], ["value1", "value2"])
     end
 
     def assert_file_is_generated_by_keys_values(file_name, keys, values)
         generator = Rescodegen::ObjcHeaderStringsGenerator.new "SH"
         assert_equal(true, CodeGeneratorTestHelper.new.file_is_generated_by_keys_values(generator, file_name, keys, values))
+    end
+
+    def file_is_generated_by_singular_and_plural_keys_and_values(file_name, singular_keys, singular_values, plural_keys, plural_values)
+        generator = Rescodegen::ObjcHeaderStringsGenerator.new "SH"
+        assert_equal(true, CodeGeneratorTestHelper.new.file_is_generated_by_singular_and_plural_keys_and_values(generator, file_name, singular_keys, singular_values, plural_keys, plural_values))
     end
 end
