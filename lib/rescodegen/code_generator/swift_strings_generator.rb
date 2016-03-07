@@ -44,21 +44,19 @@ module Rescodegen
 
         def import_header(name)
             @output += "import #{name}"
-            newline.newline
-            self
+            newline
         end
 
         def start_struct(name)
+            newline
             @output += "struct #{name}"
             open_brackets
-            self
         end
 
         def start_enum(name, type)
             indent
             @output += "enum #{name}: #{type}"
             open_brackets
-            self
         end
 
         def add_cases(keys, values)
@@ -69,21 +67,18 @@ module Rescodegen
                 newline 
             end
             newline
-            self
         end
 
         def start_computed_property(name, type)
             indent
             @output += "var #{name}: #{type}"
             open_brackets
-            self
         end
 
         def return_localized_string
             indent
             @output += "return NSLocalizedString(rawValue, comment: \"\")"
             newline
-            self
         end
 
         def start_function(name, parameter_list, return_type)

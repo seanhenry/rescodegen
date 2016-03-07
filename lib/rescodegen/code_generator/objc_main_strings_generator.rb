@@ -51,14 +51,12 @@ module Rescodegen
                 newline
                 @output += "#{return_type} #{name}(#{parameter_list})"
                 open_brackets
-                self
             end
 
             def start_switch(value)
                 indent
                 @output += "switch (#{value})"
                 open_brackets
-                self
             end
 
             def add_cases(keys, values)
@@ -70,7 +68,6 @@ module Rescodegen
                     i += 1
                 end
                 add_default_case
-                self
             end
 
             def add_default_case
@@ -91,19 +88,16 @@ module Rescodegen
                 @output += "default:"
                 newline
                 increment_indent_level
-                self
             end
 
             def finish_case
                 decrement_indent_level
-                self
             end
 
             def return_value(value)
                 indent
                 @output += "return #{value};"
                 newline
-                self
             end
 
             def localized_string(value) 
@@ -122,7 +116,6 @@ module Rescodegen
                 indent
                 @output += "#{line};"
                 newline
-                self
             end
     end
 end

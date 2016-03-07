@@ -24,7 +24,6 @@ module Rescodegen
             @output += " {"
             newline
             increment_indent_level
-            self
         end
 
         def close_brackets
@@ -32,7 +31,6 @@ module Rescodegen
             indent
             @output += "}"
             newline
-            self
         end
 
         def increment_indent_level

@@ -39,14 +39,12 @@ module Rescodegen
         def import_module(name)
             @output += "@import #{name};"
             newline
-            self
         end
 
         def start_enum(name, type)
             indent
             @output += "typedef NS_ENUM(#{type}, #{name})"
             open_brackets
-            self
         end
 
         def add_c_method(return_type, name, parameter_list)
@@ -69,7 +67,6 @@ module Rescodegen
             indent
             @output += "};"
             newline
-            self
         end
 
         def singular_enum_name 
