@@ -21,13 +21,13 @@ class StringsdictKeyReaderTests < Minitest::Test
 
     def test_read_keys_from_lines_should_raise_exception_when_invalid_plist_file
         assert_raises RuntimeError do 
-            StringsdictKeyReader.new.read_keys_from_lines ["not a plist file"]
+            Rescodegen::StringsdictKeyReader.new.read_keys_from_lines ["not a plist file"]
         end 
     end
 
     def read_keys_from_keys(keys)
         lines = plist_entry_for_keys(keys)
-        StringsdictKeyReader.new.read_keys_from_lines lines
+        Rescodegen::StringsdictKeyReader.new.read_keys_from_lines lines
     end
 
     def plist_entry_for_keys(keys)
