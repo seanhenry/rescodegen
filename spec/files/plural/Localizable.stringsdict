@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>%lu downloads remaining</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@download@ remaining.</string>
+        <key>download</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lu</string>
+            <key>one</key>
+            <string>One download</string>
+            <key>other</key>
+            <string>%lu downloads</string>
+        </dict>
+    </dict>
+    <key>%lu souls, %lu days</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@soul@, %#@day@.</string>
+        <key>soul</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lu</string>
+            <key>zero</key>
+            <string>No souls</string>
+            <key>one</key>
+            <string>One soul</string>
+            <key>other</key>
+            <string>%lu souls</string>
+        </dict>
+        <key>day</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lu</string>
+            <key>zero</key>
+            <string>no days</string>
+            <key>one</key>
+            <string>one day</string>
+            <key>other</key>
+            <string>%lu days</string>
+        </dict>
+    </dict>
+</dict>
+</plist>

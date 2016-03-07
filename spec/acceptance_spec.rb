@@ -1,10 +1,16 @@
 $output_file = "spec_output"
 $localizable_strings_file = "spec/files/Localizable.strings"
+$localizable_stringsdict_file = "spec/files/plural/Localizable.strings"
 $swift_file = "spec/files/Strings.swift"
 $objc_header_file = "spec/files/Strings.h"
 $objc_main_file = "spec/files/Strings.m"
 $objc_prefix_header_file = "spec/files/SHStrings.h"
 $objc_prefix_main_file = "spec/files/SHStrings.m"
+$swift_plural_file = "spec/files/Strings.swift"
+$objc_plural_header_file = "spec/files/Strings.h"
+$objc_plural_main_file = "spec/files/Strings.m"
+$objc_plural_prefix_header_file = "spec/files/SHStrings.h"
+$objc_plural_prefix_main_file = "spec/files/SHStrings.m"
 
 def silence_shell_output
     " &> /dev/null"
@@ -32,6 +38,18 @@ end
 
 def run_with_prefix_and_strings_file
     run "-o #{$output_file} -l objc -p SH #{$localizable_strings_file}"
+end
+
+def run_with_strings_and_stringsdict_files
+    run "-o #{$output_file} #{$localizable_strings_file} #{$localizable_stringsdict_file}"
+end
+
+def run_with_objc_strings_and_stringsdict_files
+    run "-o #{$output_file} -l objc #{$localizable_strings_file} #{$localizable_stringsdict_file}"
+end
+
+def run_with_objc_prefix_strings_and_stringsdict_file
+    run "-o #{$output_file} -l objc -p SH #{$localizable_strings_file} #{$localizable_stringsdict_file}"
 end
 
 def file_to_string(path)
@@ -69,9 +87,6 @@ RSpec.describe "CLI" do
     end
 
     context "when providing correct input path" do
-        it "should succeed" do 
-            
-        end
         it "should generate a swift file" do
             expect(run_with_strings_file).to be true
             expect(output_file_to_string("Strings.swift")).to eq file_to_string($swift_file)
@@ -87,6 +102,27 @@ RSpec.describe "CLI" do
                     expect(run_with_prefix_and_strings_file).to be true
                     expect(output_file_to_string("SHStrings.h")).to eq file_to_string($objc_prefix_header_file)
                     expect(output_file_to_string("SHStrings.m")).to eq file_to_string($objc_prefix_main_file)
+                end
+            end
+        end
+    end
+
+    context "when providing stringsdict and strings files" do
+        it "should generate a Swift file" do
+            expect(run_with_strings_and_stringsdict_files).to be true
+            expect(output_file_to_string("Strings.swift")).to eq file_to_string($swift_plural_file)
+        end
+        context "and requesting objc" do
+            it "should generate objc files" do
+                expect(run_with_objc_strings_and_stringsdict_files).to be true
+                expect(output_file_to_string("Strings.h")).to eq file_to_string($objc_plural_header_file)
+                expect(output_file_to_string("Strings.m")).to eq file_to_string($objc_plural_main_file)
+            end
+            context "and requesting a prefix" do
+                it "should generate prefixed files" do
+                    expect(run_with_objc_prefix_strings_and_stringsdict_file).to be true
+                    expect(output_file_to_string("SHStrings.h")).to eq file_to_string($objc_plural_prefix_header_file)
+                    expect(output_file_to_string("SHStrings.m")).to eq file_to_string($objc_plural_prefix_main_file)
                 end
             end
         end
