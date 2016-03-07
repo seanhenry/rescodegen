@@ -1,7 +1,7 @@
 class CodeGeneratorTestHelper
 
-    def file_is_generated_by_keys_values(generator, file_name, keys, values)
-        generated_code = generator.generate(keys, values).split("\n")
+    def file_is_generated_by_singular_and_plural_keys_and_values(generator, file_name, singular_keys, singular_values, plural_keys, plural_values)
+        generated_code = generator.generate(singular_keys, singular_values, plural_keys, plural_values).split("\n")
         expected_file = file_lines file_name
         if expected_file.size != generated_code.size 
             handle_unequal_line_counts(expected_file, generated_code)
@@ -18,9 +18,13 @@ class CodeGeneratorTestHelper
         true
     end
 
+    def file_is_generated_by_keys_values(generator, file_name, keys, values)
+        file_is_generated_by_singular_and_plural_keys_and_values(generator, file_name, keys, values, [], [])
+    end
+
 private
     def file_lines(file_name)
-        file_path = Dir.pwd + "/test/code_generator/" + file_name
+        file_path = Dir.pwd + "/test/code_generator/files/" + file_name
         File.readlines(file_path).map do |line|
             line.gsub(/\n/, "")
         end

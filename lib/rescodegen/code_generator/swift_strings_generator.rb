@@ -3,21 +3,39 @@ require_relative 'strings_generator'
 module Rescodegen
     class SwiftStringsGenerator < StringsGenerator
 
-        def generate(keys, values)
-            super(keys, values)
+        def generate(singular_keys, singular_values, plural_keys, plural_values)
+            super(singular_keys, singular_values, plural_keys, plural_values)
             import_header("Foundation")
             start_struct("Strings")
-                .start_enum("Singular", "String")
-                    .add_cases(keys, values)
-                    .start_computed_property("localizedString", "String")
-                        .return_localized_string
-                    .close_brackets
-                .close_brackets
+                .add_singular_enum(singular_keys, singular_values)
+                .add_plural_enum(plural_keys, plural_values)
             .close_brackets
             @output
         end
 
     protected
+
+        def add_singular_enum(keys, values)
+            return self if keys.size == 0
+            newline
+            .start_enum("Singular", "String")
+                .add_cases(keys, values)
+                .start_computed_property("localizedString", "String")
+                    .return_localized_string
+                .close_brackets
+            .close_brackets
+        end
+
+        def add_plural_enum(keys, values)
+            return self if keys.size == 0
+            newline
+            .start_enum("Plural", "String")
+                .add_cases(keys, values)
+                .start_function("localizedString", "args: CVarArgType...", "String")
+                    .return_localized_plural_string
+                .close_brackets
+            close_brackets
+        end
 
         def newline
             @output += "\n"
@@ -33,7 +51,6 @@ module Rescodegen
         def start_struct(name)
             @output += "struct #{name}"
             open_brackets
-            newline
             self
         end
 
@@ -67,6 +84,23 @@ module Rescodegen
             @output += "return NSLocalizedString(rawValue, comment: \"\")"
             newline
             self
+        end
+
+        def start_function(name, parameter_list, return_type)
+            indent
+            @output += "func #{name}(#{parameter_list}) -> #{return_type}"
+            open_brackets
+        end
+
+        def return_localized_plural_string
+            add_line "let localized = NSLocalizedString(rawValue, comment: \"\")"
+            add_line "return String(format: localized, locale: NSLocale.currentLocale(), arguments: args)"
+        end
+
+        def add_line(line)
+            indent
+            @output += "#{line}"
+            newline
         end
     end
 end
