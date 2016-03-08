@@ -11,7 +11,7 @@ A command line tool for creating Swift and Objective-C code from singular Locali
 ### Options
 
 |Option|Value|Required|Default|Description   |
-|---|---|---|---|
+|---|---|---|---|---|
 |`-i`|relative/path/to/Localizable.strings|✔️||The input file(s). Must be `.strings` or `.stringsdict` format. You may specify more than 1 file.|
 |`-l`|swift or objc|❌|`swift`|The language of the generated code.|
 |`-o`|relative/path/to/output/directory|❌|`.`|Where to save generated files.|
