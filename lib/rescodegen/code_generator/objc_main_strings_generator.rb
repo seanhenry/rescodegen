@@ -32,13 +32,13 @@ module Rescodegen
             def add_plural_methods(keys, values)
                 return self if keys.size == 0
                 enum_name = prefix "PluralString"
-                start_c_method("NSString*", prefix("LocalizedPluralString"), "#{enum_name} pluralString, ...")
-                    .return_localized_plural_string
-                .close_brackets
-                .start_c_method("NSString*", "NSStringFromPluralString", "#{enum_name} pluralString")
+                start_c_method("NSString*", "NSStringFromPluralString", "#{enum_name} pluralString")
                     .start_switch("pluralString")
                         .add_cases(keys.map { |k| enum_name + "_" + k }, values)
                     .close_brackets
+                .close_brackets
+                .start_c_method("NSString*", prefix("LocalizedPluralString"), "#{enum_name} pluralString, ...")
+                    .return_localized_plural_string
                 .close_brackets
             end
 

@@ -55,15 +55,18 @@ def abort_bad_input_file
     abort "Only currenly supports .strings and .stringsdict files."
 end
 
+def generator_for_file(file, key_reader)
+    code_safe_key_generator = Rescodegen::CodeSafeKeyGenerator.new
+    generator = Rescodegen::KeyGenerator.new(key_reader, code_safe_key_generator, file)
+end
+
 abort_bad_input_file if options[:input].select { |file| file.end_with?(".strings") || file.end_with?(".stringsdict") }.empty?
 
 singular_keys = []
 singular_code_safe_keys = []
 options[:input].select { |file| file.end_with?(".strings") }
                .map { |file|
-    key_reader = Rescodegen::StringsKeyReader.new
-    code_safe_key_generator = Rescodegen::CodeSafeKeyGenerator.new
-    generator = Rescodegen::KeyGenerator.new(key_reader, code_safe_key_generator, file, :utf16)
+    generator = generator_for_file(file, Rescodegen::StringsKeyReader.new)
     singular_keys += generator.keys
     singular_code_safe_keys += generator.code_safe_keys
 }
@@ -72,14 +75,15 @@ plural_keys = []
 plural_code_safe_keys = []
 options[:input].select { |file| file.end_with?(".stringsdict") }
                .map { |file|
-    key_reader = Rescodegen::StringsdictKeyReader.new
-    code_safe_key_generator = Rescodegen::CodeSafeKeyGenerator.new
-    generator = Rescodegen::KeyGenerator.new(key_reader, code_safe_key_generator, file, :utf8)
+    generator = generator_for_file(file, Rescodegen::StringsdictKeyReader.new)
     plural_keys += generator.keys
     plural_code_safe_keys += generator.code_safe_keys
 }
 
+abort "The input file(s) did not contain any keys." if singular_keys.size == 0 && plural_keys.size == 0
+
 formatter = Rescodegen::CodeFormatter.new
 singular_code_safe_keys = singular_code_safe_keys.map { |k| formatter.format_string(k) }
+plural_code_safe_keys = plural_code_safe_keys.map { |k| formatter.format_string(k) }
 generate_swift_file(singular_code_safe_keys, singular_keys, plural_code_safe_keys, plural_keys, output_file) if options[:language] == "swift"
 generate_objc_files(singular_code_safe_keys, singular_keys, plural_code_safe_keys, plural_keys, output_file, options[:prefix]) if options[:language] == "objc"

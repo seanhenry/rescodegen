@@ -14,14 +14,6 @@ NSString* LocalizedSingularString(SingularString singularString) {
     }
 }
 
-NSString* LocalizedPluralString(PluralString pluralString, ...) {
-    va_list args;
-    va_start(args, pluralString);
-    NSString *string = [[NSString alloc] initWithFormat:NSStringFromPluralString(pluralString) locale:[NSLocale currentLocale] arguments:args];
-    va_end(args);
-    return string;
-}
-
 NSString* NSStringFromPluralString(PluralString pluralString) {
     switch (pluralString) {
         case PluralString_downloads_remaining:
@@ -31,4 +23,12 @@ NSString* NSStringFromPluralString(PluralString pluralString) {
         default:
             return @"";
     }
+}
+
+NSString* LocalizedPluralString(PluralString pluralString, ...) {
+    va_list args;
+    va_start(args, pluralString);
+    NSString *string = [[NSString alloc] initWithFormat:NSStringFromPluralString(pluralString) locale:[NSLocale currentLocale] arguments:args];
+    va_end(args);
+    return string;
 }

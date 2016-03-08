@@ -1,41 +1,69 @@
 <a href="https://codeclimate.com/github/seanhenry/rescodegen/coverage"><img src="https://codeclimate.com/github/seanhenry/rescodegen/badges/coverage.svg" /></a>
 <a href="https://codeclimate.com/github/seanhenry/rescodegen"><img src="https://codeclimate.com/github/seanhenry/rescodegen/badges/gpa.svg" /></a>
 # rescodegen
-A command line tool for creating Swift and Objective-C code from localizable strings.
+A command line tool for creating Swift and Objective-C code from singular Localizable.strings and plural Localizable.stringsdict.
 ## Installation
 `$ sudo gem install rescodegen`
 
 ## Usage
 ### Generate Code
-`$ rescodegen -l swift -o output_folder Localizable.strings`
+`$ rescodegen -i Localizable.strings`
 ### Options
 
-|Option|Value|Description   |
-|---|---|---|
-|`-l`|swift\|objc|The language of the generated code.|
-|`-o`|relative/path/to/output/directory|Where to generate the files.|
-|`-p`|e.g. SH|An optional prefix to apply to Objective-C types.|
+|Option|Value|Required|Default|Description   |
+|---|---|---|---|
+|`-i`|relative/path/to/Localizable.strings|✔️||The input file(s). Must be `.strings` or `.stringsdict` format. You may specify more than 1 file.|
+|`-l`|swift or objc|❌|`swift`|The language of the generated code.|
+|`-o`|relative/path/to/output/directory|❌|`.`|Where to save generated files.|
+|`-p`|e.g. SH|❌||An optional prefix to apply to Objective-C types.|
 ## Example
 ### Localizable.strings  
 
 ```
-/* The Ok button label displayed when an error occurs on the home screen. */
-"HomeScreen.Alert.OkButtonLabel" = "Ok";
+...
+/* Error message to display when uploading an image fails. */
+"Uploader.ErrorAlert.Message" = "The upload failed.";
+...
+```
+### Localizable.stringsdict  
 
-/* The error message displayed by an alert when content could not be loaded. */
-"HomeScreen.Alert.LoadErrorMessage" = "There was an error loading your content.";
+```
+...
+    <key>Uploader.ProgressLabel.Text</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Uploading %#@images@.</string>
+		<key>images</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+            <string>d</string>
+            <key>one</key>
+            <string>one image</string>
+			<key>other</key>
+			<string>%d images</string>
+		</dict>
+	</dict>
+...
 ```
 ### Generate Code
 
 ```
-$ rescodegen -l swift -o . Localizable.strings
-$ rescodegen -l objc -o . Localizable.strings
+$ rescodegen -i Localizable.strings -i Localizable.stringsdict
+$ rescodegen -i Localizable.strings -i Localizable.stringsdict -l objc
 ```
 ### Xcode
 Drag the generated files into Xcode and add them to your target.
 ### Swift
-Access localised strings using the `localizedString` property.
-`Strings.Singular.homeScreen_alert_loadErrorMessage.localizedString`
+Access localized singular strings:  
+`Strings.Singular.uploader_errorAlert_message.localizedString` => The upload failed.  
+Access localized plural strings:  
+`Strings.Plural.uploader_progressLabel_text.localizedString(1)` => Uploading one image.  
 ### Objective-C
-Access localised strings using the `LocalizedSingularString` function.
-`LocalizedSingularString(SingularString_homeScreen_alert_loadErrorMessage);`
+Access localized singular strings:  
+`LocalizedSingularString(SingularString_uploader_errorAlert_message)` => The upload failed.  
+Access localized plural strings:    
+`LocalizedPluralString(PluralString_uploader_progressLabel_text, 2)` => Uploading 2 images. 
+## Encoding
+rescodegen currently only supports UTF-8 encoding. 

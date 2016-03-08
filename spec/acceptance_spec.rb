@@ -1,5 +1,6 @@
 $output_file = "spec_output"
 $localizable_strings_file = "spec/files/Localizable.strings"
+$localizable_strings_file2 = "spec/files/Localizable2.strings"
 $localizable_stringsdict_file = "spec/files/plural/Localizable.stringsdict"
 $swift_file = "spec/files/Strings.swift"
 $objc_header_file = "spec/files/Strings.h"
@@ -11,6 +12,7 @@ $objc_plural_header_file = "spec/files/plural/Strings.h"
 $objc_plural_main_file = "spec/files/plural/Strings.m"
 $objc_plural_prefix_header_file = "spec/files/plural/SHStrings.h"
 $objc_plural_prefix_main_file = "spec/files/plural/SHStrings.m"
+$multi_file_swift_file = "spec/files/MultiFileStrings.swift"
 
 def silence_shell_output
     " &> /dev/null"
@@ -30,6 +32,10 @@ end
 
 def run_with_invalid_file
     run "invalid.xml"
+end
+
+def run_with_empty_file
+    run "empty.strings"
 end
 
 def run_with_strings_file
@@ -54,6 +60,10 @@ end
 
 def run_with_objc_prefix_strings_and_stringsdict_file
     run "-o #{$output_file} -l objc -p SH -i #{$localizable_strings_file} -i #{$localizable_stringsdict_file}"
+end
+
+def run_with_multiple_files
+    run "-o #{$output_file} -i #{$localizable_strings_file} -i #{$localizable_strings_file2}"
 end
 
 def file_to_string(path)
@@ -96,6 +106,12 @@ RSpec.describe "CLI" do
         end
     end
 
+    context "when providing files with no keys" do
+        it "should fail" do
+            expect(run_with_empty_file).to be false
+        end
+    end
+
     context "when providing strings file" do
         it "should generate a swift file" do
             expect(run_with_strings_file).to be true
@@ -135,6 +151,13 @@ RSpec.describe "CLI" do
                     expect(output_file_to_string("SHStrings.m")).to eq file_to_string($objc_plural_prefix_main_file)
                 end
             end
+        end
+    end
+
+    context "when providing multiple files" do
+        it "should generate keys from both files" do
+            expect(run_with_multiple_files).to be true
+            expect(output_file_to_string("Strings.swift")).to eq file_to_string($multi_file_swift_file)
         end
     end
 end
