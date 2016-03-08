@@ -57,13 +57,13 @@ $ rescodegen -i Localizable.strings -i Localizable.stringsdict -l objc
 Drag the generated files into Xcode and add them to your target.
 ### Swift
 Access localized singular strings:  
-`Strings.Singular.uploader_errorAlert_message.localizedString` => The upload failed.  
+`Strings.Singular.uploader_errorAlert_message.localizedString` => "The upload failed."  
 Access localized plural strings:  
-`Strings.Plural.uploader_progressLabel_text.localizedString(1)` => Uploading one image.  
+`Strings.Plural.uploader_progressLabel_text.localizedString(1)` => "Uploading one image."  
 ### Objective-C
 Access localized singular strings:  
-`LocalizedSingularString(SingularString_uploader_errorAlert_message)` => The upload failed.  
+`LocalizedSingularString(SingularString_uploader_errorAlert_message)` => "The upload failed."  
 Access localized plural strings:    
-`LocalizedPluralString(PluralString_uploader_progressLabel_text, 2)` => Uploading 2 images. 
+`LocalizedPluralString(PluralString_uploader_progressLabel_text, 2)` => "Uploading 2 images." 
 ## Encoding
 rescodegen currently only supports UTF-8 encoding. 
