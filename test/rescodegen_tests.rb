@@ -7,6 +7,6 @@ class RescodegenTest < Minitest::Test
     end
 
     def test_version
-        assert_equal ::Rescodegen::VERSION, "0.2.0"
+        assert_equal ::Rescodegen::VERSION, "0.2.1"
     end
 end
