@@ -19,7 +19,7 @@ def silence_shell_output
 end
 
 def run(string)
-    system("bin/rescodegen " + string + silence_shell_output)
+    system("bin/rescodegen " + string)
 end
 
 def run_with_language(lang)
