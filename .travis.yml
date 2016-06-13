@@ -5,7 +5,7 @@ rvm:
   - 2.3.0
 
 before_script: 'bundle install'
-script: 'rake acceptance'
+script: 'rake'
 
 branches:
   only:
