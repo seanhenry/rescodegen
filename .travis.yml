@@ -1,0 +1,11 @@
+language: ruby
+cache: bundler
+
+rvm:
+  - 2.3.0
+
+before_script: 'bundle install'
+
+branches:
+  only:
+    - master
