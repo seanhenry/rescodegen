@@ -15,7 +15,7 @@ $objc_plural_prefix_main_file = "spec/files/plural/SHStrings.m"
 $multi_file_swift_file = "spec/files/MultiFileStrings.swift"
 
 def silence_shell_output
-    " &> /dev/null"
+    " > /dev/null 2>&1"
 end
 
 def run(string)

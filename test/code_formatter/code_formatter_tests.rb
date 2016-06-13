@@ -1,7 +1,7 @@
 require 'test_helper'
-require 'rescodegen/code_formatter/swift_code_formatter'
+require 'rescodegen/code_formatter/code_formatter'
 
-class SwiftCodeFormatterTests < Minitest::Test
+class CodeFormatterTests < Minitest::Test
 
     def test_format_string_should_make_first_character_lower_case
         assert_equal "lowerCase", formatter.format_string("LowerCase")
@@ -16,6 +16,6 @@ class SwiftCodeFormatterTests < Minitest::Test
     end
 
     def formatter
-        Rescodegen::SwiftCodeFormatter.new
+        Rescodegen::CodeFormatter.new
     end
 end

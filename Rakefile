@@ -13,7 +13,7 @@ end
 
 desc "Runs acceptance tests."
 task :acceptance do 
-    exec "rspec spec"
+    sh "bundle exec rspec spec"
 end
 
 task :default => :test
