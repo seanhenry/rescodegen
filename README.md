@@ -1,3 +1,4 @@
+<a href="https://travis-ci.org/seanhenry/rescodegen"><img src="https://img.shields.io/travis/seanhenry/rescodegen.svg" /></a>
 <a href="https://codeclimate.com/github/seanhenry/rescodegen/coverage"><img src="https://codeclimate.com/github/seanhenry/rescodegen/badges/coverage.svg" /></a>
 <a href="https://codeclimate.com/github/seanhenry/rescodegen"><img src="https://codeclimate.com/github/seanhenry/rescodegen/badges/gpa.svg" /></a>
 # rescodegen
