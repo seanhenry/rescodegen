@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Rescodegen : A command line tool for creating Swift and Objective-C code from localizable strings.">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Rescodegen</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/seanhenry/rescodegen">View on GitHub</a>
+
+          <h1 id="project_title">Rescodegen</h1>
+          <h2 id="project_tagline">A command line tool for creating Swift and Objective-C code from localizable strings.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/seanhenry/rescodegen/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/seanhenry/rescodegen/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p><a href="https://codeclimate.com/github/seanhenry/rescodegen/coverage"><img src="https://codeclimate.com/github/seanhenry/rescodegen/badges/coverage.svg"></a>
+<a href="https://codeclimate.com/github/seanhenry/rescodegen"><img src="https://codeclimate.com/github/seanhenry/rescodegen/badges/gpa.svg"></a></p>
+
+<h1>
+<a id="rescodegen" class="anchor" href="#rescodegen" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>rescodegen</h1>
+
+<p>A command line tool for creating Swift and Objective-C code from singular Localizable.strings and plural Localizable.stringsdict.</p>
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h2>
+
+<p><code>$ sudo gem install rescodegen</code></p>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h2>
+
+<h3>
+<a id="generate-code" class="anchor" href="#generate-code" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Generate Code</h3>
+
+<p><code>$ rescodegen -i Localizable.strings</code></p>
+
+<h3>
+<a id="options" class="anchor" href="#options" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Options</h3>
+
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Value</th>
+<th>Required</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>-i</code></td>
+<td>relative/path/to/Localizable.strings</td>
+<td><g-emoji alias="heavy_check_mark" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/2714.png">✔️</g-emoji></td>
+<td></td>
+<td>The input file(s). Must be <code>.strings</code> or <code>.stringsdict</code> format. You may specify more than 1 file.</td>
+</tr>
+<tr>
+<td><code>-l</code></td>
+<td>swift or objc</td>
+<td><g-emoji alias="x" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/274c.png">❌</g-emoji></td>
+<td><code>swift</code></td>
+<td>The language of the generated code.</td>
+</tr>
+<tr>
+<td><code>-o</code></td>
+<td>relative/path/to/output/directory</td>
+<td><g-emoji alias="x" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/274c.png">❌</g-emoji></td>
+<td><code>.</code></td>
+<td>Where to save generated files.</td>
+</tr>
+<tr>
+<td><code>-p</code></td>
+<td>e.g. SH</td>
+<td><g-emoji alias="x" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/274c.png">❌</g-emoji></td>
+<td></td>
+<td>An optional prefix to apply to Objective-C types.</td>
+</tr>
+</tbody>
+</table>
+
+<h2>
+<a id="example" class="anchor" href="#example" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Example</h2>
+
+<h3>
+<a id="localizablestrings" class="anchor" href="#localizablestrings" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Localizable.strings</h3>
+
+<pre><code>...
+/* Error message to display when uploading an image fails. */
+"Uploader.ErrorAlert.Message" = "The upload failed.";
+...
+</code></pre>
+
+<h3>
+<a id="localizablestringsdict" class="anchor" href="#localizablestringsdict" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Localizable.stringsdict</h3>
+
+<pre><code>...
+    &lt;key&gt;Uploader.ProgressLabel.Text&lt;/key&gt;
+    &lt;dict&gt;
+        &lt;key&gt;NSStringLocalizedFormatKey&lt;/key&gt;
+        &lt;string&gt;Uploading %#@images@.&lt;/string&gt;
+        &lt;key&gt;images&lt;/key&gt;
+        &lt;dict&gt;
+            &lt;key&gt;NSStringFormatSpecTypeKey&lt;/key&gt;
+            &lt;string&gt;NSStringPluralRuleType&lt;/string&gt;
+            &lt;key&gt;NSStringFormatValueTypeKey&lt;/key&gt;
+            &lt;string&gt;d&lt;/string&gt;
+            &lt;key&gt;one&lt;/key&gt;
+            &lt;string&gt;one image&lt;/string&gt;
+            &lt;key&gt;other&lt;/key&gt;
+            &lt;string&gt;%d images&lt;/string&gt;
+        &lt;/dict&gt;
+    &lt;/dict&gt;
+...
+</code></pre>
+
+<h3>
+<a id="generate-code-1" class="anchor" href="#generate-code-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Generate Code</h3>
+
+<pre><code>$ rescodegen -i Localizable.strings -i Localizable.stringsdict
+$ rescodegen -i Localizable.strings -i Localizable.stringsdict -l objc
+</code></pre>
+
+<h3>
+<a id="xcode" class="anchor" href="#xcode" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Xcode</h3>
+
+<p>Drag the generated files into Xcode and add them to your target.</p>
+
+<h3>
+<a id="swift" class="anchor" href="#swift" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Swift</h3>
+
+<p>Access localized singular strings:<br>
+<code>Strings.Singular.uploader_errorAlert_message.localizedString</code> =&gt; "The upload failed."<br>
+Access localized plural strings:<br>
+<code>Strings.Plural.uploader_progressLabel_text.localizedString(1)</code> =&gt; "Uploading one image."  </p>
+
+<h3>
+<a id="objective-c" class="anchor" href="#objective-c" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Objective-C</h3>
+
+<p>Access localized singular strings:<br>
+<code>LocalizedSingularString(SingularString_uploader_errorAlert_message)</code> =&gt; "The upload failed."<br>
+Access localized plural strings:<br>
+<code>LocalizedPluralString(PluralString_uploader_progressLabel_text, 2)</code> =&gt; "Uploading 2 images." </p>
+
+<h2>
+<a id="encoding" class="anchor" href="#encoding" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Encoding</h2>
+
+<p>rescodegen currently only supports UTF-8 encoding. </p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Rescodegen maintained by <a href="https://github.com/seanhenry">seanhenry</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
